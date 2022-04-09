@@ -1,0 +1,3 @@
+campaign_group	set
+#campaign_group_faction_plague_setup_sets_tables;0;db/campaign_group_faction_plague_setup_sets_tables/zzz_cbf_dp_plagues	
+zzz_cbf_dp_plagues	wh3_main_dae_plagues
