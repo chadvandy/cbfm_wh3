@@ -1,0 +1,3 @@
+key	battlefield_siege_vehicle	level	type	siege_effort_cost
+#battlefield_deployable_siege_items_tables;5;db/battlefield_deployable_siege_items_tables/zzz_cbfm_fix_cst_siege_items				
+cst_siege_tower	cst_siege_tower_15m	0	15m_siege _towers	10
