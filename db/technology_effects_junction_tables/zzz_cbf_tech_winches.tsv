@@ -1,4 +1,0 @@
-technology	effect	value	effect_scope
-#technology_effects_junction_tables;0;db/technology_effects_junction_tables/zzz_cbf_tech_winches			
-wh3_main_tech_cth_30	wh3_main_effect_force_stat_range_cth_jade_crossbows	5.0	faction_to_force_own_unseen
-wh3_main_tech_cth_30	wh3_main_effect_force_stat_range_cth_jade_crossbows_fatigue_fix	-5.0	faction_to_force_own_unseen

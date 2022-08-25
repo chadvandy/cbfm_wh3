@@ -1,3 +1,0 @@
-key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed	faction_set
-#ancillaries_tables;0;db/ancillaries_tables/zzz_nokhorne																												
-wh3_main_anc_enchanted_item_the_chromatic_tome	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			75	0		true	true	true	anc_set_multi_tzeentch_daemons_nurgle_slaanesh
