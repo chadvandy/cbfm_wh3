@@ -2490,6 +2490,7 @@ EMPIRE_REGION_TO_ELECTOR_KEY = {
 	["wh3_main_combi_region_flensburg"] = "stirland",
 	["wh3_main_combi_region_niedling"] = "stirland",
 	["wh3_main_combi_region_wurtbad"] = "stirland",
+	["wh3_main_combi_region_the_moot"] = "stirland",
 	["wh3_main_combi_region_kappelburg"] = "talabecland",
 	["wh3_main_combi_region_kemperbad"] = "talabecland",
 	["wh3_main_combi_region_krugenheim"] = "talabecland",
