@@ -510,7 +510,7 @@ function empire_disable_diplomacy(faction_key, is_human)
 		cm:force_diplomacy("faction:"..faction_key, "subculture:wh_main_sc_emp_empire", "break non aggression pact", false, false, false);
 	else
 		cm:force_diplomacy("faction:"..faction_key, "faction:wh2_dlc13_emp_the_huntmarshals_expedition", "form confederation", true, true, false);
-		cm:force_diplomacy("faction:"..faction_key, "faction:wh2_main_emp_sudenburg", "form confederation", true, true, false);
+		cm:force_diplomacy("faction:"..faction_key, "faction:wh3_main_emp_cult_of_sigmar", "form confederation", true, true, false);
 	end
 end
 
