@@ -2469,6 +2469,7 @@ EMPIRE_REGION_TO_ELECTOR_KEY = {
 	["wh3_main_combi_region_grenzstadt"] = "averland",
 	["wh3_main_combi_region_brass_keep"] = "hochland",
 	["wh3_main_combi_region_hergig"] = "hochland",
+	["wh3_dlc20_combi_region_krudenwald"] = "hochland",
 	["wh3_main_combi_region_carroburg"] = "middenland",
 	["wh3_main_combi_region_middenheim"] = "middenland",
 	["wh3_main_combi_region_middenstag"] = "middenland",
