@@ -1,0 +1,10 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_chs_daemon_unit_set_fix					
+			wh3_main_tze_inf_pink_horrors_1	chs_daemon_ranged	false
+			wh3_main_kho_inf_bloodletters_1	chs_daemon_infantry	false
+			wh3_main_nur_inf_plaguebearers_1	chs_daemon_infantry	false
+			wh3_main_sla_inf_daemonette_1	chs_daemon_infantry	false
+			wh3_main_kho_inf_bloodletters_1	chs_daemon_infantry_rank7	false
+			wh3_main_nur_inf_plaguebearers_1	chs_daemon_infantry_rank7	false
+			wh3_main_sla_inf_daemonette_1	chs_daemon_infantry_rank7	false
+			wh3_main_tze_inf_pink_horrors_1	chs_daemon_ranged_rank7	false
