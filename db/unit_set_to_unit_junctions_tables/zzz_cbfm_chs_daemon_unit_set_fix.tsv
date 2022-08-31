@@ -32,3 +32,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_twa06_kho_inf_bloodletters_ror_0	chs_daemon_infantry	false
 			wh3_twa06_sla_inf_daemonette_ror_0	chs_daemon_infantry	false
 			wh3_twa06_nur_inf_plaguebearers_ror_0	chs_daemon_infantry	false
+			wh3_main_kho_cav_skullcrushers_0	chs_daemon_cavalry_rank7	false
+			wh3_dlc20_kho_cav_skullcrushers_mkho_ror	kho_cavalry_rank7_ror	false
+			wh3_dlc20_kho_cav_skullcrushers_mkho_ror	kho_cavalry_chariots	false
