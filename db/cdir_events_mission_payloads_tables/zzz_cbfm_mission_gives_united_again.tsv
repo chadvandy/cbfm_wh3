@@ -1,0 +1,3 @@
+id	mission_key	payload_key	status_key	value	target_key
+#cdir_events_mission_payloads_tables;2;db/cdir_events_mission_payloads_tables/zzz_cbfm_mission_gives_united_again					
+647402224	wh3_main_ie_qb_wef_sisters_dragon	GIVE_TRAIT	SUCCESS	TRAIT_LEVEL_KEY[wh2_dlc16_trait_sisters_mount_summons]	default
