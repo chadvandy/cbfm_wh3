@@ -6,12 +6,12 @@ initiative_unlock = {
 	condition = false
 };
 
-local initiative_cultures = {
+initiative_cultures = {
 	wh3_main_ogr_ogre_kingdoms = true,
 	wh_main_chs_chaos = true
 }
 
-local initiative_templates = {
+initiative_templates = {
 
 	--- OGRE BIG NAMES----
 	-- gatecrasher (greasus)
@@ -993,19 +993,56 @@ local initiative_templates = {
 		["event"] = {"CharacterCompletedBattle", "HeroCharacterParticipatedInBattle"},
 		["condition"] =
 			function(context)
+				-- ModLog("Triggering Impenetrable initiative test.")
 				local character = context:character();
+				local character_faction_name = character:faction():name();
+				local pb = cm:model():pending_battle();
+
+				local unit_class_localised = common.get_localised_string("unit_class_onscreen_inf_mis")
 				
-				if character:won_battle() then
-					local character_faction_name = character:faction():name();
-					local pb = cm:model():pending_battle();
+				if pb:has_defender() and pb:has_attacker() and character:won_battle() then
+
+					-- ModLog("our char won and this is indeed a real battle")
 					
 					local defender_char_cqi, defender_mf_cqi, defender_faction_name = cm:pending_battle_cache_get_defender(1);
 					local attacker_char_cqi, attacker_mf_cqi, attacker_faction_name = cm:pending_battle_cache_get_attacker(1);
-					
-					if defender_faction_name == character_faction_name and pb:has_attacker() then
-						return character:won_battle() and count_char_army_has_unit_category(pb:attacker(), unit_category) > 4;
-					elseif attacker_faction_name == character_faction_name and pb:has_defender() then
-						return character:won_battle() and count_char_army_has_unit_category(pb:defender(), unit_category) > 4;
+
+					if defender_faction_name == character_faction_name then
+						local count = 0
+						for i = 1, cm:pending_battle_cache_num_attackers() do
+							local units = cm:pending_battle_cache_get_attacker_units(i)
+							-- ModLog("There are " .. #units .. " units")
+							for j = 1, #units do
+								local unit_key = units[j].unit_key
+								-- ModLog("This unit key is " .. unit_key)
+								local this_class = common.get_context_value("CcoMainUnitRecord", unit_key, "ClassName")
+								if this_class == unit_class_localised then
+									count = count + 1
+								end
+							end
+						end
+
+						-- ModLog("Our char is a defender, attacker army has " .. count .. " archers.")
+						return count > 4;
+					elseif attacker_faction_name == character_faction_name then
+						-- ModLog("Our char is an attacker, checking defending armies")
+						local count = 0
+						for i = 1, cm:pending_battle_cache_num_defenders() do
+							-- ModLog("In army " .. i)
+							local units = cm:pending_battle_cache_get_defender_units(i)
+							-- ModLog("There are " .. #units .. " units")
+							for j = 1, #units do
+								local unit_key = units[j].unit_key
+								-- ModLog("This unit key is " .. unit_key)
+								local this_class = common.get_context_value("CcoMainUnitRecord", unit_key, "ClassName")
+								if this_class == unit_class_localised then
+									count = count + 1
+								end
+							end
+						end
+
+						-- ModLog("Our char is attacker, defender army has " .. tostring(count) .. " archers.")
+						return count > 4;
 					end;
 				end;
 
