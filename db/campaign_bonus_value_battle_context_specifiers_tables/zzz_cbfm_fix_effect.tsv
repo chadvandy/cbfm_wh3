@@ -1,0 +1,3 @@
+key	night_battles_only	your_force_type	their_force_type
+#campaign_bonus_value_battle_context_specifiers_tables;0;db/campaign_bonus_value_battle_context_specifiers_tables/zzz_cbfm_fix_effect			
+fighting_culture_greenskins_skaven	false		
