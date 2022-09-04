@@ -14,7 +14,7 @@ core:add_listener(
 		local character_list = context:faction():character_list()
 		for i = 0, character_list:num_items() - 1 do
 			local character = character_list:item_at(i)
-			if character:has_military_force() and character:military_force():force_type():key() ~= "ARMY" and character:agent_subtype_key() == nakai_key then
+			if character:has_military_force() and character:military_force():force_type():key() ~= "ARMY" and character:character_subtype_key() == nakai_key then
 				cm:convert_force_to_type(character:military_force(), "ARMY")
 			end
 		end

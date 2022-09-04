@@ -1,4 +1,4 @@
-local empire_politics_factions = {
+empire_politics_factions = {
 	{elector = "reikland", faction = "wh_main_emp_empire"},
 	{elector = "golden", faction = "wh2_dlc13_emp_golden_order"},
 	{elector = "averland", faction = "wh_main_emp_averland"},
@@ -11,7 +11,8 @@ local empire_politics_factions = {
 	{elector = "talabecland", faction = "wh_main_emp_talabecland"},
 	{elector = "wissenland", faction = "wh_main_emp_wissenland"}
 };
-local empire_politics_events = {
+
+empire_politics_events = {
 	["wh_main_emp_empire"] = {
 		{key = "politics", turns_to_trigger = 7, turn_restriction = 1, cooldown = 2},
 		{key = "invasion", turns_to_trigger = 20, turn_restriction = 5, cooldown = 5},
