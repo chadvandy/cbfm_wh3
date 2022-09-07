@@ -44,8 +44,9 @@ local empire_max_loyalty_increase_per_turn = 2;
 
 local empire_authority_elector_war = -4;
 local empire_authority_elector_died = -2;
+local empire_authority_elector_died_buffer = 1; -- minused from the total of all empire authority penalties from electors dying
 local empire_authority_elector_revived = 1;
-local empire_authority_region_razed = -1;
+local empire_authority_region_razed_buffer = 1; -- amount of province capitals that can be razed before penalties start kicking in
 local empire_authority_region_returned = 1;
 
 local empire_prestige_gain_per_building_level = 5;
@@ -755,6 +756,8 @@ function empire_authority_update(faction)
 			end
 		end
 	end
+
+	cm:faction_add_pooled_resource(faction_key, "emp_imperial_authority", "elector_counts_destroyed", empire_authority_elector_died_buffer);
 end
 
 function empire_fealty_update(faction)
@@ -1682,7 +1685,7 @@ function empire_handle_razed_regions(cur_region)
 					end
 				end
 
-				local amount_change = -razed_imperial_authority - razed_region_count;
+				local amount_change = -razed_imperial_authority - (razed_region_count - empire_authority_region_razed_buffer);
 
 				if amount_change ~= 0 then
 					cm:faction_add_pooled_resource(faction_key, "emp_imperial_authority", "imperial_province_capitals_razed", amount_change);
