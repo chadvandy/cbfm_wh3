@@ -1,0 +1,3 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/zzz_cbfm_fire_mage_unit_set					
+			wh2_dlc15_hef_cha_mage_fire_3	hef_mages	false
