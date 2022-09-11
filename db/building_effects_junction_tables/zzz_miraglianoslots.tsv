@@ -1,0 +1,17 @@
+building	effect	value	effect_scope	value_damaged	value_ruined	context_requirement
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_miraglianoslots						
+wh_main_special_settlement_miragliano_1_brt	wh_main_effect_construction_slot_dummy	2.0	this_building	2.0	2.0	
+wh_main_special_settlement_miragliano_1_emp	wh_main_effect_construction_slot_dummy	2.0	this_building	2.0	1.0	
+wh_main_special_settlement_miragliano_1_teb	wh_main_effect_construction_slot_dummy	2.0	this_building	2.0	1.0	
+wh_main_special_settlement_miragliano_2_brt	wh_main_effect_construction_slot_multiple_dummy	4.0	this_building	4.0	4.0	
+wh_main_special_settlement_miragliano_3_brt	wh_main_effect_construction_slot_multiple_dummy	6.0	this_building	6.0	6.0	
+wh_main_special_settlement_miragliano_4_brt	wh_main_effect_construction_slot_multiple_dummy	8.0	this_building	8.0	8.0	
+wh_main_special_settlement_miragliano_5_brt	wh_main_effect_construction_slot_multiple_dummy	9.0	this_building	9.0	9.0	
+wh_main_special_settlement_miragliano_2_emp	wh_main_effect_construction_slot_multiple_dummy	4.0	this_building	4.0	2.0	
+wh_main_special_settlement_miragliano_3_emp	wh_main_effect_construction_slot_multiple_dummy	6.0	this_building	6.0	3.0	
+wh_main_special_settlement_miragliano_4_emp	wh_main_effect_construction_slot_multiple_dummy	8.0	this_building	8.0	4.0	
+wh_main_special_settlement_miragliano_5_emp	wh_main_effect_construction_slot_multiple_dummy	9.0	this_building	9.0	5.0	
+wh_main_special_settlement_miragliano_2_teb	wh_main_effect_construction_slot_multiple_dummy	4.0	this_building	4.0	2.0	
+wh_main_special_settlement_miragliano_3_teb	wh_main_effect_construction_slot_multiple_dummy	6.0	this_building	6.0	3.0	
+wh_main_special_settlement_miragliano_4_teb	wh_main_effect_construction_slot_multiple_dummy	8.0	this_building	8.0	4.0	
+wh_main_special_settlement_miragliano_5_teb	wh_main_effect_construction_slot_multiple_dummy	9.0	this_building	9.0	5.0	
