@@ -1,5 +1,5 @@
-building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+building	effect	value	effect_scope	value_damaged	value_ruined	context_requirement
 #building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_def_slaves_effect						
-wh2_main_def_slaves_1	wh3_main_pooled_resource_def_slaves_buildings_gained		faction_to_faction_own_unseen	5.0	2.0	0.0
-wh2_main_def_slaves_2	wh3_main_pooled_resource_def_slaves_buildings_gained		faction_to_faction_own_unseen	10.0	5.0	0.0
-wh2_main_special_karond_kar_slavers	wh3_main_pooled_resource_def_slaves_buildings_gained		faction_to_faction_own_unseen	50.0	25.0	0.0
+wh2_main_def_slaves_1	wh3_main_pooled_resource_def_slaves_buildings_gained	5.0	faction_to_faction_own_unseen	2.0	0.0	
+wh2_main_def_slaves_2	wh3_main_pooled_resource_def_slaves_buildings_gained	10.0	faction_to_faction_own_unseen	5.0	0.0	
+wh2_main_special_karond_kar_slavers	wh3_main_pooled_resource_def_slaves_buildings_gained	50.0	faction_to_faction_own_unseen	25.0	0.0	

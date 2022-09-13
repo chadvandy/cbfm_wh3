@@ -1,0 +1,12 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_chaos_marked_units					
+wh3_dlc20_chs_khorne_marked_units	wh3_main_kho_mon_spawn_of_khorne_0				false
+wh3_dlc20_chs_khorne_marked_units	wh3_main_kho_cav_gorebeast_chariot				false
+wh3_dlc20_chs_nurgle_marked_units	wh3_main_nur_inf_forsaken_0				false
+wh3_dlc20_chs_slaanesh_marked_units	wh3_main_sla_cav_hellstriders_0				false
+wh3_dlc20_chs_slaanesh_marked_units	wh3_main_sla_cav_hellstriders_1				false
+wh3_dlc20_chs_tzeentch_marked_units	wh3_main_tze_inf_forsaken_0				false
+wh3_dlc20_chs_tzeentch_marked_units	wh3_main_tze_cav_chaos_knights_0				false
+wh3_dlc20_chs_tzeentch_marked_units	wh3_main_tze_cav_doom_knights_0				false
+wh3_dlc20_chs_tzeentch_marked_units	wh3_dlc20_chs_inf_aspiring_champions_mtze_ror				false
+wh3_dlc20_chs_tzeentch_marked_units	wh3_twa07_tze_cav_doom_knights_ror_0				false

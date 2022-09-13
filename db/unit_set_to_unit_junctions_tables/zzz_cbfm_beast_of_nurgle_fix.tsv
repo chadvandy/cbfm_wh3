@@ -1,4 +1,4 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/beast_of_nurgle_fix					
-			wh3_main_nur_mon_beast_of_nurgle_0	chs_daemon_monsters_beasts_rank7	false
-			wh3_main_nur_mon_beast_of_nurgle_0	chs_daemon_monsters_beasts	false
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_beast_of_nurgle_fix					
+chs_daemon_monsters_beasts_rank7	wh3_main_nur_mon_beast_of_nurgle_0				false
+chs_daemon_monsters_beasts	wh3_main_nur_mon_beast_of_nurgle_0				false

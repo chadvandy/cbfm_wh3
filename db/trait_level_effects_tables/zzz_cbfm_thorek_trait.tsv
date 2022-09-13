@@ -1,3 +1,3 @@
-trait_level	effect	effect_scope	value
+trait_level	effect	value	effect_scope
 #trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_thorek_trait			
-wh2_dlc17_trait_defeated_thorek	wh_main_effect_character_mod_ancillary_drop	general_to_force_own	15.0
+wh2_dlc17_trait_defeated_thorek	wh_main_effect_character_mod_ancillary_drop	15.0	general_to_force_own
