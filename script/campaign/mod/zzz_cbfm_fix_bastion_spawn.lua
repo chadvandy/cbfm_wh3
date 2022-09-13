@@ -67,7 +67,7 @@ cm:add_first_tick_callback(
     function()
         if cm:get_campaign_name() == "main_warhammer" then
             out("Frodo45127: Fixing spawn points for Great Bastion.")
-            Bastion.spawn_locations_by_gate = Bastion.spawn_locations_by_gate_combi
+            Bastion.spawn_locations_by_gate = Bastion.spawn_locations_by_gate_combi_fixed
         end
     end
 );
