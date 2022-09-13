@@ -1,0 +1,5 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_wefgladesets					
+wef_dlc05_glade_riders	wh_dlc05_wef_cav_glade_riders_1				false
+wef_dlc05_glade_guard	wh_dlc05_wef_inf_glade_guard_1				false
+wef_dlc05_glade_guard	wh_dlc05_wef_inf_glade_guard_2				false
