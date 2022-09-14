@@ -1,0 +1,4 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/zzz_raknik_dlc_spider_unit_fix_data__					
+wh2_dlc15_grn_spider_units	wh_dlc06_grn_mon_venom_queen_0				false
+wh2_dlc15_grn_spider_units	wh_dlc06_grn_cav_deff_creepers_0				false

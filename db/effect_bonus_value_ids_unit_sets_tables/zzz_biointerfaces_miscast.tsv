@@ -1,0 +1,3 @@
+effect	bonus_value_id	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_biointerfaces_miscast		
+wh2_dlc12_effect_force_stat_miscast_doomflayer_mounts	miscast_chance_mod	wh2_dlc12_skv_cha_doomflayer

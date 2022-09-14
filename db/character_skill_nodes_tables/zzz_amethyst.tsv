@@ -1,0 +1,3 @@
+key	character_skill_node_set_key	character_skill_key	faction_key	campaign_key	tier	indent	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_amethyst										
+wh2_pro07_skill_node_amethyst_wizard_unique_04	wh2_pro07_skill_node_set_emp_amethyst_wizard	wh_main_skill_emp_all_unique_sigmars_ward			3.0	0.0		0	0	true
