@@ -1,0 +1,4 @@
+key	character_skill_node_set_key	character_skill_key	faction_key	campaign_key	tier	indent	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_reddukeskills										
+wh_main_skill_node_vmp_red_duke_unique_06	wh_dlc05_skill_node_set_vmp_red_duke	wh_main_skill_vmp_lord_battle_aura_of_dark_majesty			5.0	0.0		0	0	true
+wh_main_skill_node_vmp_red_duke_unique_07	wh_dlc05_skill_node_set_vmp_red_duke	wh_main_skill_vmp_lord_battle_dark_pact			6.0	0.0		0	0	true
