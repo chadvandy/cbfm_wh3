@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/unit_records_to_warriors_fix					
+			wh2_dlc10_hef_inf_shadow_warriors_0	shadow_warriors_alith_anar	false
+			wh2_dlc10_hef_inf_the_grey_ror_0	shadow_warriors_alith_anar	false
