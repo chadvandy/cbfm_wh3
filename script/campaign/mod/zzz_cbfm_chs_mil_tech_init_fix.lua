@@ -44,7 +44,7 @@ function cbfm_chs_mil_tech_init_update(faction)
 		end
 	end
 	
-	if num_active == 0 then ModLog("DUX: no active initatives were found, setting effect value for " .. faction .. " to zero") end
+	--if num_active == 0 then ModLog("DUX: no active initatives were found, setting effect value for " .. faction .. " to zero") end
 	
 	-- modify our effect bundle as required
 	local effect = cbfm_chs_mil_tech_init_eb_table[faction]:effects():item_at(0) -- there is only one effect in each of these bundles
