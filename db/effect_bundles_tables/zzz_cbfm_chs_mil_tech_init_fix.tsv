@@ -1,0 +1,6 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/zzz_cbfm_chs_mil_tech_init_fix								
+CBFM_upgrade_all_kho_weapon_strength			force	1		false	false	true
+CBFM_upgrade_all_nur_healing_cap			force	1		false	false	true
+CBFM_upgrade_all_tze_physical_resistance			force	1		false	false	true
+CBFM_upgrade_all_sla_speed			force	1		false	false	true
