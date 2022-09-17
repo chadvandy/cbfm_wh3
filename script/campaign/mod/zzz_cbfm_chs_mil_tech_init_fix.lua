@@ -2,11 +2,10 @@ cbfm_chs_mil_tech_init_eb_table = {}
 cbfm_chs_mil_tech_init_faction_info_table = 
 {
 	["wh3_dlc20_chs_valkia"] = {["tech"] = "wh3_dlc20_chs_kho_valkia_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_khorne",["effect_bundle"] = "CBFM_upgrade_all_kho_weapon_strength",["base_value"] = 5},
-	["wh3_dlc20_chs_azazel"] = {["tech"] = "wh3_dlc20_chs_sla_azazel_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_slaanesh",["effect_bundle"] = "CBFM_upgrade_all_nur_healing_cap",["base_value"] = 5},
+	["wh3_dlc20_chs_azazel"] = {["tech"] = "wh3_dlc20_chs_sla_azazel_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_slaanesh",["effect_bundle"] = "CBFM_upgrade_all_sla_speed",["base_value"] = 5},
 	["wh3_dlc20_chs_vilitch"] = {["tech"] = "wh3_dlc20_chs_tze_vilitch_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_tzeentch",["effect_bundle"] = "CBFM_upgrade_all_tze_physical_resistance",["base_value"] = 3},
-	["wh3_dlc20_chs_festus"] = {["tech"] = "wh3_dlc20_chs_nur_festus_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_nurgle",["effect_bundle"] = "CBFM_upgrade_all_sla_speed",["base_value"] = 10}
+	["wh3_dlc20_chs_festus"] = {["tech"] = "wh3_dlc20_chs_nur_festus_military_1",["init_set"] = "wh3_dlc20_faction_initiative_set_chs_nurgle",["effect_bundle"] = "CBFM_upgrade_all_nur_healing_cap",["base_value"] = 10}
 }
-
 
 function cbfm_chs_mil_tech_init_update(faction)
 
