@@ -1,0 +1,3 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/zzz_cbfm_moulder_unique_hellpit								
+wh2_main_special_hellpit_pits			wh2_main_skv_clan_moulder	wh_main_PLACEHOLDER	wh2_main_special_hellpit_pits	true	wh2_main_special_hellpit_pits	true
