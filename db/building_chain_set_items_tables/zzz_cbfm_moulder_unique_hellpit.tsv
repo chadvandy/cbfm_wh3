@@ -1,0 +1,3 @@
+chain	set	super_chain	remove
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/zzz_cbfm_moulder_unique_hellpit			
+wh2_main_special_hellpit_pits_moulder	wh3_main_secondary_addon_landmark_hellpit		false
