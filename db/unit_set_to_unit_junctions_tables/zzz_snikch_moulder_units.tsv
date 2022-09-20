@@ -1,0 +1,4 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/zzz_snikch_moulder_units					
+cbf_missing_rat_ogres_mutant	wh2_dlc16_skv_mon_rat_ogre_mutant				false
+cbf_missing_rat_ogres_mutant	wh2_dlc16_skv_mon_rat_ogre_mutant_flesh_lab				false
