@@ -1,0 +1,3 @@
+bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_wisdom_of_wildwood_fix		
+unit_damage_resistance_physical_mod	wh2_dlc16_effect_phys_resist_wild_beasts	wh2_dlc16_drycha_monstermash

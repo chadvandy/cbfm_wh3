@@ -1,0 +1,3 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/zzz_cbfm_remove_tretch_by_our_blood											
+wh2_dlc09_character_passive_tretchs_raiders	true	wh2_dlc09_character_passive_tretchs_raiders		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive	CBFM_remove_tretch_by_our_blood	false

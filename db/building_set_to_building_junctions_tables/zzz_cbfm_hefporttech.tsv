@@ -1,6 +1,6 @@
-building_set	building_level	building_chain	exclude
+building_chain	building_level	building_set	exclude
 #building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/zzz_cbfm_hefporttech			
-wh_main_set_port		wh2_main_def_port	false
-wh_main_set_port		wh2_main_hef_port	false
-wh_main_set_port		wh2_main_lzd_port	false
-wh_main_set_port		wh2_main_skv_port	false
+wh2_main_def_port		wh_main_set_port	false
+wh2_main_hef_port		wh_main_set_port	false
+wh2_main_lzd_port		wh_main_set_port	false
+wh2_main_skv_port		wh_main_set_port	false
