@@ -1,0 +1,4 @@
+chain	set	super_chain	remove
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/zzz_cbfm_moulder_resource_buildings_fix			
+wh2_main_skv_resource_animals_moulder	wh3_main_secondary_addon_res_exotic_animals		false
+wh2_main_skv_resource_furs_moulder	wh3_main_secondary_addon_res_furs		false
