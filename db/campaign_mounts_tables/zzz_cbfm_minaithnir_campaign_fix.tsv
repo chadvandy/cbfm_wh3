@@ -1,0 +1,3 @@
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+#campaign_mounts_tables;8;db/campaign_mounts_tables/zzz_cbfm_minaithnir_campaign_fix							
+wh2_dlc15_cam_mnt_hef_star_dragon_minaithnir	cam_dr1_dragon	wh2_dlc15_hef_star_dragon_minaithnir	0.55	wh2_main_vo_culture_Star_Dragon	false	0	false
