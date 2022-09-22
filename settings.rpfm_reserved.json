@@ -1,7 +1,7 @@
 {
   "settings_text": {
     "diagnostics_files_to_ignore": "",
-    "import_files_to_ignore": ".vscode/\n.git/\nREADME.md\nzzz_community_bugfix_mod.sublime-project\n.gitignore"
+    "import_files_to_ignore": ".vscode/\n.git/\nREADME.md\nzzz_community_bugfix_mod.sublime-project\n.gitignore\n.github/"
   },
   "settings_string": {},
   "settings_bool": {
