@@ -55,7 +55,7 @@ cbfm_chs_mil_tech_init_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_nurgle"] = {"CBFM_upgrade_all_nur_healing_cap","CBFM_upgrade_all_nur_authority","CBFM_upgrade_all_nur_corruption","CBFM_upgrade_all_nur_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_undivided"] = {"CBFM_upgrade_all_und_corruption","CBFM_upgrade_all_und_diplomacy"}
 		},
-		["base_value"] = 10
+		["base_value"] = 0.1
 	},
 	["wh_main_chs_chaos"] = 
 	{
@@ -119,9 +119,9 @@ cbfm_chs_mil_tech_init_faction_info_table =
 	}
 }
 
-function cbfm_chs_mil_tech_init_update(faction)
+function cbfm_chs_mil_tech_init_update(faction,called_from)
 
-	ModLog("DUX: cbfm_chs_mil_tech_init_update function started with parameter " .. tostring(faction))
+	ModLog("DUX: cbfm_chs_mil_tech_init_update function called from " .. called_from .. " with faction parameter " .. tostring(faction))
 	
 	local faction_entry = cbfm_chs_mil_tech_init_faction_info_table[faction]
 	
@@ -138,7 +138,6 @@ function cbfm_chs_mil_tech_init_update(faction)
 	for init_set, techs_per_set in pairs(faction_entry.techs) do
 	
 		for i = 0, (num_initiative_sets - 1) do
-			ModLog(tostring(num_initiative_sets) .. "|" .. tostring(i))
 			local set_to_check = common.get_context_value("CcoCampaignFaction",faction,("InitiativeSetList[" .. tostring(i) .. "].InitiativeSetContext.Key"))
 			if set_to_check == init_set then
 				active_inits[init_set] = common.get_context_value("CcoCampaignFaction",faction,("InitiativeSetList[" .. tostring(i) .. "].ActiveInitiatives.Size"))
@@ -182,8 +181,10 @@ function cbfm_chs_mil_tech_init_update(faction)
 	end
 end
 
-for faction, v in pairs(cbfm_chs_mil_tech_init_faction_info_table) do
-	cm:add_first_tick_callback(function() cbfm_chs_mil_tech_init_update(faction) end)
-	cm:add_faction_turn_start_listener_by_name("cbfm_chs_mil_tech_init_listener",faction,function() cbfm_chs_mil_tech_init_update(faction) end,true)
-	--core:add_listener("cbfm_chs_mil_tech_init_listener","FactionTurnEnd",function(context) return context:faction():name() == faction end,function() cbfm_chs_mil_tech_init_update(faction) end,true)
+-- first_tick callbacks and turn_start listeners added for each applicable faction
+for faction, _ in pairs(cbfm_chs_mil_tech_init_eb_table) do
+	cm:add_first_tick_callback(function() cbfm_chs_mil_tech_init_update(faction,"game_load") end)
+	cm:add_faction_turn_start_listener_by_name("cbfm_chs_mil_tech_init_turn_start_listener",faction,function() cbfm_chs_mil_tech_init_update(faction,"turn_start") end,true)
 end
+-- single FactionTurnEnd listener also added which checks to see if faction is in our table defined above before proceeding (implicit nil return otherwise). this is done to ensure authority effects properly update in time for the next turn
+core:add_listener("cbfm_chs_mil_tech_init_turn_end_listener","FactionTurnEnd",function(context) if cbfm_chs_mil_tech_init_eb_table[context:faction():name()] then return true end end,function(context) cbfm_chs_mil_tech_init_update(context:faction():name(),"turn_end") end,true)
