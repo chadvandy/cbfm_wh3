@@ -1,5 +1,5 @@
-cbfm_chs_mil_tech_init_eb_table = {["wh3_dlc20_chs_valkia"] = {},["wh3_dlc20_chs_azazel"] = {},["wh3_dlc20_chs_vilitch"] = {},["wh3_dlc20_chs_festus"] = {},["wh_main_chs_chaos"] = {},["wh3_dlc20_chs_sigvald"] = {},["wh3_dlc20_chs_kholek"] = {}}
-cbfm_chs_mil_tech_init_faction_info_table = 
+cbfm_chs_init_tech_eb_table = {["wh3_dlc20_chs_valkia"] = {},["wh3_dlc20_chs_azazel"] = {},["wh3_dlc20_chs_vilitch"] = {},["wh3_dlc20_chs_festus"] = {},["wh_main_chs_chaos"] = {},["wh3_dlc20_chs_sigvald"] = {},["wh3_dlc20_chs_kholek"] = {}}
+cbfm_chs_init_tech_faction_info_table = 
 {
 	["wh3_dlc20_chs_valkia"] = 
 	{
@@ -119,11 +119,11 @@ cbfm_chs_mil_tech_init_faction_info_table =
 	}
 }
 
-function cbfm_chs_mil_tech_init_update(faction,called_from)
+function cbfm_chs_init_tech_update(faction,called_from)
 
-	ModLog("DUX: cbfm_chs_mil_tech_init_update function called from " .. called_from .. " with faction parameter " .. tostring(faction))
+	ModLog("DUX: cbfm_chs_init_tech_update function called from " .. called_from .. " with faction parameter " .. tostring(faction))
 	
-	local faction_entry = cbfm_chs_mil_tech_init_faction_info_table[faction]
+	local faction_entry = cbfm_chs_init_tech_faction_info_table[faction]
 	
 	-- if an invalid faction was passed, or faction doesn't exist (e.g., realms campaign), or faction is dead: we can stop right here
 	if not faction_entry or not cm:get_faction(faction) or cm:get_faction(faction):is_dead() then
@@ -152,9 +152,9 @@ function cbfm_chs_mil_tech_init_update(faction,called_from)
 			else
 				ModLog("DUX: Tech " .. tech .. " attained, proceeding with effects")
 				-- create our custom effect bundle interface if it doesn't already exist
-				if not cbfm_chs_mil_tech_init_eb_table[faction][tech] then 
+				if not cbfm_chs_init_tech_eb_table[faction][tech] then 
 					ModLog("DUX: custom effect bundle not yet created for " .. faction .. ":" .. tech ..  ", creating now")
-					cbfm_chs_mil_tech_init_eb_table[faction][tech] = cm:create_new_custom_effect_bundle(faction_entry.effect_bundles[init_set][index])
+					cbfm_chs_init_tech_eb_table[faction][tech] = cm:create_new_custom_effect_bundle(faction_entry.effect_bundles[init_set][index])
 				else
 					ModLog("DUX: custom effect bundle already created for " .. faction .. ":" .. tech .. ", using existing bundle")
 				end
@@ -168,23 +168,23 @@ function cbfm_chs_mil_tech_init_update(faction,called_from)
 				if index == #techs_per_set then base_value = 15 end -- finally, diplomacy techs are at the end of every table, so if we're looking at the last one, we know it needs a base value of 15
 				
 				-- modify our effect bundle as required
-				local num_effects = cbfm_chs_mil_tech_init_eb_table[faction][tech]:effects():num_items()
+				local num_effects = cbfm_chs_init_tech_eb_table[faction][tech]:effects():num_items()
 				for i = 0, (num_effects - 1) do
-					local effect = cbfm_chs_mil_tech_init_eb_table[faction][tech]:effects():item_at(i)
-					cbfm_chs_mil_tech_init_eb_table[faction][tech]:set_effect_value(effect,(base_value * active_inits[init_set])) -- we can only get away with using the same math for all effects in a bundle because the only bundle with multiple effects is und_diplomacy, and each effect in that bundle requires the same value (15)
+					local effect = cbfm_chs_init_tech_eb_table[faction][tech]:effects():item_at(i)
+					cbfm_chs_init_tech_eb_table[faction][tech]:set_effect_value(effect,(base_value * active_inits[init_set])) -- we can only get away with using the same math for all effects in a bundle because the only bundle with multiple effects is und_diplomacy, and each effect in that bundle requires the same value (15)
 				end
 				-- apply our effect bundle
 				ModLog("DUX: custom effect bundle now being applied for " .. faction .. ":" .. tech .. " with base value: " .. tostring(base_value) .. " and multiplier: " .. tostring(active_inits[init_set]))
-				cm:apply_custom_effect_bundle_to_faction(cbfm_chs_mil_tech_init_eb_table[faction][tech],cm:get_faction(faction))
+				cm:apply_custom_effect_bundle_to_faction(cbfm_chs_init_tech_eb_table[faction][tech],cm:get_faction(faction))
 			end
 		end
 	end
 end
 
 -- first_tick callbacks and turn_start listeners added for each applicable faction
-for faction, _ in pairs(cbfm_chs_mil_tech_init_eb_table) do
-	cm:add_first_tick_callback(function() cbfm_chs_mil_tech_init_update(faction,"game_load") end)
-	cm:add_faction_turn_start_listener_by_name("cbfm_chs_mil_tech_init_turn_start_listener",faction,function() cbfm_chs_mil_tech_init_update(faction,"turn_start") end,true)
+for faction, _ in pairs(cbfm_chs_init_tech_eb_table) do
+	cm:add_first_tick_callback(function() cbfm_chs_init_tech_update(faction,"game_load") end)
+	cm:add_faction_turn_start_listener_by_name("cbfm_chs_init_tech_turn_start_listener",faction,function() cbfm_chs_init_tech_update(faction,"turn_start") end,true)
 end
 -- single FactionTurnEnd listener also added which checks to see if faction is in our table defined above before proceeding (implicit nil return otherwise). this is done to ensure authority effects properly update in time for the next turn
-core:add_listener("cbfm_chs_mil_tech_init_turn_end_listener","FactionTurnEnd",function(context) if cbfm_chs_mil_tech_init_eb_table[context:faction():name()] then return true end end,function(context) cbfm_chs_mil_tech_init_update(context:faction():name(),"turn_end") end,true)
+core:add_listener("cbfm_chs_init_tech_turn_end_listener","FactionTurnEnd",function(context) if cbfm_chs_init_tech_eb_table[context:faction():name()] then return true end end,function(context) cbfm_chs_init_tech_update(context:faction():name(),"turn_end") end,true)
