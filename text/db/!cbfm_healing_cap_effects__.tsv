@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_healing_cap_effects__.loc		
+effects_description_CBFM_wh3_dlc20_effect_healing_cap_modifier_dummy	Battle healing cap: %+n%	false
+effects_description_CBFM_wh3_main_effect_healing_cap_ghouls_crypt_horrors_dummy	Battle healing cap: %+n% for Crypt Ghouls and Crypt Horrors	false
+effects_description_CBFM_wh3_main_effect_healing_cap_wraiths_dummy	Battle healing cap: %+n% for Cairn Wraiths, Mournguls and Hexwraiths	false
+effects_description_CBFM_wh3_main_effect_healing_cap_zombies_dummy	Battle healing cap: %+n% for Zombies units	false
+effects_description_CBFM_wh3_main_effect_battle_heal_cap_isabella_to_vlad_dummy	Battle healing cap: %+n% when in an army with Vlad von Carstein	false
+effects_description_CBFM_wh3_main_effect_battle_heal_cap_vlad_to_isabella_dummy	Battle healing cap: %+n% when in an army with Isabella von Carstein	false
