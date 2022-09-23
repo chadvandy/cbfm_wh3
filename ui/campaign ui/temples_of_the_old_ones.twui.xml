@@ -8704,7 +8704,7 @@
 				<callback_with_context
 					callback_id="ContextTextLabel"
 					context_object_id="CcoCampaignFaction"
-					context_function_id="SlavesAmount"/>
+					context_function_id="PooledResourceContext(&quot;lzd_old_ones_favour&quot;).Total"/>
 			</callbackwithcontextlist>
 			<states>
 				<normal
