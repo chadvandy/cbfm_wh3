@@ -1,0 +1,4 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_beasts_troglodon					
+lzd_beasts	wh2_dlc17_lzd_mon_troglodon_0				false
+lzd_beasts	wh2_dlc17_lzd_mon_troglodon_ror_0				false

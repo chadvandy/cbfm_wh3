@@ -1,0 +1,3 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/zzz_units_with_halberds				
+wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	false	-1	-1	
