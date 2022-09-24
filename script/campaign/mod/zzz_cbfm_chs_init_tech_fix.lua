@@ -13,7 +13,15 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_khorne"] = {"CBFM_upgrade_all_kho_weapon_strength","CBFM_upgrade_all_kho_authority","CBFM_upgrade_all_kho_corruption","CBFM_upgrade_all_kho_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_undivided"] = {"CBFM_upgrade_all_und_corruption","CBFM_upgrade_all_und_diplomacy"}
 		},
-		["base_value"] = 5
+		["base_values"] = 
+		{
+			["wh_main_effect_force_stat_weapon_strength"] = 5,
+			["wh3_main_faction_political_diplomacy_mod_technology_khorne"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15,
+			["wh3_main_effect_corruption_chaos_technology"] = 2
+		}
 	},
 	["wh3_dlc20_chs_azazel"] = 
 	{
@@ -27,7 +35,15 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_slaanesh"] = {"CBFM_upgrade_all_sla_speed","CBFM_upgrade_all_sla_authority","CBFM_upgrade_all_sla_corruption","CBFM_upgrade_all_sla_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_undivided"] = {"CBFM_upgrade_all_und_corruption","CBFM_upgrade_all_und_diplomacy"}
 		},
-		["base_value"] = 5
+		["base_values"] = 
+		{
+			["wh_main_effect_character_stat_speed"] = 5,
+			["wh3_main_faction_political_diplomacy_mod_technology_slaanesh"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15,
+			["wh3_main_effect_corruption_chaos_technology"] = 2
+		}
 	},
 	["wh3_dlc20_chs_vilitch"] = 
 	{
@@ -41,7 +57,15 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_tzeentch"] = {"CBFM_upgrade_all_tze_physical_resistance","CBFM_upgrade_all_tze_authority","CBFM_upgrade_all_tze_corruption","CBFM_upgrade_all_tze_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_undivided"] = {"CBFM_upgrade_all_und_corruption","CBFM_upgrade_all_und_diplomacy"}
 		},
-		["base_value"] = 3
+		["base_values"] = 
+		{
+			["wh_main_effect_force_stat_physical_resistance"] = 3,
+			["wh3_main_faction_political_diplomacy_mod_tzeentch"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15,
+			["wh3_main_effect_corruption_chaos_technology"] = 2
+		}
 	},
 	["wh3_dlc20_chs_festus"] = 
 	{
@@ -55,7 +79,15 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_nurgle"] = {"CBFM_upgrade_all_nur_healing_cap","CBFM_upgrade_all_nur_authority","CBFM_upgrade_all_nur_corruption","CBFM_upgrade_all_nur_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_undivided"] = {"CBFM_upgrade_all_und_corruption","CBFM_upgrade_all_und_diplomacy"}
 		},
-		["base_value"] = 0.1
+		["base_values"] = 
+		{
+			["wh3_dlc20_effect_healing_cap_modifier"] = 0.1,
+			["wh3_main_faction_political_diplomacy_mod_nurgle"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15,
+			["wh3_main_effect_corruption_chaos_technology"] = 2
+		}
 	},
 	["wh_main_chs_chaos"] = 
 	{
@@ -75,7 +107,16 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_tzeentch"] = {"CBFM_upgrade_all_tze_authority","CBFM_upgrade_all_tze_corruption","CBFM_upgrade_all_tze_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_nurgle"] = {"CBFM_upgrade_all_nur_authority","CBFM_upgrade_all_nur_corruption","CBFM_upgrade_all_nur_diplomacy"}
 		},
-		["base_value"] = 1
+		["base_values"] = 
+		{
+			["wh3_main_faction_political_diplomacy_mod_technology_khorne"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_technology_slaanesh"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_tzeentch"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_nurgle"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15
+		}
 	},
 	["wh3_dlc20_chs_sigvald"] = 
 	{
@@ -95,7 +136,16 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_tzeentch"] = {"CBFM_upgrade_all_tze_authority","CBFM_upgrade_all_tze_corruption","CBFM_upgrade_all_tze_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_nurgle"] = {"CBFM_upgrade_all_nur_authority","CBFM_upgrade_all_nur_corruption","CBFM_upgrade_all_nur_diplomacy"}
 		},
-		["base_value"] = 1
+		["base_values"] = 
+		{
+			["wh3_main_faction_political_diplomacy_mod_technology_khorne"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_technology_slaanesh"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_tzeentch"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_nurgle"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15
+		}
 	},
 	["wh3_dlc20_chs_kholek"] = 
 	{
@@ -115,7 +165,16 @@ cbfm_chs_init_tech_faction_info_table =
 			["wh3_dlc20_faction_initiative_set_chs_tzeentch"] = {"CBFM_upgrade_all_tze_authority","CBFM_upgrade_all_tze_corruption","CBFM_upgrade_all_tze_diplomacy"},
 			["wh3_dlc20_faction_initiative_set_chs_nurgle"] = {"CBFM_upgrade_all_nur_authority","CBFM_upgrade_all_nur_corruption","CBFM_upgrade_all_nur_diplomacy"}
 		},
-		["base_value"] = 1
+		["base_values"] = 
+		{
+			["wh3_main_faction_political_diplomacy_mod_technology_khorne"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_technology_slaanesh"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_tzeentch"] = 15,
+			["wh3_main_faction_political_diplomacy_mod_nurgle"] = 15,
+			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
+			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
+			["wh2_main_faction_political_diplomacy_mod_technology_skaven"] = 15
+		}
 	}
 }
 
@@ -160,21 +219,21 @@ function cbfm_chs_init_tech_update(faction,called_from)
 				end
 				
 				if active_inits[init_set] == 0 then ModLog("DUX: no active initatives were found, setting effect value for " .. faction .. ":" .. tech .. " to zero") end
-				
-				-- determine the correct base value for this effect using the power of deductive reasoning
-				local base_value = faction_entry.base_value -- first, assume we are using the custom base value for champion LLs
-				if init_set == "wh3_dlc20_faction_initiative_set_chs_undivided" then base_value = 2 end  -- next, check if this is the undivided set. if it is, presume we need the base value for undivided corruption, which is 2
-				if index > 1 then base_value = 1 end -- if index is > 1, that means we're looking at a tech that cannot be champion unique (custom base value) or undivided corruption (base value = 2); assume base value is 1
-				if index == #techs_per_set then base_value = 15 end -- finally, diplomacy techs are at the end of every table, so if we're looking at the last one, we know it needs a base value of 15
-				
+
 				-- modify our effect bundle as required
 				local num_effects = cbfm_chs_init_tech_eb_table[faction][tech]:effects():num_items()
+				local base_value = 1 -- default
 				for i = 0, (num_effects - 1) do
 					local effect = cbfm_chs_init_tech_eb_table[faction][tech]:effects():item_at(i)
-					cbfm_chs_init_tech_eb_table[faction][tech]:set_effect_value(effect,(base_value * active_inits[init_set])) -- we can only get away with using the same math for all effects in a bundle because the only bundle with multiple effects is und_diplomacy, and each effect in that bundle requires the same value (15)
+					local effect_key = effect:key()
+					
+					-- check if we have a custom base value saved for this effect. if not, default is 1
+					if faction_entry.base_values[effect_key] then base_value = faction_entry.base_values[effect_key] end
+					
+					cbfm_chs_init_tech_eb_table[faction][tech]:set_effect_value(effect,(base_value * active_inits[init_set]))
+					ModLog("DUX: effect " .. effect_key .. " being applied for " .. faction .. ":" .. tech .. " with base value: " .. tostring(base_value) .. " and multiplier: " .. tostring(active_inits[init_set]))
 				end
 				-- apply our effect bundle
-				ModLog("DUX: custom effect bundle now being applied for " .. faction .. ":" .. tech .. " with base value: " .. tostring(base_value) .. " and multiplier: " .. tostring(active_inits[init_set]))
 				cm:apply_custom_effect_bundle_to_faction(cbfm_chs_init_tech_eb_table[faction][tech],cm:get_faction(faction))
 			end
 		end
@@ -187,4 +246,4 @@ for faction, _ in pairs(cbfm_chs_init_tech_eb_table) do
 	cm:add_faction_turn_start_listener_by_name("cbfm_chs_init_tech_turn_start_listener",faction,function() cbfm_chs_init_tech_update(faction,"turn_start") end,true)
 end
 -- single FactionTurnEnd listener also added which checks to see if faction is in our table defined above before proceeding (implicit nil return otherwise). this is done to ensure authority effects properly update in time for the next turn
-core:add_listener("cbfm_chs_init_tech_turn_end_listener","FactionTurnEnd",function(context) if cbfm_chs_init_tech_eb_table[context:faction():name()] then return true end end,function(context) cbfm_chs_init_tech_update(context:faction():name(),"turn_end") end,true)
+core:add_listener("cbfm_chs_init_tech_turn_end_listener","FactionTurnEnd",function(context) return cbfm_chs_init_tech_eb_table[context:faction():name()] ~= nil end,function(context) cbfm_chs_init_tech_update(context:faction():name(),"turn_end") end,true)
