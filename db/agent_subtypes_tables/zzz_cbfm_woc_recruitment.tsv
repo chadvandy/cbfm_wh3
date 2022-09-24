@@ -1,0 +1,4 @@
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost
+#agent_subtypes_tables;1;db/agent_subtypes_tables/zzz_cbfm_woc_recruitment																					
+wh3_dlc20_nur_festus	false	true		wh3_dlc20_nur_cha_festus	wh3_dlc20_vo_actor_Nurgle_Festus	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1200
+wh3_main_dae_belakor	false	true		wh3_main_dae_cha_be_lakor_0	wh3_main_vo_actor_Belakor	true	-1	false	true	false	true	legendary_lords		names_chs_chaos	false	true	cannot_be_saved_loaded	wh3_main_vo_culture_DaemonPrince	false	true	2900
