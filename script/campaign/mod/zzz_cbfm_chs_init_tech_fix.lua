@@ -219,7 +219,7 @@ function cbfm_chs_init_tech_update(faction_key,called_from)
 				if faction_obj:has_effect_bundle(this_eb_key) then
 					for eb in model_pairs(faction_obj:effect_bundles()) do
 						if eb:key() == this_eb_key then
-							custom_bundle = eb:clone_and_create_custom_effect_bundle()
+							custom_bundle = eb:clone_and_create_custom_effect_bundle(cm:model())
 							break
 						end
 					end
