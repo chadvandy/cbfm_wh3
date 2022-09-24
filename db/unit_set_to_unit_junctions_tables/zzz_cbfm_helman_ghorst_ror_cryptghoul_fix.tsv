@@ -1,3 +1,3 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/crypt_ghoul_ror_helman_fix					
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_helman_ghorst_ror_cryptghoul_fix					
 			wh_dlc04_vmp_inf_feasters_in_the_dusk_0	vmp_unit_crypt_ghouls	false

@@ -1,6 +1,6 @@
-unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_units_with_halberds					
-emp_halberds	wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply				true
-emp_halberds	wh_dlc04_emp_cav_royal_altdorf_gryphites_0				true
-emp_halberds	wh_main_emp_cav_demigryph_knights_1				true
-wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply				false
+			wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	emp_halberds	true
+			wh_dlc04_emp_cav_royal_altdorf_gryphites_0	emp_halberds	true
+			wh_main_emp_cav_demigryph_knights_1	emp_halberds	true
+			wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	false

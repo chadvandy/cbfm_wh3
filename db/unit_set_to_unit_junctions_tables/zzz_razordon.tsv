@@ -1,4 +1,4 @@
-unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_razordon					
-lzd_beasts_rank7	wh2_dlc13_lzd_mon_razordon_pack_0				true
-lzd_beasts_rank7_ror	wh2_dlc13_lzd_mon_razordon_pack_ror_0				true
+			wh2_dlc13_lzd_mon_razordon_pack_0	lzd_beasts_rank7	true
+			wh2_dlc13_lzd_mon_razordon_pack_ror_0	lzd_beasts_rank7_ror	true
