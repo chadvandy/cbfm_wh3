@@ -1,8 +1,5 @@
-cbfm_chs_init_tech_eb_table = {["wh3_dlc20_chs_valkia"] = {},["wh3_dlc20_chs_azazel"] = {},["wh3_dlc20_chs_vilitch"] = {},["wh3_dlc20_chs_festus"] = {},["wh_main_chs_chaos"] = {},["wh3_dlc20_chs_sigvald"] = {},["wh3_dlc20_chs_kholek"] = {}}
-cbfm_chs_init_tech_faction_info_table = 
-{
-	["wh3_dlc20_chs_valkia"] = 
-	{
+cbfm_chs_init_tech_faction_info_table = {
+	["wh3_dlc20_chs_valkia"] = {
 		["techs"] = 
 		{
 			["wh3_dlc20_faction_initiative_set_chs_khorne"] = {"wh3_dlc20_chs_kho_valkia_military_1","wh3_dlc20_chs_kho_shared_gift_upgrade_authority","wh3_dlc20_chs_kho_shared_gift_upgrade_corruption","wh3_dlc20_chs_kho_shared_gift_upgrade_diplomacy"},
@@ -178,72 +175,101 @@ cbfm_chs_init_tech_faction_info_table =
 	}
 }
 
-function cbfm_chs_init_tech_update(faction,called_from)
+function cbfm_chs_init_tech_update(faction_key,called_from)
 
-	ModLog("DUX: cbfm_chs_init_tech_update function called from " .. called_from .. " with faction parameter " .. tostring(faction))
+	ModLog("DUX: cbfm_chs_init_tech_update function called from " .. called_from .. " with faction parameter " .. tostring(faction_key))
 	
-	local faction_entry = cbfm_chs_init_tech_faction_info_table[faction]
+	local faction_entry = cbfm_chs_init_tech_faction_info_table[faction_key]
+	local faction_obj = cm:get_faction(faction_key)
 	
 	-- if an invalid faction was passed, or faction doesn't exist (e.g., realms campaign), or faction is dead: we can stop right here
-	if not faction_entry or not cm:get_faction(faction) or cm:get_faction(faction):is_dead() then
+	if not faction_entry or not faction_obj or faction_obj:is_dead() then
 		ModLog("DUX: invalid parameter or non-applicable faction, exiting")
 		return nil 
 	end
 	
 	-- call upon the forces of CCO to get active faction initiative data
 	local active_inits = {}
-	local num_initiative_sets = common.get_context_value("CcoCampaignFaction",faction,"InitiativeSetList.Size")  -- defining this here just in case something changes in the future that would cause the initiative set list for a faction to differ from what we assume in our info table above
+	local num_initiative_sets = common.get_context_value("CcoCampaignFaction",faction_key,"InitiativeSetList.Size")  -- defining this here just in case something changes in the future that would cause the initiative set list for a faction to differ from what we assume in our info table above
 	
 	for init_set, techs_per_set in pairs(faction_entry.techs) do
 	
 		for i = 0, (num_initiative_sets - 1) do
-			local set_to_check = common.get_context_value("CcoCampaignFaction",faction,("InitiativeSetList[" .. tostring(i) .. "].InitiativeSetContext.Key"))
+			local set_to_check = common.get_context_value("CcoCampaignFaction",faction_key,("InitiativeSetList[" .. tostring(i) .. "].InitiativeSetContext.Key"))
+
 			if set_to_check == init_set then
-				active_inits[init_set] = common.get_context_value("CcoCampaignFaction",faction,("InitiativeSetList[" .. tostring(i) .. "].ActiveInitiatives.Size"))
+				active_inits[init_set] = common.get_context_value("CcoCampaignFaction",faction_key,("InitiativeSetList[" .. tostring(i) .. "].ActiveInitiatives.Size"))
 				ModLog("DUX: valid initiative set " .. init_set .. " found with " .. tostring(active_inits[init_set]) .. " initiatives active")
-			break end
+				break 
+			end
 		end
 		
 		for index, tech in ipairs(techs_per_set) do		
 			-- check if we have this tech; proceed only if we do
-			if not cm:get_faction(faction):has_technology(tech) then
-				ModLog("DUX: tech " .. tech .. " not unlocked for " .. faction .. " yet, skipping")
+			if not faction_obj:has_technology(tech) then
+				ModLog("DUX: tech " .. tech .. " not unlocked for " .. faction_key .. " yet, skipping")
 			else
 				ModLog("DUX: Tech " .. tech .. " attained, proceeding with effects")
-				-- create our custom effect bundle interface if it doesn't already exist
-				if not cbfm_chs_init_tech_eb_table[faction][tech] then 
-					ModLog("DUX: custom effect bundle not yet created for " .. faction .. ":" .. tech ..  ", creating now")
-					cbfm_chs_init_tech_eb_table[faction][tech] = cm:create_new_custom_effect_bundle(faction_entry.effect_bundles[init_set][index])
-				else
-					ModLog("DUX: custom effect bundle already created for " .. faction .. ":" .. tech .. ", using existing bundle")
-				end
+
+				local this_eb_key = faction_entry.effect_bundles[init_set][index]
+
+				---@type CUSTOM_EFFECT_BUNDLE_SCRIPT_INTERFACE
+				local custom_bundle
 				
-				if active_inits[init_set] == 0 then ModLog("DUX: no active initatives were found, setting effect value for " .. faction .. ":" .. tech .. " to zero") end
+				if faction_obj:has_effect_bundle(this_eb_key) then
+					for eb in model_pairs(faction_obj:effect_bundles()) do
+						if eb:key() == this_eb_key then
+							custom_bundle = eb:clone_and_create_custom_effect_bundle()
+							break
+						end
+					end
+				else
+					custom_bundle = cm:create_new_custom_effect_bundle(this_eb_key)
+				end
+
+				-- -- create our custom effect bundle interface if it doesn't already exist
+				-- if not cbfm_chs_init_tech_eb_table[faction_key][tech] then 
+				-- 	ModLog("DUX: custom effect bundle not yet created for " .. faction_key .. ":" .. tech ..  ", creating now")
+				-- 	cbfm_chs_init_tech_eb_table[faction_key][tech] = cm:create_new_custom_effect_bundle(faction_entry.effect_bundles[init_set][index])
+				-- else
+				-- 	ModLog("DUX: custom effect bundle already created for " .. faction_key .. ":" .. tech .. ", using existing bundle")
+				-- end
+				
+				if active_inits[init_set] == 0 then ModLog("DUX: no active initatives were found, setting effect value for " .. faction_key .. ":" .. tech .. " to zero") end
 
 				-- modify our effect bundle as required
-				local num_effects = cbfm_chs_init_tech_eb_table[faction][tech]:effects():num_items()
+				local num_effects = custom_bundle:effects():num_items()
 				local base_value = 1 -- default
+
 				for i = 0, (num_effects - 1) do
-					local effect = cbfm_chs_init_tech_eb_table[faction][tech]:effects():item_at(i)
+					local effect = custom_bundle:effects():item_at(i)
 					local effect_key = effect:key()
 					
 					-- check if we have a custom base value saved for this effect. if not, default is 1
 					if faction_entry.base_values[effect_key] then base_value = faction_entry.base_values[effect_key] end
 					
-					cbfm_chs_init_tech_eb_table[faction][tech]:set_effect_value(effect,(base_value * active_inits[init_set]))
-					ModLog("DUX: effect " .. effect_key .. " being applied for " .. faction .. ":" .. tech .. " with base value: " .. tostring(base_value) .. " and multiplier: " .. tostring(active_inits[init_set]))
+					custom_bundle:set_effect_value(effect, (base_value * active_inits[init_set]))
+					ModLog("DUX: effect " .. effect_key .. " being applied for " .. faction_key .. ":" .. tech .. " with base value: " .. tostring(base_value) .. " and multiplier: " .. tostring(active_inits[init_set]))
 				end
+
 				-- apply our effect bundle
-				cm:apply_custom_effect_bundle_to_faction(cbfm_chs_init_tech_eb_table[faction][tech],cm:get_faction(faction))
+				cm:apply_custom_effect_bundle_to_faction(custom_bundle, faction_obj)
 			end
 		end
 	end
 end
 
 -- first_tick callbacks and turn_start listeners added for each applicable faction
-for faction, _ in pairs(cbfm_chs_init_tech_eb_table) do
+for faction, _ in pairs(cbfm_chs_init_tech_faction_info_table) do
 	cm:add_first_tick_callback(function() cbfm_chs_init_tech_update(faction,"game_load") end)
 	cm:add_faction_turn_start_listener_by_name("cbfm_chs_init_tech_turn_start_listener",faction,function() cbfm_chs_init_tech_update(faction,"turn_start") end,true)
 end
+
 -- single FactionTurnEnd listener also added which checks to see if faction is in our table defined above before proceeding (implicit nil return otherwise). this is done to ensure authority effects properly update in time for the next turn
-core:add_listener("cbfm_chs_init_tech_turn_end_listener","FactionTurnEnd",function(context) return cbfm_chs_init_tech_eb_table[context:faction():name()] ~= nil end,function(context) cbfm_chs_init_tech_update(context:faction():name(),"turn_end") end,true)
+core:add_listener(
+	"cbfm_chs_init_tech_turn_end_listener",
+	"FactionTurnEnd",
+	function(context) return cbfm_chs_init_tech_faction_info_table[context:faction():name()] ~= nil end,
+	function(context) cbfm_chs_init_tech_update(context:faction():name(),"turn_end") end,
+	true
+)
