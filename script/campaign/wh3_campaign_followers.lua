@@ -2412,7 +2412,7 @@ local followers = {
 		["condition"] =
 			function(context)
 				local character = context:character();
-				return not character:character_type("colonel") and character:faction():has_technology("wh2_main_tech_def_3_3_3") and character:has_region() and cm:get_corruption_value_in_region(character:region(), chaos_corruption_string) > 10 and not character:has_ancillary("wh2_main_anc_follower_def_diplomat_slaanesh");
+				return not character:character_type("colonel") and character:faction():has_technology("wh2_main_tech_def_3_3_3") and character:has_region() and cm:get_corruption_value_in_region(character:region(), slaanesh_corruption_string) > 10 and not character:has_ancillary("wh2_main_anc_follower_def_diplomat_slaanesh");
 			end,
 		["chance"] = 5
 	},
