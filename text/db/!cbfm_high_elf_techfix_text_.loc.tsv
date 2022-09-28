@@ -1,0 +1,15 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_high_elf_techfix_text_.loc		
+effects_description_wh2_main_effect_force_stat_speed_hef_spearm_archer_seaguard	Speed: %+n% for Spearmen, Archers, Lothern Sea Guard, Rangers, Silverin Guard, Shadow Warriors and Shadow-walker units	false
+effects_description_wh2_main_effect_force_stat_charge_bonus_add_hef_eagles	Charge bonus: %+n for Great Eagle and War Lion units	false
+effects_description_wh2_main_effect_force_stat_speed_hef_eagles	Speed: %+n% for Great Eagle and War Lion units	false
+effects_description_wh2_main_effect_force_stat_weapon_strength_hef_spear_infantry	Weapon strength: %+n% for High Elf Spearmen, Lothern Sea Guard and Silverin Guard	false
+effects_description_wh2_main_effect_tech_unit_xp_levels_hef_spearmen_archers	Recruit rank: %+n for Spearmen, Rangers and Archers units	false
+effects_description_wh2_main_effect_tech_recruitment_cost_reduction_hef_spearmen_archer	Recruitment cost: %+n% for Spearmen, Rangers and Archers units	false
+effects_description_wh2_main_effect_tech_upkeep_reduction_hef_spears_archers	Upkeep: %+n% for Spearmen, Rangers and Archers units	false
+effects_description_wh2_main_effect_force_stat_armour_spearmen_archers_seaguard	Armour: %+n for Spearmen, Archers, Lothern Sea Guard, Shadow Warriors, Shadow Walkers, Rangers, Silverin Guard and Sisters of Avelorn units	false
+effects_description_wh2_main_effect_force_stat_weapon_strength_hef_eagles	Weapon strength: %+n% for Great Eagle and War Lion units	false
+effects_description_wh2_main_effect_force_stat_melee_attack_hef_eagles	Melee attack: %+n for Great Eagle and War Lion units	false
+effects_description_wh2_main_effect_tech_upkeep_reduction_hef_eagles_phoenix	Upkeep: %+n% for Great Eagle, War Lions and Phoenix units	false
+effects_description_wh_main_effect_tech_recruitment_cost_reduction_hef_eagles_phoenix	Recruitment cost: %+n% for Great Eagle, War Lions and Phoenix units	false
+effects_description_wh2_main_effect_building_unit_xp_levels_hef_resource_animals	Recruit rank: %+n for Great Eagle, Phoenix, War Lions and Dragon units	false
