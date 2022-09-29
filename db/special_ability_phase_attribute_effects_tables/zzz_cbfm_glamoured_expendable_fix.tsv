@@ -1,0 +1,4 @@
+attribute	phase	attribute_type
+#special_ability_phase_attribute_effects_tables;1;db/special_ability_phase_attribute_effects_tables/zzz_cbfm_glamoured_expendable_fix		
+expendable	wh2_dlc16_unit_passive_glamoured	positive
+expendable	wh2_dlc16_unit_passive_glamoured_lv2	positive
