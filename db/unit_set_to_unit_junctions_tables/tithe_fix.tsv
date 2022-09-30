@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/tithe_fix					
-			wh_dlc04_vmp_inf_tithe_0	vmp_unit_zombies	false
-			wh_dlc04_vmp_inf_tithe_0	wh2_dlc11_vmp_all_skeleton_zombie_melee_infantry	false
