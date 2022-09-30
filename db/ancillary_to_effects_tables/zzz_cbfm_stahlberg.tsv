@@ -1,0 +1,4 @@
+ancillary	effect	value	effect_scope
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/zzz_cbfm_stahlberg			
+wh2_dlc13_anc_talisman_sylvania_journal	wh_dlc08_effect_tech_xp_gain_increase_bretonnia	0.0	general_to_force_own
+wh2_dlc13_anc_talisman_sylvania_journal	wh2_dlc13_effect_xp_gain_increase_versus_undead	100.0	general_to_force_own
