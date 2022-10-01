@@ -1,0 +1,3 @@
+trait_level	effect	value	effect_scope
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_vampthirst			
+wh2_main_trait_corrupted_vampire	wh_main_effect_force_stat_leadership	-2.0	character_to_force_own
