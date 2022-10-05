@@ -149,10 +149,8 @@ local function init()
 	local remaining_dark_elves = naggarond:factions_of_same_subculture()
 
 	for _, faction in model_pairs(remaining_dark_elves) do
-		if not faction or faction:is_dead() then break end
-		
 		local faction_key = faction:name()
-		if not cm:is_faction_human(faction_key) then
+		if not cm:is_faction_human(faction_key) and not faction:is_dead() then
 			cm:add_faction_turn_start_listener_by_name("cbfm_multiple_names_of_power_ai_listener",faction_key,function() names_of_power_fix_ai(faction_key) end,true)
 		end
 	end
