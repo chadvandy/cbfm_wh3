@@ -889,15 +889,17 @@ function upkeep_upgrade_augment_application(unit, instability_level)
 	end
 end
 
+--MANDRAS; additional check for num of augments
 -- apply the augment to make the units weith 5+ Augments gain Ward save
 function ward_save_upgrade_augment_application(unit)
 	if flesh_lab_upgrade_purchased7 == true then
 		local all_possible_augments = unit:get_unit_purchasable_effects()
+        local num_augments = unit:get_unit_purchased_effects():num_items()
 		
 		for i = 0, all_possible_augments:num_items() - 1 do
 			local effect_interface = all_possible_augments:item_at(i)
 			
-			if effect_interface:record_key() == "wh2_dlc16_throt_flesh_lab_hidden_augment_ward_save" then				
+			if num_augments >= 4 and effect_interface:record_key() == "wh2_dlc16_throt_flesh_lab_hidden_augment_ward_save" then				
 				cm:faction_purchase_unit_effect(unit:faction(), unit, effect_interface)
 				break
 			end
