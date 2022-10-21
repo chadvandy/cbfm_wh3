@@ -1,4 +1,4 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_nakai_kroxi_fix										
-wh2_dlc13_skill_node_nakai_misc_3		wh2_main_skill_lzd_lizardmen_agility	wh2_dlc13_skill_node_set_nakai		0.0	5.0		0	0	true
-wh2_dlc13_skill_node_ancient_kroxigor_misc_4		wh2_main_skill_lzd_lizardmen_agility	wh2_dlc13_skill_node_set_ancient_kroxigor		0.0	6.0		0	0	true
+wh2_dlc13_skill_node_nakai_misc_3		wh2_main_skill_lzd_lizardmen_agility	wh2_dlc13_skill_node_set_nakai		0.0000	5.0000		0	0	true
+wh2_dlc13_skill_node_ancient_kroxigor_misc_4		wh2_main_skill_lzd_lizardmen_agility	wh2_dlc13_skill_node_set_ancient_kroxigor		0.0000	6.0000		0	0	true

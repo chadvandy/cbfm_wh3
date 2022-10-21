@@ -1,7 +1,7 @@
 building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
 #building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_miscdamagedvalues						
-wh2_main_def_worship_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-3.0	-2.0	0.0
-wh2_main_def_worship_2	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-6.0	-3.0	0.0
-wh2_main_def_worship_3	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-9.0	-5.0	0.0
-wh2_main_special_tower_of_hoeth_2	wh2_main_effect_agent_recruitment_xp_hef_mage		province_to_province_own_unseen	5.0	3.0	0.0
-wh_main_brt_worship_2	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-3.0	-2.0	0.0
+wh2_main_def_worship_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-3.0000	-2.0000	0.0000
+wh2_main_def_worship_2	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-6.0000	-3.0000	0.0000
+wh2_main_def_worship_3	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-9.0000	-5.0000	0.0000
+wh2_main_special_tower_of_hoeth_2	wh2_main_effect_agent_recruitment_xp_hef_mage		province_to_province_own_unseen	5.0000	3.0000	0.0000
+wh_main_brt_worship_2	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-3.0000	-2.0000	0.0000
