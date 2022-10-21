@@ -1,3 +1,0 @@
-order	special_ability	target_self	target_friends	target_enemies	phase
-#special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/zzz_cbfm_balefire					
-1	wh_dlc04_unit_passive_balefire	true	true	false	wh_dlc04_unit_passive_balefire

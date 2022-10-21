@@ -1,4 +1,0 @@
-key	category	model	audio_material	hit_points	gun_type	onscreen_name	ignition_threshold	radar_icon	visible_in_public_ted	fortwall_penetration_chance	collision_3d	destruct_thresholds	joiner	auxiliary	burn_rate	height_map_mesh	ground_type	can_burn	audio_count_as_urban	ability_radius	shares_reload_between_emitters	togleable_icon_path	audio_construction_type_switch	audio_faction_switch	tower_group	destructible
-#battlefield_buildings_tables;29;db/battlefield_buildings_tables/zzz_skv_tower_projectiles																										
-skv_wall_tower_02	generic	skv_wall_tower	rock	7500	wh3_settlement_tower_skv_warp_lightning	tower_explosive	100	tower.tga	false	0	true		false	false	1.0	false	wooden_floor	false	false	0.0	false				default_value	default
-skv_wall_tower_03	generic	skv_wall_tower	rock	7500	wh3_settlement_tower_skv_doomrocket	tower_piercing	100	tower.tga	false	0	true		false	false	1.0	false	wooden_floor	false	false	0.0	false				default_value	default
