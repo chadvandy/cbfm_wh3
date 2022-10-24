@@ -78,7 +78,7 @@ cbfm_chs_init_tech_faction_info_table = {
 		},
 		["base_values"] = 
 		{
-			["wh3_dlc20_effect_healing_cap_modifier"] = 0.1,
+			["wh3_dlc20_effect_healing_cap_modifier"] = 10,
 			["wh3_main_faction_political_diplomacy_mod_nurgle"] = 15,
 			["wh_dlc03_faction_political_diplomacy_mod_technology_beastmen"] = 15,
 			["wh_main_faction_political_diplomacy_mod_technology_norsca"] = 15,
