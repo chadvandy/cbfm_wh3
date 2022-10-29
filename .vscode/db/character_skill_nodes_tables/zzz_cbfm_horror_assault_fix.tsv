@@ -1,3 +1,0 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_horror_assault_fix										
-wh3_main_skill_node_tze_iridescent_horror_metal_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_unit	wh3_main_skill_node_set_tze_iridescent_horror_metal		5.0	4.0		0	0	true
