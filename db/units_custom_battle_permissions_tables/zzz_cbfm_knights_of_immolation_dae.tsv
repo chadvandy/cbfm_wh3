@@ -1,3 +1,0 @@
-faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set
-#units_custom_battle_permissions_tables;10;db/units_custom_battle_permissions_tables/zzz_cbfm_knights_of_immolation_dae									
-wh3_main_dae_daemon_prince	false	wh3_twa07_tze_cav_doom_knights_ror_0	true	true				false	
