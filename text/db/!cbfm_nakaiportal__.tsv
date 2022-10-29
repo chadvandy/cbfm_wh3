@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_nakaiportal__.loc		
+effects_description_wh2_cbf_effect_global_recruitment_duration_cold_one_spears	Global recruitment duration: %+n additional turn for Cold One Spear-Rider units	true

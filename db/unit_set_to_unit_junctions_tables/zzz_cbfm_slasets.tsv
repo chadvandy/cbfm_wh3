@@ -1,0 +1,8 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_slasets					
+nurgle_characters	wh3_dlc20_chs_cha_chaos_sorcerer_shadows_msla_chaos_steed				true
+nurgle_characters	wh3_dlc20_chs_cha_chaos_sorcerer_slaanesh_msla_chaos_steed				true
+wh3_main_nur_all	wh3_dlc20_chs_cha_chaos_sorcerer_shadows_msla_chaos_steed				true
+wh3_main_nur_all	wh3_dlc20_chs_cha_chaos_sorcerer_slaanesh_msla_chaos_steed				true
+wh3_main_sla_all	wh3_dlc20_chs_cav_marauder_horsemen_msla_javelins				false
+wh3_main_sla_all	wh3_dlc20_chs_cav_chaos_chariot_msla				false

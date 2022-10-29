@@ -1,0 +1,7 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_warshrinevet					
+wh3_dlc20_chs_warshrine_units_rank_7	wh3_dlc20_chs_mon_warshrine_msla				false
+wh3_dlc20_chs_warshrine_units_rank_7	wh3_dlc20_chs_mon_warshrine_mtze				false
+wh3_dlc20_chs_warshrine_units_rank_7	wh3_dlc20_chs_mon_warshrine_mkho				false
+wh3_dlc20_chs_warshrine_units_rank_7	wh3_dlc20_chs_mon_warshrine_mnur				false
+wh3_dlc20_chs_warshrine_units_rank_7	wh3_dlc20_chs_mon_warshrine				false

@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_mannfred_books_of_nagash_build_cost					
+wh3_main_effect_commandment_vmp_foster_growth_mod_hidden2	edict_foster_terror.png	0	edict_foster_terror.png	campaign	true

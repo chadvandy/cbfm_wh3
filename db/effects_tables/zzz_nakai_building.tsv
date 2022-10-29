@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_nakai_building					
+wh2_cbf_effect_global_recruitment_duration_cold_one_spears	turns.png	160	turns.png	campaign	false
+wh2_cbf_effect_global_recruitment_duration_horned_ones_dummy	turns.png	0	turns.png	campaign	false

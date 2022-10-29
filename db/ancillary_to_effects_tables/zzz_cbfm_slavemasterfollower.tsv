@@ -1,0 +1,3 @@
+ancillary	effect	value	effect_scope
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/zzz_cbfm_slavemasterfollower			
+wh_dlc01_anc_follower_chaos_slave_master	wh3_main_effect_mercenary_cost_mod	-2.0	general_to_force_own_unseen

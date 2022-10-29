@@ -1,0 +1,4 @@
+effect	bonus_value_id	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_lzdupkeeplandmark		
+wh2_main_effect_tech_upkeep_cost_reduction_lzd_beasts	upkeep_mod	lzd_dread_saurians
+wh2_main_effect_tech_upkeep_cost_reduction_lzd_beasts	upkeep_mod	lzd_troglodon
