@@ -1,4 +1,0 @@
-ancillary	effect	effect_scope	value
-#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/zzz_cbfm_healing_cap_effects			
-wh_main_anc_armour_auric_armour	wh3_dlc20_effect_healing_cap_modifier	character_to_character_own	0.5
-wh_main_anc_armour_auric_armour	CBFM_wh3_dlc20_effect_healing_cap_modifier_dummy	character_to_character_own	50.0

@@ -1,0 +1,10 @@
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/zzz_cbfm_nuln_landmark_recruitable_units_fix						
+1710551165	wh_main_special_nuln_cannon_foundry	wh_main_emp_art_great_cannon	0	0		false
+1752685267	wh_main_special_nuln_cannon_foundry	wh_main_emp_art_helstorm_rocket_battery	0	0		false
+875434841	wh_main_special_nuln_cannon_foundry	wh_main_emp_art_mortar	0	0		false
+1317384460	wh_main_special_nuln_gunnery_school	wh_main_emp_art_mortar	0	0		false
+1713587266	wh_main_special_nuln_gunnery_school	wh_main_emp_veh_steam_tank	0	0		false
+2037210829	wh_main_special_nuln_gunnery_school	wh_main_emp_art_helstorm_rocket_battery	0	0		false
+680550997	wh_main_special_nuln_gunnery_school	wh_main_emp_art_great_cannon	0	0		false
+707677408	wh_main_special_nuln_gunnery_school	wh_main_emp_art_helblaster_volley_gun	0	0		false

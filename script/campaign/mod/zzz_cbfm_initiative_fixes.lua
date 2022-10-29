@@ -1,4 +1,5 @@
 function cbfm_update_initiatives()
+	if not is_table(initiative_templates) then return end
 	--ModLog("cbfm_update_initiatives has started")
     for key, value in ipairs(initiative_templates) do
 		-- "Slayer of Champions" boon fix

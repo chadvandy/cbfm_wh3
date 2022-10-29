@@ -1,3 +1,3 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
 #building_levels_tables;0;db/building_levels_tables/zzz_cbfm_popsurplus																						
-wh2_dlc13_horde_lizardmen_saurus_veteran_1	wh2_dlc13_horde_lizardmen_saurus_veteran	0	1	6000	0		false	false		true	wh2_dlc13_horde_lizardmen_saurus_veteran	false	0.0	3	true	2		true	0	0		0
+wh2_dlc13_horde_lizardmen_saurus_veteran_1	wh2_dlc13_horde_lizardmen_saurus_veteran	0	1	6000	0		false	false		true	wh2_dlc13_horde_lizardmen_saurus_veteran	false	0.0000	3	true	2		true	0	0		0
