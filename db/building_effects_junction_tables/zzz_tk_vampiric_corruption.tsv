@@ -1,4 +1,0 @@
-building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_tk_vampiric_corruption						
-wh2_main_foreign_slot_discovery_tmb_3	wh3_main_effect_corruption_vampiric_adjacent_provinces		region_to_province_own	0.0000	0.0000	0.0000
-wh2_main_foreign_slot_discovery_tmb_3	wh3_main_effect_corruption_vampiric_buildings		region_to_province_own	0.0000	0.0000	0.0000
