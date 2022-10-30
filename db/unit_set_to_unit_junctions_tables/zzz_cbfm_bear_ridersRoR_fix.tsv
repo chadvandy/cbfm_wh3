@@ -1,4 +1,4 @@
-unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_bear_ridersRoR_fix					
-ksl_monsters_and_war_bears_rank_7_ror	wh3_main_pro_ksl_mon_snow_leopard_ror_0				false
-ksl_monsters_and_war_bears_rank_7_ror	wh3_twa07_ksl_cav_war_bear_riders_ror_0				false
+			wh3_main_pro_ksl_mon_snow_leopard_ror_0	ksl_monsters_and_war_bears_rank_7_ror	false
+			wh3_twa07_ksl_cav_war_bear_riders_ror_0	ksl_monsters_and_war_bears_rank_7_ror	false
