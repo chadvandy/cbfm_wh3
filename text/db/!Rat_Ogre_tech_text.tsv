@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!Rat_Ogre_tech_text_.loc		
+#Loc PackedFile;1;text/db/!Rat_Ogre_tech_text.loc		
 effects_description_wh2_main_effect_force_stat_weapon_strength_skv_ratogres	Weapon strength: %+n% for Rat Ogres and Mutant Rat Ogre units	false
 effects_description_wh2_main_effect_force_stat_charge_bonus_add_skv_ratogres	Charge bonus: %+n for Rat Ogres and Mutant Rat Ogre units	false
 effects_description_wh2_main_effect_tech_unit_xp_levels_skv_ratogres_hellpit	Recruit rank: %+n for Rat Ogres, Mutant Rat Ogres and Hell Pit Abomination units	false
