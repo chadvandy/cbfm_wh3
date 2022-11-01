@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!zzz_cbfm_DEFtechfixes.loc		
+effects_description_wh2_main_effect_force_stat_leadership_def_beasts	Leadership: %+n for Harpies, War Hydra, Kharibdyss, Black Dragon and Bloodwrack Medusae units	false
+effects_description_wh2_dlc10_effect_tech_unit_xp_levels_def_doomfire_warlocks	Recruit rank: %+n for Doomfire Warlocks and Bloodwrack Medusae units	false
+effects_description_wh2_dlc10_effect_force_stat_ward_save_doomfire_warlocks	Ward save: %n% for Doomfire Warlocks and Bloodwrack Medusae units	false
+effects_description_wh2_main_effect_tech_recruitment_cost_reduction_def_beasts	Recruitment cost: %+n% for Harpies, War Hydra, Kharibdyss, Black Dragon and Bloodwrack Medusae units	false
+effects_description_wh2_main_effect_tech_upkeep_cost_reduction_def_beasts	Upkeep: %+n% for Harpies, War Hydra, Kharibdyss, Black Dragon and Bloodwrack Medusae units	false
+effects_description_wh2_main_effect_tech_upkeep_cost_reduction_def_shades_darkriders	Upkeep: %+n% for Shades, Dark Riders, Doomfire Warlocks and Scourgerunner Chariot units	false
+effects_description_wh2_main_effect_tech_recruitment_cost_reduction_def_shades_darkriders	Recruitment cost: %+n% for Shades, Dark Riders, Doomfire Warlocks and Scourgerunner Chariot units	false
+effects_description_wh2_main_effect_force_stat_ammunition_def_boltthrower	Ammunition: %+n% for Reaper Bolt Thrower and Scourgerunner Chariot units	false
+effects_description_wh2_main_effect_force_stat_missile_damage_def_boltthrower	Missile strength: %+n% for Reaper Bolt Thrower and Scourgerunner Chariot units	false
+effects_description_wh2_main_effect_force_stat_reload_time_reduction_def_boltthrower	Reload time reduction: %+n% for Reaper Bolt Thrower and Scourgerunner Chariot units	false
+effects_description_wh2_main_effect_force_stat_armour_corsair_shade_darkrider	Armour: %+n for Black Ark Corsairs, Shades, Dark Riders, Doomfire Warlocks and Scourgerunner Chariot units	false
