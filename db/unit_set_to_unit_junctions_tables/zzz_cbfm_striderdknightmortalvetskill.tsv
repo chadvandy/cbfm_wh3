@@ -1,5 +1,5 @@
-unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_striderdknightmortalvetskill					
-chs_daemon_cavalry_rank7	wh3_main_tze_cav_doom_knights_0				false
-chs_daemon_cavalry_rank7	wh3_main_sla_cav_hellstriders_0				false
-chs_daemon_cavalry_rank7	wh3_main_sla_cav_hellstriders_1				false
+			wh3_main_tze_cav_doom_knights_0	chs_daemon_cavalry_rank7	false
+			wh3_main_sla_cav_hellstriders_0	chs_daemon_cavalry_rank7	false
+			wh3_main_sla_cav_hellstriders_1	chs_daemon_cavalry_rank7	false
