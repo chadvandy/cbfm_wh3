@@ -1,0 +1,3 @@
+region_group	region	order
+#regions_to_region_groups_junctions_tables;0;db/regions_to_region_groups_junctions_tables/zzz_cbfm_emp_altdorf_elector_owner		
+elector_region_reikland	wh3_main_combi_region_altdorf	0
