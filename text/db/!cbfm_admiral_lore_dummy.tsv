@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_admiral_lore_dummy.loc		
+effects_description_wh2_dlc11_cst_admiral_1_trait_dummy_lore	Uses the Lore of Vampires	true
+effects_description_wh2_dlc11_cst_admiral_2_trait_dummy_lore	Uses Lore of the Deeps	true
+effects_description_wh2_dlc11_cst_admiral_3_trait_dummy_lore	Uses the Lore of Death	true
+effects_description_wh2_dlc11_cst_admiral_4_trait_dummy_lore	Uses the Lore of the Deeps	true
