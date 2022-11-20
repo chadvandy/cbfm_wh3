@@ -26,7 +26,7 @@ local function init()
 	)
 	core:add_listener(
 	"character_completed_battle_pledge_to_campaign_secondary_general",
-   "CharacterParticipatedAsSecondaryGeneralInBattle",
+	"CharacterParticipatedAsSecondaryGeneralInBattle",
 	function(context)
 		local pb = cm:model():pending_battle()
 		local battle_type = pb:battle_type()
