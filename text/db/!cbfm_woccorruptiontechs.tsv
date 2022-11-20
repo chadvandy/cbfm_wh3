@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_woccorruptiontechs.loc		
-effects_description_wh3_dlc20_effect_building_upgrade_kho_corruption_context_dummy	Khorne corruption: %+n from Sorcery Chain and Ritual Hut	false
-effects_description_wh3_dlc20_effect_building_upgrade_nur_corruption_context_dummy	Nurgle corruption: %+n from Sorcery Chain and Ritual Hut	false
-effects_description_wh3_dlc20_effect_building_upgrade_sla_corruption_context_dummy	Slaanesh corruption: %+n from Sorcery Chain and Ritual Hut	false
-effects_description_wh3_dlc20_effect_building_upgrade_tze_corruption_context_dummy	Tzeentch corruption: %+n from Sorcery Chain and Ritual Hut	false
