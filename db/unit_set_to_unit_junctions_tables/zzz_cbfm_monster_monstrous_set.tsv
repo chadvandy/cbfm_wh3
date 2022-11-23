@@ -1,0 +1,17 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_monster_monstrous_set					
+cbfm_monster_monstrous_set	wh2_dlc09_tmb_mon_carrion_0				false
+cbfm_monster_monstrous_set	wh2_dlc09_tmb_mon_carrion_ror				false
+cbfm_monster_monstrous_set	wh2_dlc11_cst_cav_deck_droppers_0				false
+cbfm_monster_monstrous_set	wh2_dlc11_cst_cav_deck_droppers_1				false
+cbfm_monster_monstrous_set	wh2_dlc11_cst_cav_deck_droppers_2				false
+cbfm_monster_monstrous_set	wh2_dlc11_cst_cav_deck_droppers_ror_0				false
+cbfm_monster_monstrous_set	wh2_dlc15_hef_mon_war_lions_of_chrace_0				false
+cbfm_monster_monstrous_set	wh2_dlc15_hef_mon_war_lions_of_chrace_ror_0				false
+cbfm_monster_monstrous_set	wh3_main_monster_feral_bears				false
+cbfm_monster_monstrous_set	wh3_main_monster_feral_ice_bears				false
+cbfm_monster_monstrous_set	wh3_main_pro_kho_inf_flesh_hounds_of_khorne_0				false
+cbfm_monster_monstrous_set	wh3_main_pro_kho_inf_flesh_hounds_of_khorne_simaergul_0				false
+cbfm_monster_monstrous_set		monster			false
+cbfm_monster_monstrous_set		monstrous_cavalry			false
+cbfm_monster_monstrous_set		monstrous_infantry			false

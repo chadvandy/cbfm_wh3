@@ -1,0 +1,5 @@
+building	unit	xp	conditions	key	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/zzz_cbfm_medusaehoeth						
+wh2_main_special_tower_of_hoeth_1_def	wh2_dlc14_def_mon_bloodwrack_medusa_0	0	0	1051605587		false
+wh2_main_special_tower_of_hoeth_2_def	wh2_dlc14_def_mon_bloodwrack_medusa_0	0	0	1051605588		false
+wh2_main_special_tower_of_hoeth_2_def	wh2_dlc14_def_veh_bloodwrack_shrine_0	0	0	1051605589		false

@@ -1,0 +1,6 @@
+building	effect	value	effect_scope	value_damaged	value_ruined	context_requirement
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_empfortattrition						
+wh2_main_special_empire_fort_emp_2	wh_main_effect_force_army_campaign_siege_defend_attrition	-10.0000	region_to_force_own	-10.0000	-10.0000	
+wh2_main_special_empire_fort_emp_3	wh_main_effect_force_army_campaign_siege_defend_attrition	-10.0000	region_to_force_own	-10.0000	-10.0000	
+wh2_main_special_empire_fort_emp_4	wh_main_effect_force_army_campaign_siege_defend_attrition	-10.0000	region_to_force_own	-10.0000	-10.0000	
+wh2_main_special_empire_fort_emp_5	wh_main_effect_force_army_campaign_siege_defend_attrition	-10.0000	region_to_force_own	-10.0000	-10.0000	
