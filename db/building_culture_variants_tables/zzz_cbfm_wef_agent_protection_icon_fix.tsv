@@ -1,4 +1,0 @@
-building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/zzz_cbfm_wef_agent_protection_icon_fix								
-wh_dlc05_wef_agent_protection_1				wh_main_PLACEHOLDER	zzz_cbfm_wood_elves_agent_protection_fix	false	wh_dlc05_wef_agent_protection_1	true
-wh_dlc05_wef_agent_protection_2				wh_main_PLACEHOLDER	zzz_cbfm_wood_elves_agent_protection_fix	false	wh_dlc05_wef_agent_protection_2	true
