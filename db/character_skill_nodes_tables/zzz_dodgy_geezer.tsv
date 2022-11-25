@@ -1,3 +1,0 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_dodgy_geezer										
-wh_dlc06_skill_node_grn_wurrzag_da_great_prophet_unique_10		wh_main_skill_grn_all_unique_dodgy_geezer	wh_dlc06_skill_node_set_grn_wurrzag_da_great_prophet		0.0000	8.0000		0	0	true
