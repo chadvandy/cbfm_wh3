@@ -1,0 +1,3 @@
+key	source	target	ownership	location	territory
+#campaign_effect_scopes_tables;2;db/campaign_effect_scopes_tables/zzz_cbfm_tktombror					
+building_to_faction_own_cbfm_unseen	building	faction	yours	factionwide	any
