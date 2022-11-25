@@ -4,6 +4,5 @@ wh2_HV_effect_global_recruitment_duration_coldones	turns.png	154	turns.png	campa
 wh2_HV_effect_force_redcrested_skink_ark_of_sotek_campaign_replenishment_rate	replenishment.png	101	replenishment.png	campaign	true
 wh2_HV_lzd_armour_redcrested_skink_ark_of_sotek	armour.png	101	armour.png	battle	true
 wh2_HV_lzd_melee_attack_redcrested_skink	melee.png	109	melee.png	battle	true
-wh2_HV_lzd_melee_defence_redcrested_skink	defence.png	111	defence.png	battle	true
 wh2_HV_lzd_morale_redcrested_skink_ark_of_sotek	morale.png	61	morale.png	battle	true
 wh2_HV_lzd_upkeep_redcrested_skink_ark_of_sotek	military_spending.png	105	military_spending.png	campaign	false
