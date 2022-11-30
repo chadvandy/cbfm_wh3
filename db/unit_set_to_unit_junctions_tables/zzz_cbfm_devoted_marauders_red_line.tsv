@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_devoted_marauders_red_line					
+			wh3_main_sla_inf_marauders_0	wh3_dlc20_chs_marauders_inf_only_rank7	false
+			wh3_main_sla_inf_marauders_1	wh3_dlc20_chs_marauders_inf_only_rank7	false
+			wh3_main_sla_inf_marauders_2	wh3_dlc20_chs_marauders_inf_only_rank7	false
+			wh3_main_sla_inf_marauders_0	wh3_dlc20_chs_marauders_inf_only	false
+			wh3_main_sla_inf_marauders_1	wh3_dlc20_chs_marauders_inf_only	false
+			wh3_main_sla_inf_marauders_2	wh3_dlc20_chs_marauders_inf_only	false

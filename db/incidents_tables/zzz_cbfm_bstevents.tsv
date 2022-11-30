@@ -1,0 +1,4 @@
+key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event
+#incidents_tables;5;db/incidents_tables/zzz_cbfm_bstevents							
+wh_dlc03_incident_bst_bloodgreed_beasts	false	faction	false	Event		false	
+wh_dlc03_incident_bst_wandering_giants	false	faction	false	Event		false	

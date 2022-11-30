@@ -1,0 +1,3 @@
+id	mission_key	payload_key	status_key	value	target_key
+#cdir_events_mission_payloads_tables;2;db/cdir_events_mission_payloads_tables/zzz_cbfm_ff_oath_fulfilled_restored					
+2147015927	wh_dlc06_grudge_belegar_eight_peaks	EFFECT_BUNDLE	SUCCESS	KEY[wh_dlc06_bundle_eight_peaks_recapture];DURATION[0];GLOBAL	default

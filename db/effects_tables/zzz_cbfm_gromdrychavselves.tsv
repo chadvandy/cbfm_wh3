@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_gromdrychavselves					
+wh2_dlc15_effect_force_army_battle_enemy_unit_morale_xef2	morale.png	61	morale.png	battle	false
+wh2_dlc15_effect_force_army_battle_enemy_unit_morale_xef		0		battle	false

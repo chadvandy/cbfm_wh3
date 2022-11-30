@@ -1,0 +1,6 @@
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_slainfplusror					
+sla_marauders_hellstriders	wh3_dlc20_chs_inf_chaos_marauders_msla				false
+sla_marauders_hellstriders	wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges				false
+sla_infantry_rank7_ror	wh_pro04_chs_inf_chaos_warriors_ror_0				false
+wh3_dlc20_sla_warriors	wh_pro04_chs_inf_chaos_warriors_ror_0				false

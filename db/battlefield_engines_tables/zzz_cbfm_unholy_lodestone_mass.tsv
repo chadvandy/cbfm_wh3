@@ -1,0 +1,3 @@
+key	destroyed_model	destruction_animation	engine_type	gun_animation_table	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	destruct_model	destruct_anim	destruct_meta	audio_armour_type	riders_shoot_behaviour
+#battlefield_engines_tables;22;db/battlefield_engines_tables/zzz_cbfm_unholy_lodestone_mass																	
+wh_dlc04_vmp_veh_corpse_cart_lodestone	warmachines\chariot\vmp_corpse_cart\vmp_corpse_cart_bell_01_destroyed.rigid_model_v2	vmp_corpse_cart_lodestone_destruct	Generic_No_Crew_Rotate	wm_corpsecart01_lodestone		vmp_corpse_cart_lodestone	wh_main_vehicle_vmp_black_coach_chariot			ap_draughtposition	warmachines\chariot\vmp_corpse_cart\tech	ap_crewposition					all_riders_shooting
