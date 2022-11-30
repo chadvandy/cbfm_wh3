@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_beasticore__.loc		
-effects_description_wh2_dlc11_effect_force_stat_charge_bonus_add_bst_warhounds_razorgor_herd_harpies	Charge bonus: %+n for Chaos Warhounds, Razorgor Herd, Feral Manticore and Harpies units	true
-effects_description_wh2_dlc11_effect_force_stat_melee_attack_warhounds_razorgor_herd_harpies	Melee attack: %+n for Chaos Warhounds, Razorgor Herd, Feral Manticore and Harpies units	true
-effects_description_wh2_dlc11_effect_force_stat_charge_bonus_pct_warhounds_razorgors_centigors_chariots_harpies_rank7	Charge bonus: %+n for Centigors, Centigors (Great Weapons), Razorgor Herd, Razorgor Chariot, Tuskgor Chariot, Chaos Warhounds, Feral Manticore and Harpies units {{tr:rank7}}	true
-effects_description_wh2_dlc11_effect_force_stat_missile_resistance_bst_warhounds_razorgors_centigors_chariots_harpies_rank7	Missile resistance: %n% for Centigors, Centigors (Great Weapons), Razorgor Herd, Razorgor Chariot, Tuskgor Chariot, Chaos Warhounds, Feral Manticore and Harpies units {{tr:rank7}}	true
-effects_description_wh2_dlc11_effect_force_stat_speed_warhounds_razorgors_centigors_chariots_harpies_rank7	Speed: %+n% for Centigors, Centigors (Great Weapons), Razorgor Herd, Razorgor Chariot, Tuskgor Chariot, Chaos Warhounds, Feral Manticore and Harpies units {{tr:rank7}}	true

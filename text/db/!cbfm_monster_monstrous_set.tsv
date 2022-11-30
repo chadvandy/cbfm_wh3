@@ -1,4 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_monster_monstrous_set.loc		
-effects_description_wh2_dlc09_effect_force_stat_melee_attack_monsters_monstrous_cbfm	Melee attack: %+n for Monster units	false
-effects_description_wh2_twa03_effect_leadership_monsters_monstrous_cbfm	Leadership: %+n for enemy monstrous units	false
