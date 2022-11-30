@@ -1,3 +1,0 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_kairoskill										
-wh3_main_skill_node_tze_kairos_unique_1		wh3_main_skill_tze_kairos_self_3	wh3_main_skill_node_set_tze_kairos		1.0000	3.0000		0	0	true

@@ -1,4 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_monster_monstrous_set					
-wh2_dlc09_effect_force_stat_melee_attack_monsters_monstrous_cbfm	melee.png	431	melee.png	battle	true
-wh2_twa03_effect_leadership_monsters_monstrous_cbfm	morale.png	51	morale.png	battle	false

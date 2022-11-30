@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_mutant_rat_ogrejunction					
-			wh2_dlc16_skv_mon_rat_ogre_mutant	cbfm_mutant_rat_ogre	false
-			wh2_dlc16_skv_mon_rat_ogre_mutant_ror_0	cbfm_mutant_rat_ogre	false

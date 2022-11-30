@@ -1,4 +1,0 @@
-key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
-#technology_nodes_tables;0;db/technology_nodes_tables/zzz_cbfm_skaventech_nodes														
-tech_skv_4_5			1	tech_skv_4_5	skv_mil	6	400	0	0			0	0	0
-tech_skv_4_6			1	tech_skv_4_6	skv_mil	7	400	0	0			0	0	0

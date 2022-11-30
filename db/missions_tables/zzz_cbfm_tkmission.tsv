@@ -1,3 +1,0 @@
-key	mission_type	localised_title	localised_description	ui_image	ui_icon	generate	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	quest_mission_final	trigger_radius	quest_character	sticky_by_default	localised_mission_completed_text	can_be_manually_cancelled
-#missions_tables;0;db/missions_tables/zzz_cbfm_tkmission																		
-wh2_dlc09_mis_tmb_recruit_unit_land_artillery	RECRUIT_UNIT	Screamer	We require a Screaming Skull Catapult to ensure your reign.	tmb/generic	rom_event_mission.png	true	false	Military		0	0	false	false	0.0000		true	 	true

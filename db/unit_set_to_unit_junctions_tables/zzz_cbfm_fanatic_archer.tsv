@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_fanatic_archer					
-			wh_main_grn_inf_night_goblin_fanatics	grn_archer_infantry	true
-			wh_main_grn_inf_night_goblin_fanatics	wh2_dlc11_grn_all_goblin_ranged_infantry	true

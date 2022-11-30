@@ -1,3 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_morghur_ardour_of_fury_fix				
-wh_dlc03_skill_bst_morghur_unique_primal_fury	wh_dlc03_effect_ability_enable_primal_fury	1	general_to_force_own	5.0000
