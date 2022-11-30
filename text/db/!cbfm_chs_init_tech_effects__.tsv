@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_chs_init_tech_effects__.loc		
+effects_description_wh3_dlc20_effect_building_upgrade_kho_corruption_context_dummy	Khorne corruption: %+n from Chaos Altar Ritual Huts and +1 from Dark Fortress Chaos Shrines (+2 once fully upgraded)	false
+effects_description_wh3_dlc20_effect_building_upgrade_nur_corruption_context_dummy	Nurgle corruption: %+n from Chaos Altar Ritual Huts and +1 from Dark Fortress Chaos Shrines (+2 once fully upgraded)	false
+effects_description_wh3_dlc20_effect_building_upgrade_sla_corruption_context_dummy	Slaanesh corruption: %+n from Chaos Altar Ritual Huts and +1 from Dark Fortress Chaos Shrines (+2 once fully upgraded)	false
+effects_description_wh3_dlc20_effect_building_upgrade_tze_corruption_context_dummy	Tzeentch corruption: %+n from Chaos Altar Ritual Huts and +1 from Dark Fortress Chaos Shrines (+2 once fully upgraded)	false

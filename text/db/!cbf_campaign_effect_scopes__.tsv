@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbf_campaign_effect_scopes__.loc		
+campaign_effect_scopes_localised_text_building_to_forces_enemy_regionwide	\\n(enemy forces in local region)	true
+campaign_effect_scopes_localised_text_foreign_building_to_character_own_regionwide	\\n(characters in local region)	true
+campaign_effect_scopes_localised_text_region_to_character_enemy_text	\\n(enemy characters in local region)	true
+campaign_effect_scopes_localised_text_province_to_force_own_provincewide	\\n(forces in local province)	true
+campaign_effect_scopes_localised_text_region_to_character_own_text	\\n(characters in local region)	true
+campaign_effect_scopes_localised_text_foreign_building_to_character_own	\\n(own characters in local region)	true
+campaign_effect_scopes_localised_text_province_to_character_enemy	\\n(enemy characters in local province)	true

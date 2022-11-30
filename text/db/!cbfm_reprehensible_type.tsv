@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!cbfm_reprehensible_type.loc		
+uied_component_texts_localised_string_ComponentTooltip_befb1452f	Lua has failed since last campaign load – many features are likely to be broken until the campaign is reloaded! These warnings can be disabled by deactivating the Enable Context Viewer setting in the Options menu.	true
