@@ -26,8 +26,7 @@ After some testing, all these position fail to spawn even a single army when the
 This fix replaces the broken coordinates with nearby working ones.
 ]]--
 
-
-Bastion.spawn_locations_by_gate_combi_fixed = {
+cbfm_bastion_spawn_locations_by_gate_combi_fixed = {
     {
         gate_key = "wh3_main_combi_region_snake_gate",
         spawn_locations = {
@@ -65,9 +64,9 @@ Bastion.spawn_locations_by_gate_combi_fixed = {
 -- If we're on the IME map, replace the spawn positions for the bastion attackers with the fixed ones from here.
 cm:add_first_tick_callback(
     function()
-        if cm:get_campaign_name() == "main_warhammer" then
+        if Bastion and cm:get_campaign_name() == "main_warhammer" then
             out("Frodo45127: Fixing spawn points for Great Bastion.")
-            Bastion.spawn_locations_by_gate = Bastion.spawn_locations_by_gate_combi_fixed
+            Bastion.spawn_locations_by_gate = cbfm_bastion_spawn_locations_by_gate_combi_fixed
         end
     end
 );
