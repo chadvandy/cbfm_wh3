@@ -117,7 +117,7 @@ local function init()
 				for i = 1, 6 do
 					add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge", true, false)
 				end
-			elseif rank == 10 and not has_pledge(character,grail_virtue) then
+			elseif rank >= 10 and not has_pledge(character,grail_virtue) then
 				for i = 1, 6 do
 					add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge", true, false)
 				end
