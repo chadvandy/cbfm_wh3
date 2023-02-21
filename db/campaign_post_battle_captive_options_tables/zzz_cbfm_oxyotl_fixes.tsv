@@ -1,0 +1,3 @@
+id	sort_priority	captive_outcome	campaign_group	effect_bundle	effect_bundle_turns	icon_path	resource_transaction	capturing_force_resource_transaction	men_per_force_resource_transaction	men_per_faction_resource_transaction	men_per_faction_resource_transaction_cap	men_per_force_resource_transaction_cap
+#campaign_post_battle_captive_options_tables;5;db/campaign_post_battle_captive_options_tables/zzz_cbfm_oxyotl_fixes												
+5967986	2	release	wh2_dlc17_captive_option_release_oxyotl_to_chaos	wh2_dlc17_bundle_kill_chs_oxyotl	3	icon_ransom.png			0	0	0	0
