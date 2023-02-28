@@ -55,9 +55,14 @@ local function names_of_power_fix_human(context)
 					local dilemma_key = context:dilemma()
 					cm:callback(function()
 						-- get rid of the unearned trait
-						local char_string = cm:char_lookup_str(common.get_context_value("CcoComponent","","RootComponent.ChildContext('trait_ancillary_gained').ChildContext('dy_name').ContextsList[0].CQI"))
+						local char_cqi = common.get_context_value("CcoComponent","","RootComponent.ChildContext('trait_ancillary_gained').ChildContext('dy_name').ContextsList[0].CQI")
+						local char_string = cm:char_lookup_str(char_cqi)
 						local trait_to_axe = cbfm_names_of_power_first_choices[dilemma_key]
-						cm:force_remove_trait(char_string,trait_to_axe)
+						
+						-- axe trait via UI trigger to avoid desyncs
+						CampaignUI.TriggerCampaignScriptEvent(char_cqi,"cbfm_multiple_names_of_power_fix" .. "|" .. trait_to_axe)
+						
+						--cm:force_remove_trait(char_string,trait_to_axe)
 					
 						-- UI cleanup: --	
 						-- first, close trait added pop-up
@@ -161,6 +166,28 @@ local function init()
 		"DilemmaIssuedEvent",
 		function(context) return context:dilemma():starts_with("wh2_main_def_names_of_power") and cm:is_faction_human(context:faction():name()) end,
 		function() names_of_power_fix_human(context) end,
+		true
+	)
+	
+	-- Player UI Trigger: --
+	core:add_listener(
+		"cbfm_multiple_names_of_power_human_listener_mp",
+		"UITrigger",
+		function(context) return context:trigger():starts_with("cbfm_multiple_names_of_power_fix") end,
+		function(context)
+			-- vars from context
+			local str = context:trigger()
+			local char_cqi = context:faction_cqi()
+			
+			-- parse trait from passed trigger string
+			local trait_to_axe = string.gsub(str,"cbfm_multiple_names_of_power_fix|","")
+			
+			-- get character lookup string
+			local char_string = cm:char_lookup_str(char_cqi)
+			
+			-- axe appropriate trait
+			cm:force_remove_trait(char_string,trait_to_axe)
+		end,
 		true
 	)
 end
