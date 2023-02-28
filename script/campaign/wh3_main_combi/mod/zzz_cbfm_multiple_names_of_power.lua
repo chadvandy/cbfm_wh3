@@ -56,8 +56,11 @@ local function names_of_power_fix_human(context)
 					cm:callback(function()
 						-- get rid of the unearned trait
 						local char_cqi = common.get_context_value("CcoComponent","","RootComponent.ChildContext('trait_ancillary_gained').ChildContext('dy_name').ContextsList[0].CQI")
-						local char_string = cm:char_lookup_str(char_cqi)
+						--local char_string = cm:char_lookup_str(char_cqi)
 						local trait_to_axe = cbfm_names_of_power_first_choices[dilemma_key]
+						
+						-- if char_cqi is nil, that means the trait gained was just a repeat of the original name of power, so we can stop here (and we must, else we will crash)
+						if not char_cqi then return nil end
 						
 						-- axe trait via UI trigger to avoid desyncs
 						CampaignUI.TriggerCampaignScriptEvent(char_cqi,"cbfm_multiple_names_of_power_fix" .. "|" .. trait_to_axe)
@@ -87,7 +90,7 @@ local function names_of_power_fix_human(context)
 									if not trait_feed_active and num_events > 3 then common.call_context_command("CcoComponent","","RootComponent.ChildContext('dropdown_events').ChildContext('list_box').ChildList[" .. tostring(i) .. "].ChildContext('events_list').ChildList[" .. tostring(num_events - 3) .. "].Trash") end
 								end
 							end	
-						end,0.05)
+						end,0.5)
 					end,0.25)
 				end,
 				false
