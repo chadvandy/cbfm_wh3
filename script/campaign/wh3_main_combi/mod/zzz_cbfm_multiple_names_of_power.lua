@@ -33,7 +33,7 @@ end
 
 local function names_of_power_fix_human(context)
 	-- delay needed for dilemma window to pop up
-	cm:callback(function()
+	cm:real_callback(function()
 		local char_cqi = common.get_context_value("CcoComponent","","RootComponent.ChildContext('dilemma').ChildContext('character_portrait').ContextsList[0].CQI")
 		local char_obj = cm:model():character_for_command_queue_index(char_cqi)
 		local has_name_of_power = false -- default
@@ -53,7 +53,7 @@ local function names_of_power_fix_human(context)
 				function(context) return context:dilemma():starts_with("wh2_main_def_names_of_power") end,
 				function(context)
 					local dilemma_key = context:dilemma()
-					cm:callback(function()
+					cm:real_callback(function()
 						-- get rid of the unearned trait
 						local char_cqi = common.get_context_value("CcoComponent","","RootComponent.ChildContext('trait_ancillary_gained').ChildContext('dy_name').ContextsList[0].CQI")
 						--local char_string = cm:char_lookup_str(char_cqi)
@@ -71,7 +71,7 @@ local function names_of_power_fix_human(context)
 						-- first, close trait added pop-up
 						common.call_context_command("CcoComponent","","RootComponent.ChildContext('events').ChildContext('button_accept').SimulateLClick")
 						-- after a short delay, close trait removed pop-up and then clean up the sidebar stuff
-						cm:callback(function()
+						cm:real_callback(function()
 							common.call_context_command("CcoComponent","","RootComponent.ChildContext('events').ChildContext('button_accept').SimulateLClick") 
 							-- look through event feeds to find dilemma and trait notifications, delete both
 							local valid_event_feeds = {[common.get_localised_string("event_feed_summary_events_title_character_trait_gained")] = "trait",[common.get_localised_string("campaign_localised_strings_string_event_header_other")] = "world"} -- localised string keys
@@ -90,15 +90,15 @@ local function names_of_power_fix_human(context)
 									if not trait_feed_active and num_events > 3 then common.call_context_command("CcoComponent","","RootComponent.ChildContext('dropdown_events').ChildContext('list_box').ChildList[" .. tostring(i) .. "].ChildContext('events_list').ChildList[" .. tostring(num_events - 3) .. "].Trash") end
 								end
 							end	
-						end,0.5)
-					end,0.25)
+						end,500)
+					end,250)
 				end,
 				false
 			)
 			-- force first choice
 			common.call_context_command("CcoComponent","","RootComponent.CurrentPriorityLocker.ContextsList[0].CustomContext.MakeChoice('FIRST')")
 		end
-	end,0.1)
+	end,100)
 end
 
 local function names_of_power_fix_ai(faction_key)
