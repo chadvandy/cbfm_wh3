@@ -126,31 +126,33 @@ local function init()
 		local character = context:character()	
 		local rank = character:rank()
 		
-		if rank >= 2 and not has_pledge(character,knights_protection) and (character:character_type("general") or vow_agents[character:character_subtype_key()]) then
-			for i = 1, 6 do
-				if character:character_type("general") then
-					add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge", true, false)
-				elseif vow_agents[character:character_subtype_key()]
-					add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge_agent", true, false)
+		if character:character_type("general") or vow_agents[character:character_subtype_key()] then
+			if rank >= 2 and not has_pledge(character,knights_protection) then
+				for i = 1, 6 do
+					if character:character_type("general") then
+						add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge", true, false)
+					elseif vow_agents[character:character_subtype_key()]
+						add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge_agent", true, false)
+					end
+				end
+			elseif rank >= 5 and not has_pledge(character,questing_wisdom) then
+				for i = 1, 6 do
+					if character:character_type("general") then
+						add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge", true, false)
+					elseif vow_agents[character:character_subtype_key()]
+						add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge_agent", true, false)
+					end
+				end
+			elseif rank >= 10 and not has_pledge(character,grail_virtue) then
+				for i = 1, 6 do
+					if character:character_type("general") then
+						add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge", true, false)
+					elseif vow_agents[character:character_subtype_key()]
+						add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge_agent", true, false)
+					end
 				end
 			end
-		elseif rank >= 5 and not has_pledge(character,questing_wisdom) then
-			for i = 1, 6 do
-				if character:character_type("general") then
-					add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge", true, false)
-				elseif vow_agents[character:character_subtype_key()]
-					add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge_agent", true, false)
-				end
-			end
-		elseif rank >= 10 and not has_pledge(character,grail_virtue) then
-			for i = 1, 6 do
-				if character:character_type("general") then
-					add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge", true, false)
-				elseif vow_agents[character:character_subtype_key()]
-					add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge_agent", true, false)
-				end
-			end
-		end	
+		end
 	end,
 	true
 	)
