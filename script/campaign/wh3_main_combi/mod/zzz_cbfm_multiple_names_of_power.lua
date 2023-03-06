@@ -31,7 +31,7 @@ function cbfm_quick_array_copy(array)
 	return copy
 end
 
-local function names_of_power_fix_human(context)
+local function names_of_power_fix_human()
 	-- delay needed for dilemma window to pop up
 	cm:real_callback(function()
 		local char_cqi = common.get_context_value("CcoComponent","","RootComponent.ChildContext('dilemma').ChildContext('character_portrait').ContextsList[0].CQI")
@@ -150,7 +150,7 @@ local function init()
 	local naggarond = cm:get_faction("wh2_main_def_naggarond")
 	if not naggarond then return nil end
 
-	if not cm:is_faction_human("wh2_main_def_naggarond") then
+	if not naggarond:is_human() then
 		if not naggarond:is_dead() then cm:add_faction_turn_start_listener_by_name("cbfm_multiple_names_of_power_ai_listener","wh2_main_def_naggarond",function() names_of_power_fix_ai("wh2_main_def_naggarond") end,true) end
 	end
 
@@ -158,7 +158,7 @@ local function init()
 
 	for _, faction in model_pairs(remaining_dark_elves) do
 		local faction_key = faction:name()
-		if not cm:is_faction_human(faction_key) and not faction:is_dead() then
+		if not faction:is_human() and not faction:is_dead() then
 			cm:add_faction_turn_start_listener_by_name("cbfm_multiple_names_of_power_ai_listener",faction_key,function() names_of_power_fix_ai(faction_key) end,true)
 		end
 	end
@@ -167,8 +167,8 @@ local function init()
 	core:add_listener(
 		"cbfm_multiple_names_of_power_human_listener",
 		"DilemmaIssuedEvent",
-		function(context) return context:dilemma():starts_with("wh2_main_def_names_of_power") and cm:is_faction_human(context:faction():name()) end,
-		function() names_of_power_fix_human(context) end,
+		function(context) return context:dilemma():starts_with("wh2_main_def_names_of_power") and context:faction():is_human() end,
+		function() names_of_power_fix_human() end,
 		true
 	)
 	
