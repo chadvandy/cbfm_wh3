@@ -63,7 +63,7 @@ local function init()
 	local knights_protection = 
 	{
 		"wh_dlc07_trait_brt_knights_vow_knowledge_pledge", 
-		"wh_dlc07_trait_brt_knights_vow_knowledge_pledge_agent"
+		"wh_dlc07_trait_brt_knights_vow_knowledge_pledge_agent",
 		"wh_dlc07_trait_brt_knights_vow_order_pledge",
 		"wh_dlc07_trait_brt_knights_vow_order_pledge_agent",
 		"wh_dlc07_trait_brt_knights_vow_chivalry_pledge",
@@ -131,7 +131,7 @@ local function init()
 				for i = 1, 6 do
 					if character:character_type("general") then
 						add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge", true, false)
-					elseif vow_agents[character:character_subtype_key()]
+					elseif vow_agents[character:character_subtype_key()] then
 						add_vow_progress(character, "wh_dlc07_trait_brt_knights_vow_knowledge_pledge_agent", true, false)
 					end
 				end
@@ -139,7 +139,7 @@ local function init()
 				for i = 1, 6 do
 					if character:character_type("general") then
 						add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge", true, false)
-					elseif vow_agents[character:character_subtype_key()]
+					elseif vow_agents[character:character_subtype_key()] then
 						add_vow_progress(character, "wh_dlc07_trait_brt_questing_vow_protect_pledge_agent", true, false)
 					end
 				end
@@ -147,7 +147,7 @@ local function init()
 				for i = 1, 6 do
 					if character:character_type("general") then
 						add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge", true, false)
-					elseif vow_agents[character:character_subtype_key()]
+					elseif vow_agents[character:character_subtype_key()] then
 						add_vow_progress(character, "wh_dlc07_trait_brt_grail_vow_valour_pledge_agent", true, false)
 					end
 				end
