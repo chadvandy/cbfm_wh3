@@ -1,0 +1,4 @@
+chain	set	super_chain	remove
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/zzz_cbfm_vaul_landmark_fix			
+wh_dlc05_wef_office_starlight_forge	wh3_main_secondary_addon_landmark_vauls_anvil_wef		false
+wh_dlc05_wef_tree_threllock	cbfm_main_secondary_addon_landmark_vauls_anvil_wef_threllock		false
