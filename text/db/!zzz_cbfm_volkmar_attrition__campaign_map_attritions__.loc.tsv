@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/!zzz_cbfm_volkmar_attrition__campaign_map_attritions__.loc		
+campaign_map_attritions_campaign_map_tooltip_hostile_territory_volkmar	This army will suffer losses due to [[img:icon_attrition]][[/img]]attrition while in Cult of Sigmar territory when the Sixth Book of Nagash is sealed.	false
+campaign_map_attritions_unit_card_tooltip_hostile_territory_volkmar	The Cult of Sigmar has sealed the Sixth Book of Nagash - many warriors are suffering from magical attrition as a result of this ritual.	false
+campaign_map_attritions_unit_immunity_text_hostile_territory_volkmar	Sixth Book of Nagash sealed (Cult of Sigmar territory)	false
+campaign_map_attritions_campaign_map_tooltip_hostile_territory_sotek	This army will suffer losses due to [[img:icon_attrition]][[/img]]attrition while in Lizardmen territory when the Rite of Sotek is active.	false
+campaign_map_attritions_unit_card_tooltip_hostile_territory_sotek	The Lizardmen in this area have performed the Rite of Sotek - many warriors are losing their lives to this environment.	false
+campaign_map_attritions_unit_immunity_text_hostile_territory_sotek	Rite of Sotek (Lizardmen territory)	false
+campaign_map_attritions_campaign_map_tooltip_hostile_territory_quicksand	This army will suffer losses due to [[img:icon_attrition]][[/img]]attrition while in Tomb Kings territory due to recent events.	false
+campaign_map_attritions_unit_card_tooltip_hostile_territory_quicksand	Following a sudden rain, treacherous quicksand has erupted in this area - many warriors are being dragged down to an early grave beneath the desert.	false
+campaign_map_attritions_unit_immunity_text_hostile_territory_quicksand	Quicksand (Tomb Kings territory)	false

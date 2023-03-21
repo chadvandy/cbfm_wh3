@@ -1,0 +1,6 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_volkmar_attrition__data__					
+wh2_main_effect_region_enable_hostile_territory_attrition_volkmar	attrition.png	2	attrition.png	campaign	true
+wh2_main_effect_region_enable_hostile_territory_attrition_sotek	attrition.png	2	attrition.png	campaign	true
+wh2_main_effect_region_enable_hostile_territory_attrition_quicksand	attrition.png	2	attrition.png	campaign	true
+wh2_main_effect_region_enable_hostile_territory_attrition		0		campaign	true
