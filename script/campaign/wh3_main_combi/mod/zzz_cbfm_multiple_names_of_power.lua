@@ -107,7 +107,7 @@ local function names_of_power_fix_ai(faction_key)
 	local char_list = faction_obj:character_list()
 	
 	for _, char_obj in model_pairs(char_list) do
-		local char_name = common:get_localised_string(char_obj:get_forename()) .. " " .. common:get_localised_string(char_obj:get_surname())
+		local char_name = common.get_localised_string(char_obj:get_forename()) .. " " .. common.get_localised_string(char_obj:get_surname())
 		--ModLog("DUX: Now checking name of power traits for " .. char_name)
 		if char_obj:character_type_key() ~= "general" then
 			--ModLog("DUX: This character is not a general, skipping")
