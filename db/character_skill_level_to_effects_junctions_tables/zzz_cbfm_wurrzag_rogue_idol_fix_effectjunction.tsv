@@ -1,3 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_wurrzag_rogue_idol_fix_effectjunction				
-wh2_dlc15_skill_unique_grn_wurrzag_colossal_warpaint	wurrzag_phys_res_monsters	1	general_to_force_own_unseen	-20.0000
