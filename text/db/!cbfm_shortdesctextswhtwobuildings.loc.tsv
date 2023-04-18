@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_shortdesctextswhtwobuildings.loc		
+#Loc;1;text/db/!cbfm_shortdesctextswhtwobuildings.loc		
 building_short_description_texts_short_description_wh2_main_skv_resource_pastures_3	Larger factory farms are more than mere underground pastures - they provide food on an industrial scale.	true
 building_short_description_texts_short_description_wh2_main_special_tower_of_hoeth_1	The Loremasters of the High Elves take great pride in their vast scroll collections.	true
 building_short_description_texts_short_description_wh2_main_dwf_resource_medicine_4	The Guild of Alchemists guard their knowledge jealously, for that is what gives them their power.	true

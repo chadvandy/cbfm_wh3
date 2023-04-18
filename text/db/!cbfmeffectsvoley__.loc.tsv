@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfmeffectsvoley__.loc		
+#Loc;1;text/db/!cbfmeffectsvoley__.loc		
 effects_description_wh2_dlc11_effect_force_stat_ammunition_emp_artillery	Ammunition: %+n% for Mortar, Great Cannon, Helblaster Volley Gun, and Helstorm Rocket Battery units	false
 effects_description_wh2_dlc11_effect_force_stat_missile_damage_emp_artillery	Missile strength: %+n% for Mortar, Great Cannon, Helblaster Volley Gun, and Helstorm Rocket Battery units	false

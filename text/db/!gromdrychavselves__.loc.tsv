@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!gromdrychavselves__.loc		
+#Loc;1;text/db/!gromdrychavselves__.loc		
 effects_description_wh2_dlc15_effect_force_army_battle_enemy_unit_morale_xef		false
 effects_description_wh2_dlc15_effect_force_army_battle_enemy_unit_morale_xef2	Enemy leadership: %+n for Elven units	true

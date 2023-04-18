@@ -1,4 +1,4 @@
-building	effect	value	effect_scope	value_damaged	value_ruined	context_requirement
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
 #building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_hiddenscopes						
-wh2_dlc17_special_lost_underway_junction	wh_main_effect_province_growth_building	10.0000	faction_to_province_own	5.0000	0.0000	
-wh2_main_special_smithys_tavern	wh_main_effect_agent_recruitment_xp_all_agents	3.0000	faction_to_province_own	2.0000	0.0000	
+wh2_dlc17_special_lost_underway_junction	wh_main_effect_province_growth_building		faction_to_province_own	10.0000	5.0000	0.0000
+wh2_main_special_smithys_tavern	wh_main_effect_agent_recruitment_xp_all_agents		faction_to_province_own	3.0000	2.0000	0.0000

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_HV_redcrestedskinks.loc		
+#Loc;1;text/db/!cbfm_HV_redcrestedskinks.loc		
 effects_description_wh2_HV_lzd_armour_redcrested_skink_ark_of_sotek	Armour: %+n for Skink, Chameleon Skink, Red Crested Skink and Bastiladon (Ark of Sotek) units	true
 effects_description_wh2_HV_effect_force_redcrested_skink_ark_of_sotek_campaign_replenishment_rate	Casualty replenishment rate: %+n% for Skink, Chameleon Skink, Red Crested Skink and Bastiladon (Ark of Sotek) units	true
 effects_description_wh2_HV_lzd_morale_redcrested_skink_ark_of_sotek	Leadership: %+n for Skink, Chameleon Skink, Red Crested Skink and Bastiladon (Ark of Sotek) units	true

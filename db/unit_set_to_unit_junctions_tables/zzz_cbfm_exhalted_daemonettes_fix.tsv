@@ -1,6 +1,6 @@
-unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_exhalted_daemonettes_fix					
-wh3_dlc20_chs_slaanesh_daemon_units	wh3_main_sla_inf_daemonette_1				false
-wh3_dlc20_chs_daemon_units	wh3_main_sla_inf_daemonette_1				false
-wh3_dlc20_chs_slaanesh_daemon_units	wh3_twa06_sla_inf_daemonette_ror_0				false
-wh3_dlc20_chs_daemon_units	wh3_twa06_sla_inf_daemonette_ror_0				false
+			wh3_main_sla_inf_daemonette_1	wh3_dlc20_chs_slaanesh_daemon_units	false
+			wh3_main_sla_inf_daemonette_1	wh3_dlc20_chs_daemon_units	false
+			wh3_twa06_sla_inf_daemonette_ror_0	wh3_dlc20_chs_slaanesh_daemon_units	false
+			wh3_twa06_sla_inf_daemonette_ror_0	wh3_dlc20_chs_daemon_units	false

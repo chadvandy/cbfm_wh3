@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/!cbfm_skaventechtextfixes.loc		
+#Loc;1;text/db/!cbfm_skaventechtextfixes.loc		
 effects_description_wh2_main_effect_force_stat_ammunition_skv_infantry	Ammunition: %+n% for Missile Infantry and Skaven Weapon Team units	false
 effects_description_wh2_main_effect_force_stat_armour_skv_weaponteam	Armour: %+n for Skaven Weapon Team, Poison Wind Globadiers and Death Globe Bombardiers units	false
 effects_description_wh2_main_effect_force_stat_charge_bonus_add_skv_deathrunners	Charge bonus: %+n for Death Runners and Eshin Triads units	false
