@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_convoy_trait_fix					
+wh3_dlc23_effect_chd_lord_effect_speed_war_machines	battle_movement.png	451	battle_movement.png	battle	true
+wh3_dlc23_effect_chd_lord_effect_armour_war_machines	armour.png	451	armour.png	battle	true
