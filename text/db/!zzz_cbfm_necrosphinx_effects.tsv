@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!zzz_cbfm_necrosphinx_effects__.loc		
+effects_description_wh2_dlc09_effect_melee_attack_tmb_necrosphinx	Melee attack: %+n for Necrosphinx units	true
+effects_description_wh2_dlc09_effect_force_stat_melee_attack_warsphinx	Melee attack: %+n for Warsphinx units	true
