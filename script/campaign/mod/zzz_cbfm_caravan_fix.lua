@@ -16,22 +16,16 @@ local function zzz_fix_caravan_master_stealth()
 	core:add_listener(
 		"zzz_fix_caravan_master_stealth",
 		"CaravanRecruited",
-		true,
 		function(context)
-				local caravan = context:caravan();
-                local force_cqi = caravan:caravan_force():command_queue_index();
-                local commander = caravan:caravan_force():general_character()
-                local lord_cqi = commander:command_queue_index();
-                local lord_str = cm:char_lookup_str(lord_cqi);
-                local innate_skill = commander:background_skill()
-                if innate_skill == "wh3_main_skill_innate_cth_caravan_master_stealth" then
-                    cm:add_experience_to_units_commanded_by_character(lord_str, 3)
-                end
+			return context:caravan_master():character():background_skill() == "wh3_main_skill_innate_cth_caravan_master_stealth"
+		end,
+		function(context)
+			local lord_cqi = context:caravan_master():character():command_queue_index()
+			local lord_str = cm:char_lookup_str(lord_cqi)
+			cm:add_experience_to_units_commanded_by_character(lord_str, 3)
 		end,
 		true
 	)
 end
 
-cm:add_first_tick_callback(function() 
-                           zzz_fix_caravan_master_stealth() 
-                           end);
+cm:add_first_tick_callback(zzz_fix_caravan_master_stealth)
