@@ -28,7 +28,7 @@ core:add_listener(
     function()
         cm:real_callback(function()
             cbfm_lzd_coven_visibility()
-        end,200)
+        end,500)
     end,
     true
 )
