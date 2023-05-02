@@ -28,17 +28,6 @@ function dux_event_feed_fix_first_loop()
 	end
 end
 
---function dux_event_feed_fix_persistent_hud()
---	local hud_uic = find_uicomponent("hud_campaign")
---	if hud_uic and hud_uic:Visible() then
---		ModLog("DUX_EVENT_FEED_FIX: hud_uic is still visible after one game model second, beginning events loop")
---		cm:repeat_real_callback(dux_event_feed_fix_second_loop,250,"dux_event_feed_fix_second_loop")
---	else
---		ModLog("DUX_EVENT_FEED_FIX: hud_uic is no longer visible after one game model second, could be at post-battle screen or in a cutscene, waiting for hud_uic to come back before proceeding")
---		cm:repeat_real_callback(dux_event_feed_fix_first_loop,250,"dux_event_feed_fix_first_loop")
---	end
---end
-
 function dux_event_feed_fix_second_loop()
 	local events_uic = find_uicomponent("events")
 	local hud_uic = find_uicomponent("hud_campaign")
