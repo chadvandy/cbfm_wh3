@@ -1,0 +1,3 @@
+ability	default_amount	max_amount	inverse	intensity_source	intensity_type
+#special_ability_intensity_settings_tables;2;db/special_ability_intensity_settings_tables/zzz_cbfm_lord_of_torment					
+wh3_main_lord_passive_lord_of_torment	0.0000	8.0000	false	enemy_in_range_low_morale	linear_multiplier
