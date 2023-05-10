@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_feral_cold_ones					
+			wh2_main_lzd_cav_cold_ones_feral_0	lzd_beasts	false
+			wh2_main_lzd_cav_cold_ones_feral_0	lzd_coldones	false
+			wh2_main_lzd_cav_cold_ones_feral_0	lzd_terradon_ripperdactyl_coatl_coldones_rank7	false
+			wh2_main_lzd_cav_cold_ones_feral_0	wh2_def_lzd_cold_ones	false

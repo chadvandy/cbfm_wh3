@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_ror_unlock.loc		
+campaign_localised_strings_string_units_of_renown_tooltip_locked	[[col:red]]This unit will unlock after one of your [[img:icon_general]][[/img]]Lords or [[img:icon_hero]]Heroes[[/img]] reaches the required rank.[[/col]]	false

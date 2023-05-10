@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_orcandbiguns.loc		
+effects_description_wh2_dlc15_effect_army_grn_vanguard_deployment_boyz_big_uns	Attribute: Vanguard Deployment for all Orc Boyz and Big ‘Uns infantry and cavalry units	false
+effects_description_wh2_dlc15_effect_melee_defence_boyz_big_uns	Melee defence: %+n for all Orc Boyz and Big ‘Uns infantry and cavalry units	false
+effects_description_wh2_dlc15_effect_army_enable_ability_frenzy_boyz_big_uns	Passive ability: "Frenzy" for all Orc Boyz and Big ‘Uns infantry and cavalry units	false
+effects_description_wh2_dlc15_effect_movement_speed_boyz_big_uns	Speed: %+n% for all Orc Boyz and Big ‘Uns infantry and cavalry units	false
+effects_description_wh2_dlc15_effect_upkeep_reduction_boyz_big_uns	Upkeep: %+n% for all Orc Boyz and Big ‘Uns infantry and cavalry units	false

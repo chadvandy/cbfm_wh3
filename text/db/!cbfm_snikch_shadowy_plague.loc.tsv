@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_snikch_shadowy_plague.loc		
+rituals_description_wh2_dlc14_eshin_actions_sewer_pestilence	Snikch has all sorts of heinous weapons at his disposal, including a virulent, incurable contagion that can cripple a land’s population for an extended period.\\n\\n[[col:yellow]]Snikch's contagion limits recruitment, reduces [[img:icon_growth]][[/img]]growth and causes [[img:icon_attrition]][[/img]]attrition to local forces in a region.\\n\\n[[col:red]][[img:icon_turns]][[/img]]Snikch recovery time: 5 turns\\n[[img:icon_turns]][[/img]]Action cooldown time: 50 turns[[/col]]	false

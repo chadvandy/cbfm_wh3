@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_runes_forge.loc		
+mortuary_cult_categories_localised_button_description_wh2_dlc17_runes_banner	[[col:yellow]]Banner Runes[[/col]]||Banner and Engineering Runes can be equipped by [[img:icon_general]][[/img]]Lords and then assigned to their units in the Pre-Battle panel. Unlike other equipment, Banners and Engineering Runes can only be crafted once each but most will provide multiple Runes.	false
