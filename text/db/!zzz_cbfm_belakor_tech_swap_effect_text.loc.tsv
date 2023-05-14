@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!zzz_cbfm_belakor_tech_swap_effect_text.loc		
+effects_description_cbfm_effect_faction_merc_capacity_exalted_plaguebearers	Gifted Units pool capacity: %+n for Exalted Plaguebearers units	false
+effects_description_cbfm_effect_faction_merc_capacity_exalted_pink_horrors	Gifted Units pool capacity: %+n for Exalted Pink Horrors units	false
