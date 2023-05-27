@@ -1,5 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_monstercaravan_fix					
-			wh3_dlc23_chd_mon_great_taurus	cbfm_monsterconvoyunits	false
-			wh3_dlc23_chd_mon_bale_taurus	cbfm_monsterconvoyunits	false
-			wh3_dlc23_chd_mon_lammasu	cbfm_monsterconvoyunits	false
