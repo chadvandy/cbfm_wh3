@@ -1,4 +1,0 @@
-building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbf_khanlandmark						
-wh3_dlc23_special_the_volary_tomb_of_khengai_khan_grn	wh3_dlc23_effect_force_stat_ap_damage_vs_chaos_dwarfs		building_to_force_own_factionwide	5.0000	2.0000	0.0000
-wh3_dlc23_special_the_volary_tomb_of_khengai_khan_grn	wh_main_effect_tech_upkeep_cost_reduction_goblins		building_to_force_own_factionwide	-15.0000	-7.0000	0.0000
