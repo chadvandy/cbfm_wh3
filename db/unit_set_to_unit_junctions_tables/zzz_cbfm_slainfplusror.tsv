@@ -3,4 +3,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc20_chs_inf_chaos_marauders_msla	sla_marauders_hellstriders	false
 			wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges	sla_marauders_hellstriders	false
 			wh_pro04_chs_inf_chaos_warriors_ror_0	sla_infantry_rank7_ror	false
-			wh_pro04_chs_inf_chaos_warriors_ror_0	wh3_dlc20_sla_warriors	false
