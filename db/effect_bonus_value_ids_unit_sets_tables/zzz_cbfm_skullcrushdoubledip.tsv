@@ -1,0 +1,4 @@
+bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_skullcrushdoubledip		
+charge_add	skullcrushers_doubledip_charge	wh3_main_kho_cav_bloodcrushers_0
+melee_defence_mod	skullcrushers_doubledip_md	wh3_main_kho_cav_bloodcrushers_0
