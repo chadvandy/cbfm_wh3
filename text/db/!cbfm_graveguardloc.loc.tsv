@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_graveguardloc.loc		
+effects_description_wh2_dlc11_effect_force_stat_vigour_loss_reduction_skeletons_zombies	Vigour loss reduction for Zombies, Skeleton Warriors and Skeleton Spearmen and Grave Guard units	false
+effects_description_wh2_dlc11_effect_force_stat_leadership_skeletons_zombies	Leadership: %+n for Zombies, Skeleton Warriors, Skeleton Spearmen and Grave Guard units	false
