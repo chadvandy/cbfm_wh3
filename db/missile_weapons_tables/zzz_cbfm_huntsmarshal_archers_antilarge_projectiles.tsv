@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/zzz_cbfm_huntsmarshal_archers_antilarge_projectiles				
+cbfm_emp_bow_arrow_anti_large_archers	false	cbfm_emp_bow_arrow_anti_large	bow	false
+cbfm_emp_bow_arrow_anti_large_deathjacks	false	cbfm_emp_bow_arrow_anti_large_deathjacks	bow	false
