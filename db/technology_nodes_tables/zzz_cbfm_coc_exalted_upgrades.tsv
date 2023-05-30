@@ -1,0 +1,6 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/zzz_cbfm_coc_exalted_upgrades														
+cbfm_dlc20_chs_tze_start_exalted_fix		wh3_dlc20_chs_vilitch	6	wh3_main_chs_belakor_3	chs_mil_vilitch	0	100	0	0			0	0	0
+cbfm_dlc20_chs_kho_start_exalted_fix		wh3_dlc20_chs_valkia	6	wh3_main_chs_belakor_1	chs_mil_valkia	0	100	0	0			0	0	0
+cbfm_dlc20_chs_nur_start_exalted_fix		wh3_dlc20_chs_festus	6	wh3_main_chs_belakor_2	chs_mil_festus	0	100	0	0			0	0	0
+cbfm_dlc20_chs_sla_start_exalted_fix		wh3_dlc20_chs_azazel	6	wh3_main_chs_belakor_4	chs_mil_azazel	0	100	0	0			0	0	0
