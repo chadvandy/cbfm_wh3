@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_vigour.loc		
-effects_description_wh2_dlc11_effect_force_stat_vigour_loss_reduction_skeletons_zombies	Vigour loss reduction: %+n% for Zombies, Skeleton Warriors and Skeleton Spearmen units	false
-effects_description_wh_dlc08_effect_force_stat_vigour_loss_reduction_marauder_infantry	Vigour loss reduction: %+n% for Marauder Infantry units	false
-effects_description_wh_dlc08_effect_force_stat_vigour_loss_reduction_warhounds	Vigour loss reduction: %+n% for Warhound units	false
-effects_description_wh_main_effect_force_stat_vigour_loss_reduction_cavalry	Vigour loss reduction: %+n% for Cavalry units	false

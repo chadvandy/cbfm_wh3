@@ -1,5 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_locus_of_power.loc		
-unit_abilities_additional_ui_effects_localised_text_wh2_dlc17_locus_of_power_miscast_caster	[[col:green]][[img:icon_arrow_up]][[/img]] Causes [[img:icon_dmg_magical]][[/img]]magical damage[[/col]]	true
-unit_abilities_additional_ui_effects_localised_text_cbf_dlc17_locus_of_power_miscast_caster	[[col:green]][[img:icon_arrow_up]][[/img]] Enemy casters within range suffer minor miscast explosion when casting[[/col]]	true
-unit_abilities_additional_ui_effects_localised_text_cbf_dlc17_greater_locus_of_power_miscast_caster	[[col:green]][[img:icon_arrow_up]][[/img]] Enemy casters within range suffer major miscast explosion when casting[[/col]]	true

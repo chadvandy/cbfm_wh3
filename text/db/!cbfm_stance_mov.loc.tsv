@@ -1,5 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_stance_mov.loc		
-effects_description_wh_main_effect_force_campaign_stance_can_move_extra_stance_display	Campaign movement: [[b]]%+n[[/b]]	false
-effects_description_wh_main_effect_force_all_campaign_stance_ap_cost	[[col:yellow]]Campaign movement range penalty: %n[[/col]]	false
-effects_description_wh3_main_effect_stance_ap_percentage_increase	Campaign movement range: %+n	false
