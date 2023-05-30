@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_chaos_attrition.loc		
+effects_description_wh2_dlc11_effect_attrition_immunity_chaos	Immune to Chaos corruption and Chaos Wastes attrition	false
+effects_description_wh_main_effect_force_army_campaign_attrition_chaos_territory	Attrition: %+n% casualties suffered from Chaos corruption and Chaos Wastes attrition	false
