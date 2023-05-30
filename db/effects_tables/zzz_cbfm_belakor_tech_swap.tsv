@@ -1,0 +1,6 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_belakor_tech_swap					
+wh3_dlc20_effect_faction_merc_capacity_exalted_pink_horrors	merc_replen.png	0	merc_replen.png	campaign	true
+wh3_dlc20_effect_faction_merc_capacity_exalted_plaguebearers	merc_replen.png	0	merc_replen.png	campaign	true
+cbfm_effect_faction_merc_capacity_exalted_pink_horrors	merc_replen.png	11	merc_replen.png	campaign	true
+cbfm_effect_faction_merc_capacity_exalted_plaguebearers	merc_replen.png	11	merc_replen.png	campaign	true
