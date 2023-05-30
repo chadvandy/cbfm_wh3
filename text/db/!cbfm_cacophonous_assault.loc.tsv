@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_cacophonous_assault.loc		
+unit_attributes_removed_effect_text_charge_defense_vs_large	Removes [[img:ui/battle ui/ability_icons/charge_defense_vs_large.png]][[/img]] Charge Defence vs. Large	true
+unit_attributes_removed_effect_text_charge_defense	Removes [[img:ui/battle ui/ability_icons/charge_defense.png]][[/img]] Expert Charge Defence	true
