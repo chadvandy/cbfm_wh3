@@ -1,0 +1,22 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/zzz_cbfm_discovery_buildingcosts																						
+wh2_main_foreign_slot_discovery_brt_1	wh2_main_foreign_slot_discovery_brt	0	2	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_brt_2	wh2_main_foreign_slot_discovery_brt	1	4	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_cst_1	wh2_main_foreign_slot_discovery_cst	0	2	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_cst_2	wh2_main_foreign_slot_discovery_cst	1	4	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_dwf_1	wh2_main_foreign_slot_discovery_dwf	0	2	2500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_dwf_2	wh2_main_foreign_slot_discovery_dwf	1	4	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_emp_1	wh2_main_foreign_slot_discovery_emp	0	2	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_emp_2	wh2_main_foreign_slot_discovery_emp	1	4	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_grn_1	wh2_main_foreign_slot_discovery_grn	0	2	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_grn_2	wh2_main_foreign_slot_discovery_grn	1	4	1000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_nor_1	wh2_main_foreign_slot_discovery_nor	0	2	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_nor_2	wh2_main_foreign_slot_discovery_nor	1	4	1000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_tmb_1	wh2_main_foreign_slot_discovery_tmb	0	2	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_tmb_2	wh2_main_foreign_slot_discovery_tmb	1	4	1000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_vmp_1	wh2_main_foreign_slot_discovery_vmp	0	2	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_vmp_2	wh2_main_foreign_slot_discovery_vmp	1	4	1500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh2_main_foreign_slot_discovery_wef_1	wh2_main_foreign_slot_discovery_wef	0	2	2500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh2_main_foreign_slot_discovery_wef_2	wh2_main_foreign_slot_discovery_wef	1	3	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
+wh3_dlc20_foreign_slot_discovery_woc_1	wh3_dlc20_foreign_slot_discovery_woc	0	2	2500	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0
+wh3_dlc20_foreign_slot_discovery_woc_2	wh3_dlc20_foreign_slot_discovery_woc	1	4	2000	0		false	false		true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0
