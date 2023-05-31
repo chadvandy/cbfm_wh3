@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_vamp_channeling_stance					
+cbfm_effect_force_all_campaign_replenishment_rate_horde_enemy_territory	replenishment.png	101	replenishment.png	campaign	true
