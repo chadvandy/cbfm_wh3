@@ -1,0 +1,3 @@
+key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
+#melee_weapons_tables;25;db/melee_weapons_tables/zzz_cbfm_snot_nerf																			
+wh2_dlc15_grn_snotling_pump_wagon_spore_thrown	0	0	1	1	1.0000	sword	warpfiregun	small	3	1.0000	1.0000	0.0000	false		0	10	999.0000		false
