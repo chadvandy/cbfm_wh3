@@ -1,0 +1,4 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_intoxicating_scope			
+wh3_main_trait_dilemma_sla_intoxicating_presence	wh_main_effect_force_stat_leadership	character_to_force_own	6.0000
+wh3_main_trait_dilemma_sla_intoxicating_presence	wh_main_effect_force_stat_leadership	general_to_force_own	0.0000
