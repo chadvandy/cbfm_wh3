@@ -1,3 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_nurgle_starting_health					
-wh3_main_effect_force_nurgle_unit_starting_health_cbfm_missing	replenishment.png	200	replenishment.png	campaign	true
