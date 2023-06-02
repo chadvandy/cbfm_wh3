@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_bloodcrushers_doubledip					
+			wh3_main_kho_cav_bloodcrushers_0	kho_cavalry_chariots	true
+			wh3_twa07_kho_cav_bloodcrushers_ror_0	kho_cavalry_chariots	true
