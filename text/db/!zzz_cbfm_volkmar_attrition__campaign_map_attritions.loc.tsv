@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/!zzz_cbfm_volkmar_attrition__campaign_map_attritions__.loc		
+#Loc;1;text/db/!zzz_cbfm_volkmar_attrition__campaign_map_attritions.loc		
 campaign_map_attritions_campaign_map_tooltip_hostile_territory_volkmar	This army will suffer losses due to [[img:icon_attrition]][[/img]]attrition while in Cult of Sigmar territory when the Sixth Book of Nagash is sealed.	false
 campaign_map_attritions_unit_card_tooltip_hostile_territory_volkmar	The Cult of Sigmar has sealed the Sixth Book of Nagash - many warriors are suffering from magical attrition as a result of this ritual.	false
 campaign_map_attritions_unit_immunity_text_hostile_territory_volkmar	Sixth Book of Nagash sealed (Cult of Sigmar territory)	false

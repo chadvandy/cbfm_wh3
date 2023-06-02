@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/!zzz_cbfm_volkmar_attrition__effects__.loc		
+#Loc;1;text/db/!zzz_cbfm_volkmar_attrition__effects.loc		
 effects_description_wh2_main_effect_region_enable_hostile_territory_attrition_volkmar	Causes attrition to enemy armies within your territory	false
 effects_description_wh2_main_effect_region_enable_hostile_territory_attrition_sotek	Causes attrition to enemy armies within your territory	false
 effects_description_wh2_main_effect_region_enable_hostile_territory_attrition_quicksand	Causes attrition to enemy armies within your territory	false

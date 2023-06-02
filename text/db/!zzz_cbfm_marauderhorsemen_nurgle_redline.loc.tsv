@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/!zzz_cbfm_marauderhorsemen_nurgle_redline.loc	
+#Loc;1;text/db/!zzz_cbfm_marauderhorsemen_nurgle_redline.loc		
 effects_description_wh3_main_effect_force_stat_melee_defence_nur_plague_toads_pox_riders	Melee defence: %+n for Plague Toad, Marauder Horsemen of Nurgle, Knights of Nurgle, Chaos Chariots of Nurgle and Pox Rider units	false
 effects_description_wh3_main_effect_force_stat_charge_bonus_add_nur_plague_toads_pox_riders	Charge bonus: %+n for Plague Toad, Marauder Horsemen of Nurgle, Knights of Nurgle, Chaos Chariots of Nurgle and Pox Rider units	false
