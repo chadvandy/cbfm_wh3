@@ -323,13 +323,7 @@ local function init()
 				
 				if current_character:has_region() and current_character:region():name() == building_region then
 					if vow_agents[current_character:character_subtype_key()] then
-						local trait
-						if is_female(current_character) then
-							trait = "wh_dlc07_trait_brt_protection_troth_order_pledge_agent"
-						else
-							trait = "wh_dlc07_trait_brt_knights_vow_order_pledge_agent"
-						end
-						cm:force_add_trait(cm:char_lookup_str(current_character), trait, false)
+						add_vow_progress(current_character, "wh_dlc07_trait_brt_knights_vow_order_pledge_agent", false, false)
 					else
 						add_vow_progress(current_character, "wh_dlc07_trait_brt_knights_vow_order_pledge", false, false)
 					end
