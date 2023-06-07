@@ -1,0 +1,6 @@
+bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_azazel_defeat		
+melee_damage_ap_mod_mult	cbfm_azazel_trait_weapon_strength	characters
+melee_damage_mod_mult	cbfm_azazel_trait_weapon_strength	characters
+melee_damage_mod_mult	debuff_dwf	dwf_characters
+melee_damage_ap_mod_mult	debuff_dwf	dwf_characters

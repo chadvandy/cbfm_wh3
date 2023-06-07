@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_azazel_defeat					
+cbfm_azazel_trait_weapon_strength		0		battle	true
+debuff_dwf		0		battle	true
