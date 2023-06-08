@@ -1,5 +1,0 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_immortalitychorfLL										
-wh3_dlc23_skill_node_chd_zhatan_dummy		wh2_dlc09_skill_tmb_dummy_immortality	wh3_dlc23_skill_node_set_chd_zhatan		8.0000	0.0000		1	0	false
-wh3_dlc23_skill_node_chd_astragoth_dummy		wh2_dlc09_skill_tmb_dummy_immortality	wh3_dlc23_skill_node_set_chd_astragoth		8.0000	0.0000		1	0	false
-wh3_dlc23_skill_node_chd_drazhoath_dummy		wh2_dlc09_skill_tmb_dummy_immortality	wh3_dlc23_skill_node_set_chd_drazhoath		8.0000	0.0000		1	0	false
