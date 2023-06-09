@@ -1,5 +1,5 @@
 key	text	tooltip
 #Loc;1;text/db/!cbfm_grn_wood.loc		
-Upkeep: %+n% for Goblin melee infantry, bow infantry, Chariot and Pump Wagon units		true
-Recruitment cost: %+n% for Goblin melee infantry, archer infantry, Chariot and Pump Wagon units		true
-Recruit rank: %+n for Goblin melee infantry, bow infantry, Chariot and Pump Wagon units		true
+effects_description_wh2_main_effect_resource_upkeep_reduction_greenskin_spearmen_archers_chariots	Upkeep: %+n% for Goblin melee infantry, bow infantry, Chariot and Pump Wagon units	false
+effects_description_wh_main_effect_tech_recruitment_cost_reduction_greenskin_spearmen_archers_chariots	Recruitment cost: %+n% for Goblin melee infantry, archer infantry, Chariot and Pump Wagon units	false
+wh_main_effect_tech_unit_xp_levels_greenskin_spearmen_archers_chariots	Recruit rank: %+n for Goblin melee infantry, bow infantry, Chariot and Pump Wagon units	false
