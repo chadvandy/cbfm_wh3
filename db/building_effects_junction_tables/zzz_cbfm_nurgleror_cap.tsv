@@ -1,0 +1,10 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_nurgleror_cap						
+wh3_main_nur_settlement_major_1	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-50.0000	-50.0000	0.0000
+wh3_main_nur_settlement_major_2	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-50.0000	-50.0000	0.0000
+wh3_main_nur_settlement_major_3	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-50.0000	-50.0000	0.0000
+wh3_main_nur_settlement_major_4	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-50.0000	-50.0000	0.0000
+wh3_main_nur_settlement_major_5	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-50.0000	-50.0000	0.0000
+wh3_main_nur_settlement_minor_1	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-25.0000	-25.0000	0.0000
+wh3_main_nur_settlement_minor_2	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-25.0000	-25.0000	0.0000
+wh3_main_nur_settlement_minor_3	wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden		building_to_faction_own	-25.0000	-25.0000	0.0000
