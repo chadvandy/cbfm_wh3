@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_clanratswords.loc		
+ui_unit_groupings_onscreen_skv_infantry_sword	Sword Infantry	true
+ui_unit_groupings_tooltip_skv_infantry_sword	 	true
