@@ -1,6 +1,6 @@
 local tomb_kings_culture = "wh2_dlc09_tmb_tomb_kings"
 
-local function ai_caskets()
+local function zzz_cbfm_agemouk_ai_caskets()
 	-- Automatically on defined turn unlocks caskets for AI from the crafted RoR's
 	core:add_listener(
 		"turn_start_ai_workshop_crafted_AI",
@@ -25,5 +25,5 @@ local function ai_caskets()
 end
 
 cm:add_first_tick_callback(function()
-	cm:callback(ai_caskets, 2.5)
+	cm:callback(zzz_cbfm_agemouk_ai_caskets, 2.5)
 end);
