@@ -1,0 +1,8 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_chaos_ror_doubledip					
+zzz_cbfm_pinkhorRoR_debuff_armor		0		battle	true
+zzz_cbfm_pinkhorRoR_debuff_missres		0		battle	true
+zzz_cbfm_pinkhorRoR_debuff_reload		0		battle	true
+zzz_cbfm_chaos_ror_debuff_armor		0		battle	true
+zzz_cbfm_chaos_ror_debuff_md		0		battle	true
+zzz_cbfm_chaos_ror_debuff_magicres		0		battle	true
