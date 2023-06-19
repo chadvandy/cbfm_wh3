@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_chaos_ror_doubledip					
+			wh3_twa06_kho_inf_bloodletters_ror_0	zzz_cbfm_chaos_ror_debuff	false
+			wh3_twa06_nur_inf_plaguebearers_ror_0	zzz_cbfm_chaos_ror_debuff	false
+			wh3_twa06_sla_inf_daemonette_ror_0	zzz_cbfm_chaos_ror_debuff	false
