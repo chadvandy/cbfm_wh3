@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_nurgleror_cap					
+wh3_main_effect_increase_mercenary_pool_cap_nurgleror_hidden	military_spending.png	0	military_spending.png	campaign	true

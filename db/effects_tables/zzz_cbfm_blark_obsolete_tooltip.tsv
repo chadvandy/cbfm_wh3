@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_blark_obsolete_tooltip					
+wh_main_effect_force_navy_campaign_local_piracy	income.png	0	income.png	campaign	false

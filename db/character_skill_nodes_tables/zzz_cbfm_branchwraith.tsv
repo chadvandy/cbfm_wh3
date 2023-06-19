@@ -1,0 +1,5 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_branchwraith										
+wh_dlc05_skill_node_wef_branchwraith_life_innate_10	remove_innate	wh2_main_skill_innate_all_tough	wh_dlc05_skill_node_set_wef_branchwraith		6.0000	9.0000		0	0	false
+wh_dlc05_skill_node_wef_branchwraith_life_innate_11	remove_innate	wh2_main_skill_innate_all_knowledgeable	wh_dlc05_skill_node_set_wef_branchwraith		6.0000	10.0000		0	0	false
+wh_dlc05_skill_node_wef_branchwraith_life_innate_12	remove_innate	wh2_main_skill_innate_all_intelligent	wh_dlc05_skill_node_set_wef_branchwraith		6.0000	11.0000		0	0	false

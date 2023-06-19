@@ -1,0 +1,4 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/zzz_cbfm_talonofkurnous										
+wh_dlc05_skill_node_wef_glade_lord_fem_innate_28		wh_dlc05_skill_innate_wef_talon_of_kurnous	wh_dlc05_skill_node_set_wef_glade_lord_fem	wh_dlc03_bst_beastmen	6.0000	27.0000		0	0	false
+wh_dlc05_skill_node_wef_glade_lord_innate_28		wh_dlc05_skill_innate_wef_talon_of_kurnous	wh_dlc05_skill_node_set_wef_glade_lord	wh_dlc03_bst_beastmen	6.0000	27.0000		0	0	false

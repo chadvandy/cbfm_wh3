@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_massassin_konkonking					
+enable_looming_dread	general_ability.png	600	general_ability.png	battle	true
