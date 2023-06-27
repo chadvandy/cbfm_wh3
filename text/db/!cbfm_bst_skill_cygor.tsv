@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_bst_skill_cygor		
+effects_description_wh2_dlc11_effect_force_stat_ammunition_bst_ungor_raiders_centigors_throwing_axes	Ammunition: %+n% for Ungor Raiders, Centigors (Throwing Axes), and Cygor units	false
+effects_description_wh2_dlc11_effect_force_stat_speed_ungor_raiders_centigors_throwing_axes	Speed: %+n% for Ungor Raiders, Centigors (Throwing Axes), and Cygor units	false
