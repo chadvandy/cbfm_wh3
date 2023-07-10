@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_henri_tithetech					
+			wh2_dlc14_brt_cha_henri_le_massif_0	dlc07_brt_paladins	false
+			wh2_dlc14_brt_cha_henri_le_massif_3	dlc07_brt_paladins	false
+			wh2_dlc14_brt_cha_henri_le_massif_4	dlc07_brt_paladins	false
