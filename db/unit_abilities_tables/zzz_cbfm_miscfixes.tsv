@@ -1,5 +1,0 @@
-key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
-#unit_abilities_tables;17;db/unit_abilities_tables/zzz_cbfm_miscfixes											
-wh2_dlc16_item_passive_dragon_mask_i	false	wh2_dlc16_item_passive_dragon_mask_i		wh_type_area_of_hexes		wh_main_anc_group_common	false	false	passive		false
-wh2_dlc16_item_passive_dragon_mask_ii	false	wh2_dlc16_item_passive_dragon_mask_ii		wh_type_area_of_hexes		wh_main_anc_group_uncommon	false	false	passive		false
-wh2_dlc16_item_passive_dragon_mask_iii	false	wh2_dlc16_item_passive_dragon_mask_iii		wh_type_area_of_hexes		wh_main_anc_group_unique	false	false	passive		false
