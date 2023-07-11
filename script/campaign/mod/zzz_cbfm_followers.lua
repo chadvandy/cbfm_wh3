@@ -79,4 +79,4 @@ function load_cbfm_followers()
 	end;
 end;
 
-cm:add_first_tick_callback(function() load_cbfm_followers() end)
+cm:add_first_tick_callback(load_cbfm_followers)
