@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/zzz_cbfm_medusaehoeth						
 1051605587	wh2_main_special_tower_of_hoeth_1_def	wh2_dlc14_def_mon_bloodwrack_medusa_0	0	0		false
 1051605588	wh2_main_special_tower_of_hoeth_2_def	wh2_dlc14_def_mon_bloodwrack_medusa_0	0	0		false
