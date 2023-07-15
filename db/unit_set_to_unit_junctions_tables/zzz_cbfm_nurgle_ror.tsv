@@ -1,5 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_nurgleror					
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_nurgle_ror					
 			wh3_dlc20_chs_mon_giant_mnur_ror	wh3_main_kho_nur_all	false
 			wh3_main_nur_inf_forsaken_0_warriors	wh3_main_kho_nur_all	false
 			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_kho_nur_all	false
