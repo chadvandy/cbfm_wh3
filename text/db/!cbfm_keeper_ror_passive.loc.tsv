@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_keeper_ror_passive.loc		
+unit_abilities_onscreen_name_cbfm_main_lord_passive_feasting_on_fear_clone	Feasting on Fear	false
+unit_abilities_tooltip_text_cbfm_main_lord_passive_feasting_on_fear_clone	Others' fear is meat and drink to the Perfect Prince's Feasters of Pain.	false
