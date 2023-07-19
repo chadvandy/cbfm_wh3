@@ -6,7 +6,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_twa07_kho_cav_bloodcrushers_ror_0	wh3_dlc20_kho_daemons	false
 			wh3_twa07_kho_cav_bloodcrushers_ror_0	wh3_main_ie_all_khorne_units	false
 			wh3_twa07_kho_cav_bloodcrushers_ror_0	wh3_main_kho_all	false
-			wh3_dlc20_chs_inf_chaos_marauders_mkho	wh3_dlc20_kho_marauders_of_khorne_rank_7	false
 			wh_pro04_nor_inf_marauder_berserkers_ror_0	chs_marauders	false
 			wh_pro04_nor_inf_marauder_berserkers_ror_0	wh3_dlc20_chs_khorne_marked_units	false
 			wh_pro04_nor_inf_marauder_berserkers_ror_0	wh3_dlc20_chs_marauders_inf_only	false
