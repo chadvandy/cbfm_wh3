@@ -163,7 +163,7 @@ local ancillary_list = {
 			"wh3_dlc20_anc_enchanted_item_doom_totem",
 			"wh3_dlc20_anc_item_armour_of_damnation",
 			"wh3_dlc20_anc_item_crown_of_everlasting_conquest",
-			"wh3_dlc20_anc_enchanted_item_the_beguiling_gem",
+			"wh3_dlc20_anc_enchanted_item_the_beguiling_gem"
 			---moved wh3_dlc20_anc_item_the_festering_shroud to rare
 		},
 			
@@ -196,7 +196,7 @@ local ancillary_list = {
 			"wh3_main_anc_enchanted_item_the_portalglyph",
 			"wh3_main_anc_enchanted_item_bloodstone",
 			"wh3_main_anc_enchanted_item_deaths_head",
-			"wh3_main_anc_enchanted_item_enthralling_musk"
+			"wh3_main_anc_enchanted_item_enthralling_musk",
 			---moved shroud from uncommon
 			"wh3_dlc20_anc_item_the_festering_shroud",
 			---CD ancillaries
@@ -482,7 +482,7 @@ local ancillary_list = {
 			"wh3_main_anc_weapon_firestorm_blade",
 			"wh3_main_anc_weapon_torment_blade",
 			"wh3_main_anc_weapon_vorpal_shard",
-			"wh3_dlc20_anc_weapon_sword_of_change",
+			"wh3_dlc20_anc_weapon_sword_of_change"
 		},
 		
 		["rare"] = {
