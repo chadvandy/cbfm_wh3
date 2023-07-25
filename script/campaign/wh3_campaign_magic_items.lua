@@ -164,7 +164,7 @@ local ancillary_list = {
 			"wh3_dlc20_anc_item_armour_of_damnation",
 			"wh3_dlc20_anc_item_crown_of_everlasting_conquest",
 			"wh3_dlc20_anc_enchanted_item_the_beguiling_gem",
-			"wh3_dlc20_anc_item_the_festering_shroud"
+			---moved wh3_dlc20_anc_item_the_festering_shroud to rare
 		},
 			
 		["rare"] = {
@@ -196,7 +196,9 @@ local ancillary_list = {
 			"wh3_main_anc_enchanted_item_the_portalglyph",
 			"wh3_main_anc_enchanted_item_bloodstone",
 			"wh3_main_anc_enchanted_item_deaths_head",
-			"wh3_main_anc_enchanted_item_enthralling_musk",
+			"wh3_main_anc_enchanted_item_enthralling_musk"
+			---moved shroud from uncommon
+			"wh3_dlc20_anc_item_the_festering_shroud",
 			---CD ancillaries
 			"wh3_dlc23_anc_enchanted_item_daemon_flask_of_ashak",
 			"wh3_dlc23_anc_enchanted_item_furnace_blast_gem",
@@ -343,7 +345,7 @@ local ancillary_list = {
 			"wh_main_anc_talisman_dragonbane_gem",
 			"wh_main_anc_talisman_luckstone",
 			"wh_main_anc_talisman_pidgeon_plucker_pendant",
-			"wh2_main_anc_enchanted_item_talisman_of_loec",
+			---"wh2_main_anc_enchanted_item_talisman_of_loec" should only be in enchanted items
 			"wh_main_anc_talisman_seed_of_rebirth",
 			"wh2_main_anc_talisman_rival_hide_talisman",
 			"wh_main_anc_talisman_obsidian_trinket",
@@ -542,8 +544,8 @@ local ancillary_list = {
 			"wh3_main_anc_weapon_dawn_glaive",
 			"wh3_main_anc_weapon_hellblade",
 			"wh3_dlc20_anc_weapon_aether_sword",
-			"wh3_dlc20_anc_weapon_axe_of_khorne",
-			--CA did a typo here "wh3_dlc20_anc_weapon_rapier_of_ecstacy"
+			---"wh3_dlc20_anc_weapon_axe_of_khorne" removed since duplicate of "wh3_main_anc_weapon_axe_of_khorne" and not in db
+			---CA did a typo here "wh3_dlc20_anc_weapon_rapier_of_ecstacy"
 			"wh3_dlc20_anc_weapon_rapier_of_ecstasy",
 			---CD ancillaries
 			"wh3_dlc23_anc_weapon_dark_mace",
