@@ -52,7 +52,7 @@ local ancillary_list = {
 			"wh3_main_anc_armour_gut_maw",
 			"wh3_main_anc_armour_mastodon_armour",
 			"wh3_main_anc_armour_laminate_shield",
-			"wh3_dlc20_anc_armour_bronze_armour_of_zhrakk",
+			"wh3_dlc20_anc_armour_bronze_armour_of_zhrakk",
 			---CD ancillaries
 			"wh3_dlc23_anc_armour_armour_of_the_forge"
 		},
@@ -88,7 +88,7 @@ local ancillary_list = {
 			"wh3_main_anc_armour_fused_armour",
 			"wh3_main_anc_armour_null_plate",
 			"wh3_main_anc_armour_void_armour",
-			"wh3_main_anc_armour_weird_plate",
+			"wh3_main_anc_armour_weird_plate",
 			---CD ancillaries
 			"wh3_dlc23_anc_armour_armour_of_bazherak_the_cruel",
 			"wh3_dlc23_anc_armour_blackshard_armour"
@@ -198,7 +198,7 @@ local ancillary_list = {
 			"wh3_main_anc_enchanted_item_deaths_head",
 			"wh3_main_anc_enchanted_item_enthralling_musk",
 			---moved shroud from uncommon
-			"wh3_dlc20_anc_item_the_festering_shroud",
+			"wh3_dlc20_anc_item_the_festering_shroud",
 			---CD ancillaries
 			"wh3_dlc23_anc_enchanted_item_daemon_flask_of_ashak",
 			"wh3_dlc23_anc_enchanted_item_furnace_blast_gem",
@@ -329,7 +329,7 @@ local ancillary_list = {
 			"wh3_main_anc_magic_standard_standard_of_shang_yang",
 			"wh3_main_anc_magic_standard_revered_banner_of_the_ancestors",
 			"wh3_main_anc_magic_standard_bastion_standard",
-			"wh3_main_anc_magic_standard_flag_of_grand_cathay",
+			"wh3_main_anc_magic_standard_flag_of_grand_cathay",
 			----CD items added here. There are two other 100 uniqueness score banners above
 			"wh3_dlc23_anc_banner_chd_banner_of_the_khanate",
 			"wh3_dlc23_anc_banner_chd_eye_of_hashut",
@@ -411,7 +411,7 @@ local ancillary_list = {
 			"wh3_main_anc_talisman_tarnished_torque",
 			"wh3_main_anc_talisman_the_bloody_shackle",
 			"wh3_main_anc_talisman_vile_seed",
-			"wh3_main_anc_talisman_warp_mirror",
+			"wh3_main_anc_talisman_warp_mirror",
 			---CD ancillaries
 			"wh3_dlc23_anc_talisman_black_gem_of_gnar",
 			"wh3_dlc23_anc_talisman_talisman_of_obsidian",
@@ -625,7 +625,7 @@ local ancillary_list = {
 			"wh3_main_anc_arcane_item_rod_of_command",
 			"wh3_main_anc_arcane_item_sceptre_of_entropy",
 			"wh3_main_anc_arcane_item_void_pendulum",
-			"wh3_dlc20_anc_arcane_item_rod_of_torment",
+			"wh3_dlc20_anc_arcane_item_rod_of_torment",
 			---CD ancillaries
 			"wh3_dlc23_anc_arcane_item_dweomer_leach_orb",
 			"wh3_dlc23_anc_arcane_item_spell_wrought_sceptre",
