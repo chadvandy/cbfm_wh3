@@ -1,0 +1,3 @@
+agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/zzz_cbfm_ostermark_huntsmarshal		
+general	wh_main_emp_ostermark	wh2_dlc13_emp_cha_huntsmarshal
