@@ -1,0 +1,4 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_reddukeskills		
+wh_dlc05_skill_node_set_vmp_red_duke	wh_main_skill_node_vmp_red_duke_unique_06	false
+wh_dlc05_skill_node_set_vmp_red_duke	wh_main_skill_node_vmp_red_duke_unique_07	false
