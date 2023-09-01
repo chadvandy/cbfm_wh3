@@ -1,4 +1,0 @@
-trait_level	effect	effect_scope	value
-#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_azazel_defeat			
-wh3_dlc20_trait_defeated_azazel	cbfm_azazel_trait_weapon_strength	general_to_force_own_unseen	3.0000
-wh3_dlc20_trait_defeated_azazel	cbfm_azazel_trait_debuff_dwf	general_to_force_own_unseen	-3.0000
