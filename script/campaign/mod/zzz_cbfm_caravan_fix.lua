@@ -1,6 +1,3 @@
-caravans.region_to_incident.wh3_main_cth_cathay.wh3_main_combi_region_castle_drakenhof = "wh3_main_cth_caravan_completed_castle_drakenhof"
-caravans.region_to_incident.wh3_main_cth_cathay.wh3_main_chaos_region_castle_drakenhof = "wh3_main_cth_caravan_completed_castle_drakenhof"
-	
 caravans.traits_to_units.wh3_dlc23_skill_innate_chd_convoy_overseer_retired_daemonsmither = {
 		"wh3_dlc23_chd_cha_bull_centaur_taurruk",
 		"wh3_dlc23_chd_inf_chaos_dwarf_warriors",

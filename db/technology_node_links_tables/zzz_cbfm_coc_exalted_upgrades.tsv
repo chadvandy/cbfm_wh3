@@ -1,6 +1,0 @@
-child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	visible_in_ui
-#technology_node_links_tables;0;db/technology_node_links_tables/zzz_cbfm_coc_exalted_upgrades							
-cbfm_dlc20_chs_kho_start_exalted_fix	dlc20_chs_kho_start_0	0	3	1	0.0000	0.0000	false
-cbfm_dlc20_chs_nur_start_exalted_fix	dlc20_chs_nur_start_0	0	3	1	0.0000	0.0000	false
-cbfm_dlc20_chs_sla_start_exalted_fix	dlc20_chs_sla_start_0	0	3	1	0.0000	0.0000	false
-cbfm_dlc20_chs_tze_start_exalted_fix	dlc20_chs_tze_start_0	0	3	1	0.0000	0.0000	false
