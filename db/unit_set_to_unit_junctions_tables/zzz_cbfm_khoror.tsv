@@ -1,7 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_khoror					
 			wh3_dlc20_kho_cav_skullcrushers_mkho_ror	wh3_main_kho_cav_skullcrushers_0	false
-			wh3_dlc20_kho_cav_skullcrushers_mkho_ror	wh3_main_kho_chaos_warriors_skullcrushers	false
 			wh3_dlc20_kho_cav_skullcrushers_mkho_ror	wh3_main_kho_nur_all	false
 			wh3_twa07_kho_cav_bloodcrushers_ror_0	wh3_dlc20_kho_daemons	false
 			wh3_twa07_kho_cav_bloodcrushers_ror_0	wh3_main_ie_all_khorne_units	false
