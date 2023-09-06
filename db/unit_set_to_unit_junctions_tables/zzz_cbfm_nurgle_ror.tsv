@@ -4,7 +4,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_nur_inf_forsaken_0_warriors	wh3_main_kho_nur_all	false
 			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_kho_nur_all	false
 			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_nur_all	false
-			wh_pro04_chs_inf_forsaken_ror_0	nur_plaguebearers_forsaken_spawn	false
 			wh_pro04_chs_inf_forsaken_ror_0	nur_forsaken	false
 			wh_pro04_chs_inf_forsaken_ror_0	nur_forsaken_spawn	false
 			wh3_twa06_nur_inf_plaguebearers_ror_0	wh3_dlc20_nur_daemons	false

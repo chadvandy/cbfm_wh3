@@ -1,5 +1,4 @@
 building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
 #building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_recruit_building_fix						
-wh3_dlc23_special_uzkulak_ancient_inner_city_chd	wh3_dlc23_effect_enable_recruitment_chd_bull_centaur_taurruk		faction_to_province_own	1.0000	2.0000	0.0000
 wh3_dlc23_special_uzkulak_ancient_inner_city_chd	wh3_dlc23_effect_upkeep_chd_bull_centaurs		faction_to_force_own	-10.0000	1.0000	0.0000
 wh3_dlc23_special_flayed_rock_flayed_tower_chd	wh_main_effect_public_order_base		province_to_province_own_factionwide	1.0000	1.0000	0.0000

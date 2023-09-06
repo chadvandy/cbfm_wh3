@@ -1,3 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_belegar_hidden_upkeep					
-wh_main_effect_upkeep_increase_lords_hidden	military_spending.png	633	military_spending.png	campaign	false
