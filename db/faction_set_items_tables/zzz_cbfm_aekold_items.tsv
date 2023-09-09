@@ -1,0 +1,10 @@
+id	culture	faction	remove	set	subculture
+#faction_set_items_tables;1;db/faction_set_items_tables/zzz_cbfm_aekold_items					
+915956466		wh3_main_tze_oracles_of_tzeentch	false	cbfm_anc_set_aekold	
+2118902031		wh3_dlc24_tze_the_deceivers	false	cbfm_anc_set_aekold	
+327172125		wh3_dlc20_chs_vilitch	false	cbfm_anc_set_aekold	
+1793771800		wh3_main_dae_daemon_prince	false	cbfm_anc_set_aekold	
+1321795515		wh3_dlc20_chs_kholek	false	cbfm_anc_set_aekold	
+9174363		wh3_dlc20_chs_sigvald	false	cbfm_anc_set_aekold	
+302960615		wh_main_chs_chaos	false	cbfm_anc_set_aekold	
+1530983623		wh3_main_chs_shadow_legion	false	cbfm_anc_set_aekold	
