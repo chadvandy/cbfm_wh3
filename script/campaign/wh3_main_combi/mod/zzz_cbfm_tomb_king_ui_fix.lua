@@ -10,17 +10,14 @@ local function init()
 		local num = find_uicomponent(uic,"dy_num_books")
 		local children = {button,num}
 		
-		local function loop()
-			if button:Visible() then
-				for _, child in pairs(children) do
-					local x,y = child:Position()
-					child:MoveTo(x + 20,y)
-				end
-				cm:remove_real_callback("cbfm_tk_ui_fix_loop")
+		local function move_button()
+			for _, child in pairs(children) do
+				local x,y = child:Position()
+				child:MoveTo(x + 20,y)
 			end
 		end
 		
-		cm:repeat_real_callback(loop,50,"cbfm_tk_ui_fix_loop")
+		core:progress_on_loading_screen_dismissed(move_button)
 	end
 end
 
