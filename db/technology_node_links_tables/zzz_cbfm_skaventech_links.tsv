@@ -1,4 +1,0 @@
-child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	visible_in_ui
-#technology_node_links_tables;0;db/technology_node_links_tables/zzz_cbfm_skaventech_links							
-tech_skv_4_5	wh2_main_tech_skv_4_4	0	2	4	0.0000	0.0000	true
-tech_skv_4_6	tech_skv_4_5	0	2	4	0.0000	0.0000	true
