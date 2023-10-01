@@ -106,3 +106,18 @@ function trigger_gotrek_and_felix_cutscene(key, cqi, loc, kill, intervention)
 		true
 	)
 end
+
+-- this listener removes Gotrek's axe whenever he dies because Gotrek also gets a duplicate copy of his axe whenever he dies (CA missed a check)
+-- if CA ever fixes the above, this listener MUST be removed or else Gotrek will lose his weapon if killed in battle for the duration of his 30-turn residency
+core:add_listener(
+	"cbfm_gotrek_killed",
+	"CharacterConvalescedOrKilled",
+	function(context)
+		return context:character():character_subtype_key() == "wh2_pro08_neu_gotrek"
+	end,
+	function(context)
+		local faction = context:character():faction()
+		cm:force_remove_ancillary_from_faction(faction,"wh2_pro08_anc_weapon_gotrek_axe")
+	end,
+	true
+)
