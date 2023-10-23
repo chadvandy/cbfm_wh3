@@ -1,0 +1,3 @@
+member	context	faction
+#campaign_group_member_criteria_factions_tables;1;db/campaign_group_member_criteria_factions_tables/zzz_cbfm_norsca_enslave_invalidate_vanilla		
+wh_captive_option_enslave_chaos_wh_main_sc_nor_norsca	ACTOR	wh_main_emp_empire
