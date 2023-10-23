@@ -1,0 +1,3 @@
+building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/zzz_cbfm_boris_religion_build_mod			
+wh3_main_ksl_gold		cbfm_set_ksl_religion_without_temples	false
