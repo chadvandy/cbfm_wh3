@@ -8,43 +8,6 @@ local cbfm_followers = {
 				return context:character():won_battle()
 			end,
 		["chance"] = 6
-	},
-	-- Issue 1153
-	{
-		["follower"] = "wh_main_anc_follower_empire_road_warden",
-		["event"] = "CharacterCompletedBattle",
-		["condition"] =
-			function(context)
-				return context:character():won_battle() and context:pending_battle():ambush_battle()
-			end,
-		["chance"] = 25
-	},
-	{
-        ["follower"] = "wh2_main_anc_follower_hef_scout",
-		["event"] = "CharacterCompletedBattle",
-		["condition"] =
-			function(context)
-				return context:character():won_battle() and context:pending_battle():ambush_battle()
-			end,
-		["chance"] = 25
-	},
-	{
-        ["follower"] = "wh2_main_anc_follower_lzd_army_beast_hunter",
-		["event"] = "CharacterCompletedBattle",
-		["condition"] =
-			function(context)
-				return context:character():won_battle() and context:pending_battle():ambush_battle()
-			end,
-		["chance"] = 25
-	},
-	{
-        ["follower"] = "wh_main_anc_follower_undead_warlock",
-		["event"] = "CharacterCompletedBattle",
-		["condition"] =
-			function(context)
-				return context:character():won_battle() and context:pending_battle():ambush_battle()
-			end,
-		["chance"] = 25
 	}
 }
 
