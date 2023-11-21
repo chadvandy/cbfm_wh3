@@ -1,5 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_hiddenskills									
-wh3_main_skill_node_tze_kairos_unique_1		wh3_main_skill_tze_kairos_self_3		1	3		0	0	true
-wh3_dlc24_skill_node_cth_yuan_bo_top_line_2		wh3_dlc24_skill_cth_yuan_bo_top_1		0	21		0	0	true
-wh3_dlc24_skill_tze_changeling_top_1		wh3_dlc24_skill_tze_changeling_top_2		0	21		0	0	true
