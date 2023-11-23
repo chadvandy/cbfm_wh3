@@ -1,4 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_chosenrank7tze				
-wh3_main_skill_tze_lord_army_buff_3_4	chosentzedebuffLD	1	general_to_force_own_unseen	-6.0000
-wh3_main_skill_tze_lord_army_buff_3_4	chosentzedebuffMissres	1	general_to_force_own_unseen	-15.0000
