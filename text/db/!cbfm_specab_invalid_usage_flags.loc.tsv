@@ -1,4 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_specab_invalid_usage_flags.loc		
-special_ability_invalid_usage_flags_flag_description_friendly_battle_leader_killed_or_routed	The Lord has not been killed or routed	true
-special_ability_invalid_usage_flags_flag_description_friendly_battle_leader_not_killed_or_routed	A Lord has died or is routed	true
