@@ -1,3 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_channellerfix				
-wh2_dlc09_skill_innate_tmb_channeller	wh3_main_effect_winds_of_magic_pool_cap	1	character_to_force_own_unseen	6.0000
