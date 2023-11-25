@@ -1,4 +1,4 @@
 key	text	tooltip
 #Loc;1;text/db/!cbfm_blark_obsolete_tooltip_.loc		
-effects_description_wh2_main_effect_blark_soi_replenishment	Casualty replenishment rate: %+n% for any armies within the Black Ark's circle of influence	false
+effects_description_wh2_main_effect_blark_soi_replenishment	Casualty replenishment rate: %+n%	false
 effects_description_wh_main_effect_force_navy_campaign_local_piracy		false
