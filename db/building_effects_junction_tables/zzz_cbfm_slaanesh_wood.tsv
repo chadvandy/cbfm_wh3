@@ -1,0 +1,5 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_slaanesh_wood						
+wh3_main_sla_resource_wood_1	wh_main_effect_region_resource_timber_production		building_to_building_own	10.0000	5.0000	0.0000
+wh3_main_sla_resource_wood_2	wh_main_effect_region_resource_timber_production		building_to_building_own	20.0000	10.0000	0.0000
+wh3_main_sla_resource_wood_3	wh_main_effect_region_resource_timber_production		building_to_building_own	30.0000	15.0000	0.0000
