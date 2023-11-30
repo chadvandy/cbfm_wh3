@@ -5,7 +5,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_grn_inf_night_goblin_fanatics	grn_spear_infantry	false
 			wh_dlc06_grn_cav_deff_creepers_0	wh2_dlc15_grn_goblin_rider_squig_chariots	false
 			wh_dlc06_grn_cav_durkits_squigs_0	wh2_dlc15_grn_goblin_rider_squig_chariots	false
-			wh_dlc06_grn_cav_durkits_squigs_0	wh_dlc06_grn_cav_squig_hoppers	false
 			wh_dlc06_grn_art_hammer_of_gork_0	wh2_dlc15_grn_regular_goblins	false
 			wh_dlc06_grn_cav_mogrubbs_marauders_0	wh2_dlc15_grn_goblin_rider_squig_chariots	false
 			wh_dlc06_grn_cav_moon_howlers_0	wh2_dlc15_grn_goblin_rider_squig_chariots	false
