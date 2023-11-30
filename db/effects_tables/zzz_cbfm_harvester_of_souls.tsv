@@ -1,3 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_harvester_of_souls					
-wh3_main_effect_ability_disable_harvester_of_souls	general_ability.png	311	general_ability.png	battle	true
