@@ -1,8 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_nurgleror_caps					
-			wh3_dlc20_chs_mon_giant_mnur_ror	cbfm_nurgleror	false
-			wh3_twa06_nur_inf_plaguebearers_ror_0	cbfm_nurgleror	false
-			wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0	cbfm_nurgleror	false
-			wh3_twa08_nur_mon_great_unclean_one_0_ror	cbfm_nurgleror	false
-			wh3_twa10_nur_inf_nurglings_ror	cbfm_nurgleror	false
-			wh_pro04_chs_inf_forsaken_ror_0	cbfm_nurgleror	false
