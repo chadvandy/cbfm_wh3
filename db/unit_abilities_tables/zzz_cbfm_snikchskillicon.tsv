@@ -1,3 +1,0 @@
-key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
-#unit_abilities_tables;17;db/unit_abilities_tables/zzz_cbfm_snikchskillicon											
-wh2_dlc14_character_abilities_from_the_shadows	true	wh2_dlc14_spell_stealth_veil_of_shadows		wh_type_area_of_augments		wh_main_anc_group_common	true	false	active		false
