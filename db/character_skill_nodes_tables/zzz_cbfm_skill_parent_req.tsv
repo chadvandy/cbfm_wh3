@@ -1,4 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_skill_parent_req									
-wh2_dlc15_skill_node_hef_archmage_light_magic_4_0		wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit		2	10		0	4	true
-wh3_dlc20_chs_daemon_prince_tzeentch_magic_6		wh_main_skill_all_magic_metal_03_metalshifting		3	5		0	4	true
