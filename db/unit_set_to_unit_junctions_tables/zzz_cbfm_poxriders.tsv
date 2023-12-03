@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_poxriders					
+			wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0	chs_daemon_monsters_beasts	false
+			wh3_main_nur_cav_pox_riders_of_nurgle_0	chs_daemon_monsters_beasts	false
+			wh3_main_nur_cav_pox_riders_of_nurgle_0	chs_daemon_flying_rank7	false
