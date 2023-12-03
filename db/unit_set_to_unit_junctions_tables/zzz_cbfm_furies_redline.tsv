@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_furies_redline					
+			wh3_main_sla_inf_chaos_furies_0	chs_daemon_infantry_rank7	true
+			wh3_main_sla_inf_chaos_furies_0	chs_daemon_infantry	true
+			wh3_main_tze_inf_chaos_furies_0	chs_daemon_infantry_rank7	true
+			wh3_main_tze_inf_chaos_furies_0	chs_daemon_infantry	true
+			wh3_main_nur_inf_chaos_furies_0	chs_daemon_infantry_rank7	true
+			wh3_main_nur_inf_chaos_furies_0	chs_daemon_infantry	true
+			wh3_main_kho_inf_chaos_furies_0	chs_daemon_infantry_rank7	true
+			wh3_main_kho_inf_chaos_furies_0	chs_daemon_infantry	true
+			wh3_main_dae_inf_chaos_furies_0	chs_daemon_infantry_rank7	true
+			wh3_main_dae_inf_chaos_furies_0	chs_daemon_infantry	true
