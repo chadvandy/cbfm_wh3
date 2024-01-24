@@ -9,5 +9,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_twa06_tze_inf_pink_horrors_ror_0	chs_daemon_infantry	true
 			wh3_twa06_nur_inf_plaguebearers_ror_0	all_non_chs	true
 			wh3_twa06_sla_inf_daemonette_ror_0	all_non_chs	true
-			wh3_dlc24_bst_inf_tzaangors	all_non_chs	true
-			wh3_dlc24_bst_mon_incarnate_elemental_of_beasts	all_non_chs	true
