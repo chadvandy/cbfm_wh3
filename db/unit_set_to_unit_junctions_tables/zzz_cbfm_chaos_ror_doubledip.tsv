@@ -3,3 +3,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_twa06_kho_inf_bloodletters_ror_0	zzz_cbfm_chaos_ror_debuff	false
 			wh3_twa06_nur_inf_plaguebearers_ror_0	zzz_cbfm_chaos_ror_debuff	false
 			wh3_twa06_sla_inf_daemonette_ror_0	zzz_cbfm_chaos_ror_debuff	false
+			wh3_twa06_tze_inf_pink_horrors_ror_0	zzz_cbfm_chaos_ror_range_debuff	false
+			wh_pro04_chs_art_hellcannon_ror_0	zzz_cbfm_chaos_ror_range_debuff	false
