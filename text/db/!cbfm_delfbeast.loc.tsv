@@ -1,4 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_delfbeast.loc		
-effects_description_wh2_main_effect_building_unit_xp_levels_def_resource_animals	Recruit rank: %+n for Harpies, War Hydra, Kharibdyss, Black Dragon, Feral Manticore and Bloodwrack Medusae units	false
-effects_description_wh2_main_effect_tech_recruitment_cost_reduction_def_beasts	Recruitment cost: %+n% for Harpies, War Hydra, Kharibdyss, Black Dragon, Feral Manticore and Bloodwrack Medusae units	false
