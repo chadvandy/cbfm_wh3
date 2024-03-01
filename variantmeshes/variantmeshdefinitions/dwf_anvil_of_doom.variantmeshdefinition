@@ -1,0 +1,51 @@
+<VARIANT_MESH>
+	<SLOT name="throne" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_anvil_of_doom_01.wsmodel" />
+	</SLOT>
+	<SLOT name="man front left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_dwarf_front_left_01.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_dwarf_throne_of_power_LH</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="man front right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_dwarf_front_right_01.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_dwarf_throne_of_power_LH</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="man back left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_dwarf_back_left_01.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_dwarf_throne_of_power_LH</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="man back right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_dwarf_back_right_01.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_dwarf_throne_of_power_LH</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="rider" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_anvil_runelord_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_anvil_runelord_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/throne01/dwf_anvil_of_doom/dwf_anvil_runelord_03.wsmodel" />
+	</SLOT>
+	<SLOT name="front left shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_anvil_of_doom_shield_front_left_01.wsmodel" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="front right shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_anvil_of_doom_shield_front_right_01.wsmodel" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="back left shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_anvil_of_doom_shield_back_left_01.wsmodel" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="back right shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_anvil_of_doom_shield_back_right_01.wsmodel" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_vfx_5" />
+	<SLOT name="weapon_1" attach_point="be_prop_rider_4" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_runesmith_hammer_1h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_runesmith_hammer_1h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_runesmith_hammer_1h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
