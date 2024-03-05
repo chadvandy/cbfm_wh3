@@ -1,4 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_druzhina_regen_clone					
-wh3_dlc24_effect_ability_regeneration_hag_witches	general_ability.png	0	general_ability.png	battle	true
-cbfm_clone_effect_ability_regeneration_hag_witches	general_ability.png	311	general_ability.png	battle	true
