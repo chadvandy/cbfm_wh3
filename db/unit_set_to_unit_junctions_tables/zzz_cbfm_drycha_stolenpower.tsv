@@ -1,0 +1,10 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_drycha_stolenpower					
+			wh2_dlc16_wef_inf_malicious_dryads_0	drychas_trees	false
+			wh2_dlc16_wef_inf_dryads_ror_0	drychas_trees	false
+			wh_dlc05_wef_inf_dryads_0	drychas_trees	false
+			wh2_dlc16_wef_mon_malicious_treekin_0	drychas_trees	false
+			wh_dlc05_wef_mon_treekin_0	drychas_trees	false
+			wh_pro04_wef_mon_treekin_ror_0	drychas_trees	false
+			wh2_dlc16_wef_mon_malicious_treeman_0	drychas_trees	false
+			wh_dlc05_wef_mon_treeman_0	drychas_trees	false
