@@ -1,0 +1,7 @@
+key	building	unit	XP	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/zzz_cbfm_gaean_vale_glade_guard						
+2147447416	wh_dlc05_special_settlement_gaean_vale_1_wef	wh_dlc05_wef_inf_glade_guard_0	0	0		false
+2147447417	wh_dlc05_special_settlement_gaean_vale_2_wef	wh_dlc05_wef_inf_glade_guard_0	0	0		false
+2147447418	wh_dlc05_special_settlement_gaean_vale_3_wef	wh_dlc05_wef_inf_glade_guard_0	0	0		false
+2147447419	wh_dlc05_special_settlement_gaean_vale_4_wef	wh_dlc05_wef_inf_glade_guard_0	0	0		false
+2147447420	wh_dlc05_special_settlement_gaean_vale_5_wef	wh_dlc05_wef_inf_glade_guard_0	0	0		false
