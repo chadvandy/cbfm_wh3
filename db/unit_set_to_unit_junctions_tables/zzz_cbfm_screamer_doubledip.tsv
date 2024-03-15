@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_screamer_doubledip					
+			wh3_dlc24_tze_mon_screamers_ror	chs_daemon_infantry	true
+			wh3_main_tze_mon_screamers_0	chs_daemon_infantry	true
