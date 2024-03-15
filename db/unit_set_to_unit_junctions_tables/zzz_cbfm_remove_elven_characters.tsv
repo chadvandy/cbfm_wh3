@@ -1,0 +1,24 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_remove_elven_characters					
+			wh_dlc05_wef_cha_female_glade_lord_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_female_glade_lord_1	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_female_glade_lord_2	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_female_glade_lord_3	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_glade_lord_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_glade_lord_1	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_glade_lord_2	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_glade_lord_3	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_orion_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_beasts_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_beasts_1	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_beasts_2	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_beasts_3	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_life_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_life_1	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_life_2	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_life_3	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_shadows_0	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_shadows_1	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_shadows_2	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_spellsinger_shadows_3	wef_dlc05_wood_elf_elf_units	true
+			wh_dlc05_wef_cha_waystalker_0	wef_dlc05_wood_elf_elf_units	true
