@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_accursedhorrors.loc		
+effects_description_accursed_horrors_barrier_horrors	Barrier: %+n% for Blue Horrors of Tzeentch, Pink Horrors of Tzeentch and Exalted Pink Horrors of Tzeentch units	false
+effects_description_wh3_main_effect_force_stat_melee_attack_tze_furies_screamers_forsaken_spawn	Melee attack: %+n for Chaos Furies, Screamers of Tzeentch, Forsaken of Tzeentch, Tzaangors, Centigors of Tzeentch, Marauders of Tzeentch, Chaos Warriors of Tzeentch, Chosen of Tzeentch and Spawn of Tzeentch units	false
+effects_description_wh3_main_effect_force_stat_charge_bonus_tze_forsaken_spawn	Charge bonus: %+n for Chaos Furies, Screamers of Tzeentch, Forsaken of Tzeentch, Tzaangors, Centigors of Tzeentch, Marauders of Tzeentch, Chaos Warriors of Tzeentch, Chosen of Tzeentch and Spawn of Tzeentch units	false
+effects_description_wh3_main_effect_force_stat_speed_tze_furies_screamers	Speed: %+n% for Chaos Furies, Screamers of Tzeentch, Forsaken of Tzeentch, Tzaangors, Centigors of Tzeentch, Marauders of Tzeentch, Chaos Warriors of Tzeentch, Chosen of Tzeentch and Spawn of Tzeentch units	false
