@@ -1,0 +1,5 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_cockatrice					
+debuff_cockatrice_melee_attack		0		battle	true
+debuff_cockatrice_wardsave		0		battle	true
+debuff_cockatrice_leadership		0		battle	true
