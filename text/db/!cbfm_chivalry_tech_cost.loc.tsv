@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_chivalry_tech_cost.loc		
+ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_brt_chivalry	In order to research this technology, this amount of [[img:icon_chivalry]][[/img]]Chivalry will be deducted from your total.	false
