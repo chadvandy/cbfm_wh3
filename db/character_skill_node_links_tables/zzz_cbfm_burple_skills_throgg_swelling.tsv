@@ -1,0 +1,18 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/zzz_cbfm_burple_skills_throgg_swelling							
+wh3_main_ie_nor_burplesmirk_campaign_02	wh3_main_ie_nor_burplesmirk_campaign_01	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_03	wh3_main_ie_nor_burplesmirk_campaign_01	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_04	wh3_main_ie_nor_burplesmirk_campaign_01	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_05	wh3_main_ie_nor_burplesmirk_campaign_01	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_06	wh3_main_ie_nor_burplesmirk_campaign_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_06	wh3_main_ie_nor_burplesmirk_campaign_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_06	wh3_main_ie_nor_burplesmirk_campaign_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_06	wh3_main_ie_nor_burplesmirk_campaign_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_07	wh3_main_ie_nor_burplesmirk_campaign_06	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_08	wh3_main_ie_nor_burplesmirk_campaign_06	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_09	wh3_main_ie_nor_burplesmirk_campaign_06	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_10	wh3_main_ie_nor_burplesmirk_campaign_06	0	1	1	0.0000	0.0000	REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_11	wh3_main_ie_nor_burplesmirk_campaign_07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_11	wh3_main_ie_nor_burplesmirk_campaign_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_11	wh3_main_ie_nor_burplesmirk_campaign_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+wh3_main_ie_nor_burplesmirk_campaign_11	wh3_main_ie_nor_burplesmirk_campaign_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
