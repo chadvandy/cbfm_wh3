@@ -62,5 +62,4 @@ function waaagh:waaagh_ended_human(context)
 	cm:remove_scripted_composite_scene(comp_scene);
 
 	self.factions[faction_key].ritual_region_key = nil;
-	end
 end
