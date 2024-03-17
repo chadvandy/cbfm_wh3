@@ -58,3 +58,9 @@ function waaagh:waaagh_ended_human(context)
 		self.factions[faction_key].previous_reward_culture = nil;
 	end
 
+	local comp_scene = "waaagh_"..region_key;
+	cm:remove_scripted_composite_scene(comp_scene);
+
+	self.factions[faction_key].ritual_region_key = nil;
+	end
+end
