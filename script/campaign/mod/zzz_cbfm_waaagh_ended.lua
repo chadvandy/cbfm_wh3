@@ -20,6 +20,7 @@ function waaagh:waaagh_ended_human(context)
 
 	-- Switch active reward
 	if self.factions[faction_key].previous_reward_level then
+		-- CBFM fix: "_level" appended to "wh2_main_faction_boost_reward..." below so that this line actually works
 		cm:remove_effect_bundle("wh2_main_faction_boost_reward_level"..self.factions[faction_key].previous_reward_level.."_"..self.factions[faction_key].previous_reward_culture, faction_key)
 	end
 
