@@ -1,0 +1,3 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_magic_find_traits			
+wh2_dlc17_trait_unique_loracle	wh_main_effect_character_mod_ancillary_drop	agent_to_parent_army_general_own	15.0000
