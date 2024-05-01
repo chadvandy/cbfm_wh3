@@ -1,0 +1,15 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_toad_dragon_fix					
+			wh3_dlc25_nur_mon_toad_dragon	wh3_dlc25_tamurkhan_special	false
+			wh3_dlc25_nur_chieftain_mon_toad_dragon	nur_monsters_rank7	false
+			wh3_dlc25_nur_chieftain_mon_toad_dragon	nur_monsters	false
+			wh3_dlc25_nur_chieftain_mon_toad_dragon	nur_non_daemonic_all	false
+			wh3_dlc25_nur_chieftain_mon_toad_dragon	nur_non_daemonic_units	false
+			wh3_dlc25_nur_chieftain_mon_toad_dragon	wh3_main_nur_all	false
+			wh3_dlc25_nur_chieftain_cav_rot_knights	wh3_main_nur_all	false
+			wh3_dlc25_nur_chieftain_cav_rot_knights	nur_non_daemonic_all	false
+			wh3_dlc25_nur_chieftain_cav_rot_knights	nur_non_daemonic_units	false
+			wh3_dlc25_nur_chieftain_cav_chaos_chariot_mnur	nur_non_daemonic_units	false
+			wh3_dlc25_nur_chieftain_cav_chaos_chariot_mnur	nur_non_daemonic_all	false
+			wh3_dlc25_nur_chieftain_cav_chaos_chariot_mnur	wh3_main_nur_all	false
+			wh3_dlc20_chs_cav_chaos_chariot_mnur	wh3_main_nur_all	false
