@@ -1,0 +1,3 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_gunnery_upkeep						
+wh_main_special_nuln_gunnery_school	wh3_dlc25_effect_force_army_campaign_upkeep_base_artillery_guns		faction_to_force_own	-10.0000	-2.0000	0.0000
