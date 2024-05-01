@@ -1,0 +1,4 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_master_engineer_lordskills									
+wh3_dlc25_skill_node_emp_master_engineer_self_6		wh2_dlc11_skill_all_lord_self_hard_to_hit		3	6		0	0	true
+wh3_dlc25_skill_node_emp_master_engineer_self_7		wh2_dlc11_skill_cst_ranged_4_fem_admiral		3	7		0	0	true
