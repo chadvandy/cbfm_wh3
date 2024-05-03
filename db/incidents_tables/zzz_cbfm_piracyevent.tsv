@@ -1,3 +1,3 @@
-key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade
-#incidents_tables;6;db/incidents_tables/zzz_cbfm_piracyevent								
-wh_main_incident_all_piracy	false	blockaded	false	Setback		false		0.0000
+key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade	use_revealing_text
+#incidents_tables;7;db/incidents_tables/zzz_cbfm_piracyevent									
+wh_main_incident_all_piracy	false	blockaded	false	Setback		false		0.0000	false
