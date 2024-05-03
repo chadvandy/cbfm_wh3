@@ -6,4 +6,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_sla_cha_cultist_0	wh3_main_sla_all	false
 			wh3_main_sla_cha_cultist_1	slaanesh_characters	false
 			wh3_dlc20_nur_cha_cultist_mnur_warshrine	wh3_main_kho_nur_all	false
-			wh3_dlc20_nur_cha_cultist_mnur_warshrine	wh3_main_nur_cha_cultist	false
+			wh3_dlc20_nur_cha_cultist_mnur_warshrine	wh3_main_nur_cha_cultist_0	false
