@@ -1,0 +1,3 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_jade_unique		
+wh_dlc05_skill_node_set_jade_wizard	wh3_dlc25_skill_node_emp_hero_wizard_unique_03_light	true
