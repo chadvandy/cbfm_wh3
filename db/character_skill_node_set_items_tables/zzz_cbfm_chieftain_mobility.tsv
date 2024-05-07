@@ -1,0 +1,3 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_chieftain_mobility		
+wh3_dlc25_skill_node_set_nur_castellan_chieftain	wh3_dlc23_skill_node_chd_infernal_castellan_campaign_01	false
