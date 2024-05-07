@@ -20,3 +20,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc25_nur_chieftain_mon_skinwolves_0	wh3_dlc25_tamurkhan_special	false
 			wh3_dlc25_nur_chieftain_mon_war_mammoth_0	wh3_dlc25_tamurkhan_special	false
 			wh3_dlc25_nur_chieftain_mon_war_mammoth_1	wh3_dlc25_tamurkhan_special	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_forsaken_spawn	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_forsaken	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_non_daemonic_all	false
+			wh_main_chs_mon_chaos_warhounds_1	wh3_dlc25_tamurkhan_special	false
+			wh3_main_nur_inf_forsaken_0_warriors	nur_infantry_non_daemonic	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_infantry_non_daemonic	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_infantry_rank7_ror	false
+			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_nur_all	false
+			wh3_main_nur_cha_cultist_0	wh3_dlc25_tamurkhan_special	true
+			wh3_main_nur_cha_cultist_1	wh3_dlc25_tamurkhan_special	true
