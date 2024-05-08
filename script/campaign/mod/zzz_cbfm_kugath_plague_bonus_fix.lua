@@ -22,4 +22,4 @@ local function init()
 	)
 end
 
-cm:add_first_tick_callback(init)
+cm:add_post_first_tick_callback(init)
