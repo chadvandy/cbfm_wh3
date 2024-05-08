@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_admired_infantry					
+zzz_cbfm_emp_melee_defence		0		battle	true
