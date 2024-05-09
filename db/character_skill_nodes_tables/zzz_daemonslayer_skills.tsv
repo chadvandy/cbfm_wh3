@@ -1,3 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_daemonslayer_skills									
-wh3_dlc25_skill_node_dwf_daemon_slayer_self_04		zzz_cbfm_daemon_slayer_physres		3	3		0	0	true
