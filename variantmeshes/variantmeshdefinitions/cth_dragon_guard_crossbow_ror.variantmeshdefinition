@@ -1,0 +1,58 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_body_01.wsmodel" >
+			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_body_02.wsmodel" >
+			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_body_03.wsmodel" >
+			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_head_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh3_cth_human_male</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_head_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh3_cth_human_male</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_head_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh3_cth_human_female</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_celestial_guard/cth_celestial_guard_quai_yin_head_04.wsmodel" >
+			<META_DATA>audio_entity_type:wh3_cth_human_female</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="weapon_1" />
+	<SLOT name="weapon_2" attach_point="weapon_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_props/cth_celestial_guard_sword_1h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_props/cth_celestial_guard_sword_1h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_props/cth_celestial_guard_sword_1h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="weapon_3" >
+	</SLOT>
+	<SLOT name="weapon_4" attach_point="weapon_4" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_props/cth_celestial_guard_crossbow_2h_01_rigid.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="weapon_5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/cth/cth_props/cth_celestial_guard_crossbow_bolt_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_6" attach_point="weapon_6" />
+	<SLOT name="stump_neck" attach_point="spine_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/dlc02_blood_pack/dlc02_stump_neck_large_hu1e.wsmodel" >
+			<META_DATA>is_stump</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_right_arm" attach_point="clav_right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/dlc02_blood_pack/dlc02_stump_right_arm_large_hu1e.wsmodel" >
+			<META_DATA>is_stump</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_left_arm" attach_point="clav_left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/dlc02_blood_pack/dlc02_stump_left_arm_large_hu1e.wsmodel" >
+			<META_DATA>is_stump</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_waist" attach_point="root" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/dlc02_blood_pack/dlc02_stump_waist_large_hu1e.wsmodel" >
+			<META_DATA>is_stump</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_severed_head" attach_point="head_0" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1e/dlc02_blood_pack/dlc02_stump_head_large_hu1e.wsmodel" >
+			<META_DATA>is_stump</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
