@@ -1,0 +1,13 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_boris_fix									
+wh_dlc03_skill_node_boris_general_self_01		wh_main_skill_all_all_self_hard_to_hit_starter		3	0		0	0	true
+wh_dlc03_skill_node_boris_general_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge		3	1		0	0	true
+wh_dlc03_skill_node_boris_general_self_03		wh2_dlc11_skill_all_lord_self_full_plate_armour		3	2		0	0	true
+wh_dlc03_skill_node_boris_general_self_04		wh2_dlc11_skill_all_lord_self_scarred_veteran		3	3		0	0	true
+wh_dlc03_skill_node_boris_general_self_05		wh2_dlc11_skill_all_lord_self_deadly_blade		3	4		0	0	true
+wh_dlc03_skill_node_boris_general_self_06		wh_main_skill_all_all_self_foe-seeker		3	5		0	4	true
+wh_dlc03_skill_node_boris_general_self_07		wh2_dlc11_skill_all_lord_self_wound-maker		3	6		0	0	true
+wh_dlc03_skill_node_boris_general_self_08		wh2_dlc11_skill_all_lord_self_blade_master		3	7		0	0	true
+wh_dlc03_skill_node_boris_general_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable		3	8		0	0	true
+wh_dlc03_skill_node_boris_general_self_10		wh2_dlc11_skill_all_lord_self_blade_shield		3	9		0	0	true
+wh_dlc03_skill_node_boris_general_self_11		wh_main_skill_all_all_self_deadly_onslaught		3	10		0	4	true
