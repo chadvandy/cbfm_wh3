@@ -192,3 +192,287 @@ function campaign_manager:faction_has_dlc_or_is_ai(dlc_key, faction_key)
 		return self:is_dlc_flag_enabled(dlc_key, faction_key)
 	end;
 end;
+
+-- why
+function nurgle_plagues:plague_listeners()
+
+	-- add ap when plague cultist spawns
+	core:add_listener(
+		"Plagues_CultistCreated",
+		"CharacterCreated",
+		function(context)
+			return context:character():character_subtype("wh3_main_nur_cultist_plague_ritual")
+		end,
+		function(context)
+			local character = cm:char_lookup_str(context:character():cqi())
+			cm:callback(function() cm:replenish_action_points(character) end, 0.2)
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_AchievementListener",
+		"FactionTurnStart",
+		function(context)
+			local faction = context:faction()
+			return faction:is_contained_in_faction_set(self.nurgle_plague_faction_set) and faction:is_human()	
+		end,
+		function(context)
+			local all_unlocked = true
+			-- CBFM: "faction" has to be defined, turns out
+			local faction = context:faction()
+			-- end CBFM
+			local component_list = faction:plagues():plague_component_list()	
+			--loop through all components to see if any are locked
+			for i = 0, component_list:num_items() -1 do
+				local symptom = component_list:item_at(i)
+				if not symptom:has_state("UNLOCKED") and not string.find(symptom:key(), "mutation") then
+					--not all symptoms unlocked yet
+					all_unlocked = false
+					break
+				end
+			end
+			if all_unlocked then
+				core:trigger_event("ScriptEvent_AllPlagueComponentsUnlocked", context)
+			end
+		end,
+		true
+	)
+
+	--remove blessed state on any symptoms spawned with a plague cultist
+	core:add_listener(
+		"Plagues_CultistCreated",
+		"AgentPlagueDataCreatedEvent",
+		function(context)
+			return context:agent():character():character_subtype("wh3_main_nur_cultist_plague_ritual")
+		end,
+		function(context)
+			local plague_components = context:agent():character():try_get_agent_plague_components()
+			self:remove_blessed_symptom(plague_components)
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_PlagueCreationCounter",
+		"RitualStartedEvent",
+		function(context)			
+			return context:performing_faction():is_human() and string.find(context:ritual():ritual_key(), "wh3_main_ritual_nur_plague_") 
+		end,
+		function(context)
+			local faction = context:performing_faction()
+			local pfi = self.plague_faction_info	
+			local faction_info = pfi[faction:name()]
+
+			faction_info.plague_creation_counter = faction_info.plague_creation_counter - 1
+
+			if faction_info.plague_creation_counter <= 0 then
+				--adding a callback as RitualStartedEvent triggers before MilitaryForceInfectionEvent or RegionInfectionEvent 
+				--this results in blessed symptoms not being granted if its part of the final Plague before reset positions and blessed symptoms		
+				cm:callback(function() self:randomise_symptom_location(faction) end, 0.5)
+			end
+
+			common.set_context_value("random_plague_creation_count_" .. faction:name(), faction_info.plague_creation_counter)
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_TrackFactionTurnStart",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():name() == self.epidemius_faction
+		end,
+		function (context)
+			self:count_plagues_on_non_nurgle_targets()	
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_AdditionalMaxBlessedCharacterRankUp",
+		"CharacterRankUp",
+		function(context)
+			local character = context:character()
+			return character:character_subtype(self.kugath_subtype_key) and character:rank() % 10 == 0 and character:faction():name() == self.kugath_faction
+		end,
+		function (context)
+			local pfi = self.plague_faction_info	
+			local faction_info = pfi[self.kugath_faction]
+			faction_info.max_blessed_symptoms = faction_info.max_blessed_symptoms + 1
+		end,
+		true
+	)
+
+
+	core:add_listener(
+		"Plagues_TrackBlessedSymptom_Region",
+		"RegionInfectionEvent",
+		function(context)
+			return context:faction():is_human()
+		end,
+		function(context)
+			--check that the plague has just been created and wasnt spread by an agent
+			if context:is_creation() and context:spreading_agent() ~= nil then 
+				self:remove_blessed_symptom(context:plague():plague_components())	
+			else
+				core:trigger_custom_event("ScriptEventPlagueSpreading", {faction = context:faction()})
+			end	
+			if context:plague():creator_faction():name() == self.epidemius_faction then
+				self:count_plagues_on_non_nurgle_targets()	
+			end			
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_TrackBlessedSymptom_Force",
+		"MilitaryForceInfectionEvent",
+		function(context)
+			return context:faction():is_human()
+		end,
+		function(context)
+			--check that the plague has just been created and wasnt spread by an agent
+			if context:is_creation() and context:spreading_agent() ~= nil then 
+				self:remove_blessed_symptom(context:plague():plague_components())	
+			else
+				core:trigger_custom_event("ScriptEventPlagueSpreading", {faction = context:faction()})
+			end
+			if context:plague():creator_faction():name() == self.epidemius_faction then
+				self:count_plagues_on_non_nurgle_targets()	
+			end
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_TrackBattleCompleted",
+		"BattleCompleted",
+		function()
+			return cm:model():pending_battle():has_been_fought() and cm:pending_battle_cache_human_is_involved()
+		end,
+		function (context)
+			self:count_plagues_on_non_nurgle_targets()	
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_AdditionalMaxBlessedTech",
+		"ResearchCompleted",
+		function(context)
+			local technology = context:technology()
+			local faction = context:faction()
+
+			if faction:is_contained_in_faction_set(self.nurgle_plague_faction_set) then	
+				return faction:is_human() and technology == self.blessed_tech
+			end
+			return false
+		end,
+		function(context)
+			local faction = context:faction()
+			local pfi = self.plague_faction_info	
+			local faction_info = pfi[faction:name()]
+			faction_info.max_blessed_symptoms = faction_info.max_blessed_symptoms + 1
+
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_PooledResourceChanged",
+		"PooledResourceChanged",
+		function(context)
+			local faction = context:faction()
+			if not faction:is_null_interface() then
+				if faction:is_contained_in_faction_set(self.nurgle_plague_faction_set) and faction:is_human() then	
+					local pbu = self.plague_button_unlock	
+					local unlock_info = pbu[faction:name()]
+					
+					return unlock_info.button_locked
+				end
+			end
+			return false
+		end,
+		function(context)
+			local faction = context:faction()
+			local pbu = self.plague_button_unlock	
+			local unlock_info = pbu[faction:name()]
+
+			local pr_changed = context:resource():key()
+			local pr = faction:pooled_resource_manager():resource(self.pr_key)
+
+			if pr_changed == self.pr_key then
+				local amount_changed = context:amount()
+				if amount_changed > 0 then
+					unlock_info.infections_gained = unlock_info.infections_gained + amount_changed
+				end
+			end
+			if unlock_info.infections_gained >= self.pr_required_to_unlock then
+				self:unlock_plagues_button(faction, unlock_info)				
+			end
+			common.set_context_value("unlock_plague_button_" .. faction:name(), unlock_info.infections_gained)
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_PooledResourceFactionTurnStart",
+		"FactionTurnStart",
+		function(context)
+			local faction = context:faction()
+			if not faction:is_null_interface() then
+				if faction:is_contained_in_faction_set(self.nurgle_plague_faction_set) and faction:is_human() then	
+					local pbu = self.plague_button_unlock	
+					local unlock_info = pbu[faction:name()]
+					
+					return unlock_info.button_locked
+				end
+			end
+			return false
+		end,
+		function(context)
+			local faction = context:faction()
+			local pbu = self.plague_button_unlock	
+			local unlock_info = pbu[faction:name()]
+
+			local pr_value = faction:pooled_resource_manager():resource(self.pr_key):value()
+			
+			if pr_value > unlock_info.infections_end_of_last_turn then
+				local amount = pr_value - unlock_info.infections_end_of_last_turn
+				unlock_info.infections_gained = unlock_info.infections_gained + amount
+			end			
+			if unlock_info.infections_gained >= self.pr_required_to_unlock then
+				self:unlock_plagues_button(faction, unlock_info)				
+			end
+			common.set_context_value("unlock_plague_button_" .. faction:name(), unlock_info.infections_gained)
+		end,
+		true
+	)
+
+	core:add_listener(
+		"Plagues_PooledResourceFactionTurnEnd",
+		"FactionTurnEnd",
+		function(context)
+			local faction = context:faction()
+			if not faction:is_null_interface() then
+				if faction:is_contained_in_faction_set(self.nurgle_plague_faction_set) and faction:is_human() then	
+					local pbu = self.plague_button_unlock	
+					local unlock_info = pbu[faction:name()]
+					
+					return unlock_info.button_locked
+				end
+			end
+			return false
+		end,
+		function(context)
+			local faction = context:faction()
+			local pbu = self.plague_button_unlock	
+			local unlock_info = pbu[faction:name()]
+
+			unlock_info.infections_end_of_last_turn = faction:pooled_resource_manager():resource(self.pr_key):value()
+		end,
+		true
+	)
+
+end
