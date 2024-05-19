@@ -1,0 +1,10 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_daemonslayer_skills									
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge		3	1		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_03		wh2_dlc11_skill_all_lord_self_hard_to_hit		3	2		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_05		wh2_dlc11_skill_all_lord_self_deadly_blade		3	4		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_07		wh2_dlc11_skill_all_lord_self_wound-maker		3	6		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_08		wh2_dlc11_skill_all_lord_self_scarred_veteran		3	7		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_10		wh2_dlc11_skill_all_lord_self_blade_shield		3	9		0	0	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_11		wh3_dlc24_skill_all_all_self_colossal_strike		3	10		0	4	true
+wh3_dlc25_skill_node_dwf_daemon_slayer_self_04		zzz_cbfm_daemon_slayer_physres		3	3		0	0	true

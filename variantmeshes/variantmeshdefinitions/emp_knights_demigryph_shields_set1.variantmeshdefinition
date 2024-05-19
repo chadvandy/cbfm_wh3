@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="shield">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_props\emp_demigryph_knights_shield_01.wsmodel">
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:metal</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_props\emp_demigryph_knights_shield_02.rigid_model_v2">
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:metal</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_props\emp_demigryph_knights_shield_03.rigid_model_v2">
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:metal</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

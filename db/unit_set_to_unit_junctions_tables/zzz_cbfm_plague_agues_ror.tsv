@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_plague_agues_ror					
+			wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0	nur_flying_monstrous_infantry_warhounds_plague_toads_rank7_ror	false
+			wh3_dlc25_nur_cav_plague_drones_1_ror	nur_flying_monstrous_infantry_warhounds_plague_toads_rank7_ror	false
