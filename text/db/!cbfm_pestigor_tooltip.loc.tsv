@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_pestigor_tooltip.loc		
+mercenary_unit_groups_replenishment_reason_wh3_dlc25_nur_inf_pestigors_warriors_faction_pool	\\nThis unit is most likely to be found in provinces with high Nurgle corruption.\\n\\n{{tr:chs_province_recruitment}}	false

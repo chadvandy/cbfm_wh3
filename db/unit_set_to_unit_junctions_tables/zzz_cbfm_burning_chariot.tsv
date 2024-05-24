@@ -1,7 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_burning_chariot					
-			wh3_dlc24_tze_mon_flamers_changebringers	zzz_cbfm_flamers_chariot	false
-			wh3_main_pro_tze_mon_flamers_0	zzz_cbfm_flamers_chariot	false
-			wh3_main_tze_mon_exalted_flamers_0	zzz_cbfm_flamers_chariot	false
-			wh3_main_tze_mon_flamers_0	zzz_cbfm_flamers_chariot	false
-			wh3_main_tze_veh_burning_chariot_0	zzz_cbfm_flamers_chariot	false
