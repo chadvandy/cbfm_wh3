@@ -1,0 +1,3 @@
+key	event	max_attenuation	obstruction_size	use_reverb	group_sound	only_trigger_once_per_volley	sphere_of_influence
+#audio_explosions_tables;6;db/audio_explosions_tables/zzz_cbfm_grudge_thrower_settler_sound_fix							
+wh3_dlc_grudge_thrower_rock_split	Battle_Individual_Projectile_Rock_Split_Impact	500.0000	0.0000	true		false	large_explosion_short

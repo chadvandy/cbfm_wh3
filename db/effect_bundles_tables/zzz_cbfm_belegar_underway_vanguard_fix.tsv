@@ -1,0 +1,3 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/zzz_cbfm_belegar_underway_vanguard_fix								
+bugfix_bundle_stance_army_tunnelling_belegar	Uses the shallowest Underway tunnels to traverse short distances beneath the world.	Stance: {{tr:ui_text_replacements_localised_text_tunnelling_stance}}	force	1	subterranean.png	true	false	true
