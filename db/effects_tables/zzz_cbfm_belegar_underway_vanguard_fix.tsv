@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_belegar_underway_vanguard_fix					
+bugfix_effect_attribute_vanguard_deploy_during_subterranean_hidden	attribute_guerrilla_deploy.png	0	attribute_guerrilla_deploy.png	battle	true
+bugfix_effect_attribute_vanguard_deploy_during_subterranean_siege_hidden	attribute_guerrilla_deploy.png	0	attribute_guerrilla_deploy.png	battle	true
