@@ -1,4 +1,4 @@
 building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
 #building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_diktatcost_fix						
-wh2_main_def_slaves_1	wh3_main_pooled_resource_def_slaves_buildings_used_mod		building_to_province_own	-5.0000	3.0000	0.0000
-wh2_main_def_slaves_2	wh3_main_pooled_resource_def_slaves_buildings_used_mod		building_to_province_own	-10.0000	5.0000	0.0000
+wh2_main_def_slaves_1	wh3_main_pooled_resource_slave_action_cost_mod		building_to_province_own	-5.0000	3.0000	0.0000
+wh2_main_def_slaves_2	wh3_main_pooled_resource_slave_action_cost_mod		building_to_province_own	-10.0000	5.0000	0.0000
