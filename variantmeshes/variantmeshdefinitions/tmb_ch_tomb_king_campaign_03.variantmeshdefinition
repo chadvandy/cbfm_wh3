@@ -14,7 +14,7 @@
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
 	<SLOT name="weapon_4" attach_point="be_prop_4" />
 	<SLOT name="weapon_5" attach_point="be_prop_5" />
-	<SLOT name="head" >
+	<SLOT name="head" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_king/head/tmb_tomb_king_head_03.wsmodel" />
 	</SLOT>
 </VARIANT_MESH>
