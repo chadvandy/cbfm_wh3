@@ -1,4 +1,3 @@
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
 #unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_pestigors_woc				
-cbfm_pestigors	false	-1	-1	
 cbfm_pestigorsrank7	false	7	9	
