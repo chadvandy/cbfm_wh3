@@ -1,4 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_puppet_tyrant					
-wh3_dlc25_effect_force_stat_melee_attack_plague_ogre	melee.png	451	melee.png	battle	true
-wh3_dlc25_effect_force_stat_melee_defence_plague_ogre	defence.png	432	defence.png	battle	true
