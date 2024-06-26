@@ -1,3 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_best_of_empire				
-wh_dlc08_skill_emp_lord_unique_karl_0	zzz_cbfm_best_of_empire	1	general_to_force_own	2.0000
