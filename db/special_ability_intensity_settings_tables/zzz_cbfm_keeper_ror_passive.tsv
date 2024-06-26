@@ -1,3 +1,0 @@
-ability	default_amount	max_amount	intensity_source	intensity_type	intensity_decay_delay	intensity_decay_duration	reset_intensity_in_reinforcement_pool
-#special_ability_intensity_settings_tables;3;db/special_ability_intensity_settings_tables/zzz_cbfm_keeper_ror_passive							
-cbfm_main_lord_passive_feasting_on_fear_clone	0.0000	5.0000	enemy_in_range_low_morale	linear_multiplier	-1.0000	0.0000	false
