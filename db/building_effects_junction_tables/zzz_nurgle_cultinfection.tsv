@@ -1,3 +1,0 @@
-building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_nurgle_cultinfection						
-wh3_main_nur_cult_3	wh3_main_effect_building_nur_infections	IsGeneralPresentInProvince	foreign_building_to_faction_own_unseen	10.0000	5.0000	0.0000
