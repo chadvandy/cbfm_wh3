@@ -1,5 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_itzl_double_dip					
-debuff_cold_horned_ones_charge		0		battle	true
-debuff_cold_horned_ones_melee_attack		0		battle	true
-debuff_cold_horned_ones_weapon_strength		0		battle	true

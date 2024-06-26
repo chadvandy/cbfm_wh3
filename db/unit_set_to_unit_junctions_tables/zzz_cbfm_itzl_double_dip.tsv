@@ -1,9 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_itzl_double_dip					
-			wh2_dlc12_lzd_cav_cold_one_spearriders_ror_0	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_cold_one_spearmen_1	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_cold_one_spearriders_blessed_0	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_cold_ones_1	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_horned_ones_0	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_horned_ones_0_nakai	cbfm_cold_horned_ones	false
-			wh2_main_lzd_cav_horned_ones_blessed_0	cbfm_cold_horned_ones	false
