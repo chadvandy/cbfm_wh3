@@ -1,5 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/!cbfm_rank7creatures.loc		
-effects_description_wh3_main_effect_force_stat_melee_defence_ksl_bears_leopards_tsar_guard_rank7	Melee defence: %+n for War Bear Riders, Elemental Bears, Snow Leopard, Spider, Fell Bats, Feral Bears, Tzar Guard, Things in the Woods, Frost Wyrm and Incarnate Elemental of Beasts units {{tr:rank7}}	false
-effects_description_wh3_main_effect_force_stat_magic_resistance_ksl_bears_leopards_tsar_guard_rank7	Spell resistance: %n% for War Bear Riders, Elemental Bears, Snow Leopard, Spider, Fell Bats, Feral Bears, Tzar Guard, Things in the Woods, Frost Wyrm and Incarnate Elemental of Beasts units {{tr:rank7}}	false
-effects_description_wh3_main_effect_force_stat_armour_ksl_bears_leopards_tsar_guard_rank7	Armour: %+n for War Bear Riders, Elemental Bear, Snow Leopard, Spider, Fell Bats, Feral Bears, Tzar Guard units, Things in the Woods, Frost Wyrm and Incarnate Elemental of Beasts {{tr:rank7}}	false
