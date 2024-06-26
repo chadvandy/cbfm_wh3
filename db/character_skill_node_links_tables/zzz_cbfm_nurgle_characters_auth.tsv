@@ -1,4 +1,0 @@
-child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
-#character_skill_node_links_tables;3;db/character_skill_node_links_tables/zzz_cbfm_nurgle_characters_auth							
-wh3_dlc25_skill_node_chs_lord_mnur_special_6	wh3_dlc25_skill_node_chs_lord_mnur_special_5	0	1	1	0.0000	0.0000	REQUIRED
-wh3_dlc25_skill_node_chs_lord_mnur_special_5	wh3_dlc25_skill_node_chs_lord_mnur_special_4	0	0	0	0.0000	0.0000	REQUIRED
