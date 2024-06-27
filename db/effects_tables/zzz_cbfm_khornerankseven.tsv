@@ -1,5 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_khornerankseven					
-zzz_cbfm_khorne_debuff_ls		0		battle	true
-zzz_cbfm_khorne_debuff_ma		0		battle	true
-zzz_cbfm_khorne_debuff_spellres		0		battle	true
