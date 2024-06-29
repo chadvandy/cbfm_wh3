@@ -1,0 +1,3 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_overlapping_skills		
+wh3_dlc25_skill_node_set_nur_bray_shaman_wild_chieftain	wh_dlc03_skill_node_bst_bray_shaman_wild_unique_01	true
