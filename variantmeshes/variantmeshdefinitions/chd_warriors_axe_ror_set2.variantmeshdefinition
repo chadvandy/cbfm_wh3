@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="axe" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/chd/chd_props/chd_infernal_guard_granite_pick_axe_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/chd/chd_props/chd_infernal_guard_granite_pick_axe_2h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/chd/chd_props/chd_infernal_guard_granite_pick_axe_2h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

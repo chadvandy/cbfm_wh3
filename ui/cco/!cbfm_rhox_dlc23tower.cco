@@ -1,0 +1,6 @@
+
+CcoRitualCategoryRecord
+{
+	DistrictCompletionEffectBundleContext { DatabaseRecordContext("CcoEffectBundle", Format("wh3_dlc23_chd_toz_%s_reward", Id.ToLowerUnlocalised )) }
+}
+
