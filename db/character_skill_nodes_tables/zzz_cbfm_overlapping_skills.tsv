@@ -1,0 +1,9 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_overlapping_skills									
+wh2_dlc13_skill_node_emp_hunter_hertwig_unique_02		wh2_dlc13_skill_emp_hertwig_unique_sigmars_will		0	5		0	0	true
+wh2_dlc13_skill_node_emp_hunter_hertwig_unique_05		wh_main_skill_emp_all_unique_sigmars_ward		0	6		0	0	true
+wh2_dlc13_skill_node_emp_hunter_hertwig_unique_06		wh3_dlc25_skill_emp_all_unique_mark_of_hysh		0	4		0	0	true
+wh2_main_skill_node_emp_witch_hunter_immortality		wh2_main_skill_all_immortality_hero		0	7		0	0	true
+wh3_dlc25_skill_node_chs_lord_mnur_immortality		wh2_main_skill_all_immortality_lord		0	8		0	0	true
+wh3_dlc25_skill_node_nur_bray_shaman_wild_chieftain_mount_razorgor_chariot		wh3_dlc25_skill_nur_cha_bray_shaman_wild_chieftain_razorgor_chariot		0	1		0	0	true
+wh3_dlc25_skill_node_nur_bray_shaman_wild_chieftain_mount_tuskgor_chariot		wh3_dlc25_skill_nur_cha_bray_shaman_wild_chieftain_tuskgor_chariot		0	0		0	0	true
