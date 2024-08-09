@@ -1,3 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/zzz_cbfm_feasting_on_fear_doubled					
-cbfm_wh3_main_effect_ability_enable_feasting_on_fear_lord_only	general_ability.png	310	general_ability.png	battle	true
