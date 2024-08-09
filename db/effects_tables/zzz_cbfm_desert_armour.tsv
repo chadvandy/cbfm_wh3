@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_desert_armour					
+cbfm_wh3_main_effect_force_stat_armour_cth_zhao_ming	armour.png	0	armour.png	battle	true
