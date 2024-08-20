@@ -4,7 +4,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_nur_inf_forsaken_0_warriors	wh3_main_kho_nur_all	false
 			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_kho_nur_all	false
 			wh_pro04_chs_inf_forsaken_ror_0	wh3_main_nur_all	false
-			wh3_twa06_nur_inf_plaguebearers_ror_0	wh3_dlc20_nur_daemons	false
-			wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0	wh3_dlc20_nur_daemons	false
+			wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0	wh3_dlc20_chs_nurgle_daemon_units	false
 			wh3_twa06_sla_inf_daemonette_ror_0	wh3_dlc20_sla_daemons	false
 			wh3_twa07_sla_cav_heartseekers_of_slaanesh_ror_0	wh3_dlc20_sla_daemons	false
