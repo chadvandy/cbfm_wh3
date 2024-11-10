@@ -1,0 +1,64 @@
+<material>
+  <name>brt_grail_knights_legs_01_weighted2_alpha_off.xml</name>
+ <shader>shaders/weighted2_random_colours.xml.shader</shader>
+  <sort_override>255</sort_override>
+  <textures>
+    <texture>
+      <slot version="2">t_xml_base_colour</slot>
+      <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_grail_knights/tex/brt_grail_knights_legs_01_base_colour.dds</source>
+    </texture>
+  <texture>
+   <slot version="2">t_xml_blood_map</slot>
+   <source>commontextures/bloodmap.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_colour_map</slot>
+   <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_props/tex/brt_shield_array_colours_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_colour_map_2</slot>
+   <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_props/tex/brt_shield_array_colours_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_mask1</slot>
+   <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_knights_errant/tex/brt_knights_errant_legs_01_mask.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_knights_errant/tex/brt_knights_errant_legs_01_material_map.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>VariantMeshes/wh_variantmodels/hu1/brt/brt_knights_errant/tex/brt_knights_errant_legs_01_normal.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_04f1f22e_9d71_47c0_aecb_53af881152a9</slot>
+   <source>commontextures/winds_of_magic_noise.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_3823e90f_b449_4b54_a2f4_7d089df57d7b</slot>
+   <source>commontextures/winds_of_magic_specular.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>blood_uv_scale</name>
+   <type>float2</type>
+   <value>1,1</value>
+  </param>
+  <param>
+   <name>num_columns</name>
+   <type>float</type>
+   <value>16</value>
+  </param>
+  <param>
+   <name>receives_blood</name>
+   <type>float</type>
+   <value>1</value>
+  </param>
+ </params>
+</material>
