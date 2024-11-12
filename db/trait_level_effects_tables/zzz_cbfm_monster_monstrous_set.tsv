@@ -1,4 +1,0 @@
-trait_level	effect	effect_scope	value
-#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_monster_monstrous_set			
-wh2_twa03_trait_defeated_rakarth	wh2_twa03_effect_leadership_all_monsters	character_to_force_own_unseen	0.0000
-wh2_twa03_trait_defeated_rakarth	wh2_twa03_effect_leadership_monsters_monstrous_cbfm	character_to_force_enemy_provincewide	-5.0000
