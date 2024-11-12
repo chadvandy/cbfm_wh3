@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_itzl_prize_hunter					
+			wh2_dlc12_lzd_cav_ripperdactyl_riders_0	lzd_beasts	false
+			wh2_dlc12_lzd_cav_ripperdactyl_riders_ror_0	lzd_beasts	false
+			wh2_dlc12_lzd_mon_ancient_salamander_0	lzd_beasts	false
+			wh2_dlc12_lzd_mon_salamander_pack_0	lzd_beasts	false
+			wh2_dlc12_lzd_mon_salamander_pack_ror_0	lzd_beasts	false
+			wh2_dlc13_lzd_mon_razordon_pack_0	lzd_beasts	false
+			wh2_dlc13_lzd_mon_razordon_pack_ror_0	lzd_beasts	false
