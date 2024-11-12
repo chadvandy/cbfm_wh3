@@ -1,0 +1,3 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_weightwatcher_fear			
+wh2_dlc15_trait_defeated_grom	wh2_main_effect_attribute_enable_causes_fear_vs_grn	character_to_force_own_unseen	1.0000
