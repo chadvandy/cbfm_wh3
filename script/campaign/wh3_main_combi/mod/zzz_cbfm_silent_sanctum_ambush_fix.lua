@@ -1,5 +1,6 @@
 local m_regions_with_sanctums = {}
 local m_region_to_lord_list = {}
+local m_oxyotl_faction_key = "wh2_dlc17_lzd_oxyotl"
 
 -- CBFM: This function is really the only thing being changed. Everything else is copied just to get around local variable issues
 -- Fix by Photon:
@@ -124,7 +125,7 @@ local function init()
 		"oxy_sanctum_ambush",
 		"FactionAboutToEndTurn",
 		function(context)
-			local oxyotl_faction = cm:get_faction("wh2_dlc17_lzd_oxyotl")
+			local oxyotl_faction = cm:get_faction(m_oxyotl_faction_key)
 			-- war with Oxyotl?
 			return context:faction():at_war_with(oxyotl_faction)
 		end,
