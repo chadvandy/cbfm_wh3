@@ -1,4 +1,0 @@
-key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
-#unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_empire_rankseven				
-emp_knights_demigryph_7	true	7	9	
-emp_melee_infantry_7	true	7	9	
