@@ -1,0 +1,4 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_isa_carstein_loremaster									
+wh_pro02_skill_node_vmp_isabella_von_carstein_hero_unique_04		wh_main_skill_vmp_lord_unique_loremaster_lore_of_vampires		0	3		0	0	true
+wh_pro02_skill_node_vmp_isabella_von_castein_unique_04		wh_main_skill_vmp_lord_unique_loremaster_lore_of_vampires		0	3		0	0	true
