@@ -1,0 +1,4 @@
+technology	effect	effect_scope	value
+#technology_effects_junction_tables;0;db/technology_effects_junction_tables/zzz_cbfm_rage_within_debuff			
+wh3_main_tech_kho_1_7	cbfm_debuff_monstrousinf_MA	faction_to_force_own_unseen	-6.0000
+wh3_main_tech_kho_1_7	cbfm_debuff_monstrousinf_LS	faction_to_force_own_unseen	-6.0000

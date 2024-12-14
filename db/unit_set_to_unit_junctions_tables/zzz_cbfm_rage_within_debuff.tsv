@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_rage_within_debuff					
+			wh3_main_kho_inf_chaos_furies_0	cbfm_debuff_ragewithin	false
+			wh3_main_kho_mon_khornataurs_0	cbfm_debuff_ragewithin	false
+			wh3_main_kho_mon_spawn_of_khorne_0	cbfm_debuff_ragewithin	false
+			wh3_dlc26_kho_mon_bloodbeast_of_khorne	cbfm_debuff_ragewithin	false
+			wh3_dlc26_kho_mon_slaughterbrute	cbfm_debuff_ragewithin	false
+			wh3_main_kho_mon_khornataurs_1	cbfm_debuff_ragewithin	false

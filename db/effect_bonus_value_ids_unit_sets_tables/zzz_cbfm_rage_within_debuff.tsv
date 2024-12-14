@@ -1,0 +1,4 @@
+bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_rage_within_debuff		
+melee_attack_mod	cbfm_debuff_monstrousinf_MA	cbfm_debuff_ragewithin
+morale	cbfm_debuff_monstrousinf_LS	cbfm_debuff_ragewithin
