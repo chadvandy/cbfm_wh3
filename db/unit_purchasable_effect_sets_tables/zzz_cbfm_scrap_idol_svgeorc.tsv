@@ -1,0 +1,3 @@
+unit	purchasable_effect	is_exclusive
+#unit_purchasable_effect_sets_tables;0;db/unit_purchasable_effect_sets_tables/zzz_cbfm_scrap_idol_svgeorc		
+wh_main_grn_inf_savage_orcs	wh2_dlc15_grn_upgrade_idol_of_gork	false
