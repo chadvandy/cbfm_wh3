@@ -1,0 +1,4 @@
+key	unit_ability	unit_set
+#unit_set_unit_ability_junctions_tables;0;db/unit_set_unit_ability_junctions_tables/zzz_cbfm_cutdachainz_rageremove		
+feral_rage_1_feral_wyvern	wh3_dlc24_unit_passive_feral_rage_i	grn_waaagh_wyvern
+feral_rage_2_feral_wyvern	wh3_dlc24_unit_passive_feral_rage_ii	grn_waaagh_wyvern
