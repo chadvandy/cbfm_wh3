@@ -1,4 +1,0 @@
-ability	land_unit
-#land_units_to_unit_abilites_junctions_tables;0;db/land_units_to_unit_abilites_junctions_tables/zzz_cbfm_removewounds_gyrobombers	
-remove_wounds	wh_main_dwf_veh_gyrobomber
-remove_wounds	wh_dlc06_dwf_veh_skyhammer_0
