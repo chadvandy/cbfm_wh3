@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_boarchariots					
-			wh_main_grn_cav_orc_boar_chariot	cbfm_boar_chariot_buffs	false
-			wh_main_grn_cav_orc_boar_chariot	wh2_dlc15_grn_all_boyz_and_big_uns	false
