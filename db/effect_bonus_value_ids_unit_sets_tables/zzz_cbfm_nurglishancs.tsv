@@ -1,4 +1,3 @@
 bonus_value_id	effect	unit_set
 #effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_nurglishancs		
 cost_mod	wh3_main_effect_recruitment_cost_nur_plaguebearer	nur_plaguebearers
-unit_xp_mod	wh3_main_effect_force_recruit_rank_nur_plaguebearer	nur_plaguebearers
