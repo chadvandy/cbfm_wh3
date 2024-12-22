@@ -1,0 +1,3 @@
+key	display_model	impact	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood	mirroring_start	mirroring_trail	scale
+#projectile_displays_tables;12;db/projectile_displays_tables/zzz_cbfm_aow_grn_bolt_throwa_bolt																		
+wh3_dlc26_grn_bolt_throwa_bolt	projectiles/grn_bolt_throwa_arrow_01.wsmodel	wh_main_impact_medium		wh_main_weapon_trail_arrow_medium				0.0000	false		wh3_main_arrow_bounce	wh_main_entity_impact				wh3_main_yin_missile_mirror_impact_medium	wh3_main_spell_yin_missile_mirror_trail_medium	1.0000
