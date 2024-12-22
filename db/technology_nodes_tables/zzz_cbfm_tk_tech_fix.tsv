@@ -1,0 +1,33 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/zzz_cbfm_tk_tech_fix														
+wh2_dlc09_tech_tmb_faction_target_1			8	wh2_dlc09_tech_tmb_faction_target_1	tmb_mil	0	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_faction_target_2			8	wh2_dlc09_tech_tmb_faction_target_2	tmb_mil	2	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_faction_target_3			8	wh2_dlc09_tech_tmb_faction_target_3	tmb_mil	4	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_faction_target_4			8	wh2_dlc09_tech_tmb_faction_target_4	tmb_mil	6	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_faction_target_5			8	wh2_dlc09_tech_tmb_faction_target_5	tmb_mil	8	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_faction_target_6			8	wh2_dlc09_tech_tmb_faction_target_6	tmb_mil	10	25	5000	0			0	0	0
+wh2_dlc09_tech_tmb_liche_priest_2			3	wh2_dlc09_tech_tmb_liche_priest_2	tmb_mil	3	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_liche_priest_3			2	wh2_dlc09_tech_tmb_liche_priest_3	tmb_mil	5	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_liche_priest_4			2	wh2_dlc09_tech_tmb_liche_priest_4	tmb_mil	7	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_liche_priest_6			3	wh2_dlc09_tech_tmb_liche_priest_6	tmb_mil	11	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_necrotect_1			2	wh2_dlc09_tech_tmb_necrotect_1	tmb_mil	1	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_necrotect_3			3	wh2_dlc09_tech_tmb_necrotect_3	tmb_mil	5	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_necrotect_5			3	wh2_dlc09_tech_tmb_necrotect_5	tmb_mil	9	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_necrotect_6			2	wh2_dlc09_tech_tmb_necrotect_6	tmb_mil	11	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_1			3	wh2_dlc09_tech_tmb_tomb_prince_1	tmb_mil	1	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_2			2	wh2_dlc09_tech_tmb_tomb_prince_2	tmb_mil	3	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_4			3	wh2_dlc09_tech_tmb_tomb_prince_4	tmb_mil	7	25	1000	0			0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_5			2	wh2_dlc09_tech_tmb_tomb_prince_5	tmb_mil	9	25	2500	0			0	0	0
+wh2_dlc09_tech_tmb_liche_priest_1			1	wh2_dlc09_tech_tmb_liche_priest_1	tmb_mil	1	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_necrotect_2			1	wh2_dlc09_tech_tmb_necrotect_2	tmb_mil	3	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_liche_priest_5			1	wh2_dlc09_tech_tmb_liche_priest_5	tmb_mil	9	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_necrotect_4			1	wh2_dlc09_tech_tmb_necrotect_4	tmb_mil	7	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_3			1	wh2_dlc09_tech_tmb_tomb_prince_3	tmb_mil	5	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_tomb_prince_6			1	wh2_dlc09_tech_tmb_tomb_prince_6	tmb_mil	11	25	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_1			1	wh2_dlc09_tech_tmb_extra_army_1	tmb_mil	12	25	0	0	tmb_7	wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_2			2	wh2_dlc09_tech_tmb_extra_army_2	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_3			3	wh2_dlc09_tech_tmb_extra_army_3	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_4			4	wh2_dlc09_tech_tmb_extra_army_4	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_5			5	wh2_dlc09_tech_tmb_extra_army_5	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_6			6	wh2_dlc09_tech_tmb_extra_army_6	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+wh2_dlc09_tech_tmb_extra_army_7			7	wh2_dlc09_tech_tmb_extra_army_7	tmb_mil	12	25	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
