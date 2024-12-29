@@ -1,0 +1,17 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_grnredline.loc		
+effects_description_wh2_dlc11_effect_force_stat_speed_grn_all_melee_cav_orc_boar_chariot_squig_herd	Speed: %+n% for Melee Cavalry, Orc Boar Chariot, Mangler Squig and Squig Herd units	false
+effects_description_wh2_dlc11_effect_force_stat_charge_bonus_add_grn_all_melee_cav_orc_boar_chariot_squig_herd	Charge bonus: %+n for Melee Cavalry, Orc Boar Chariot, Mangler Squig and Squig Herd units	false
+effects_description_wh2_dlc11_effect_force_stat_weapon_strength_grn_trolls_gaint_arachnarok	Weapon strength: %+n% for Trolls, Giant, Rogue Idol, Arachnarok Spider, Feral Hydra, Colossal Squig and Feral Wyvern units	false
+effects_description_wh2_dlc11_effect_force_stat_melee_attack_trolls_giant_arachnarok	Melee attack: %+n for Trolls, Giant, Rogue Idol, Arachnarok Spider, Feral Hydra, Colossal Squig and Feral Wyvern units	false
+effects_description_wh2_dlc11_effect_force_stat_ammunition_grn_rock_lobber_doom_diver	Ammunition: %+n% for Goblin Rock Lobber, Goblin Bolt Throwa and Doom Diver Catapult units	false
+effects_description_wh2_dlc11_effect_force_stat_missile_damage_grn_rock_lobber_doom_diver	Missile strength: %+n% for Goblin Rock Lobber, Goblin Bolt Throwa and Doom Diver Catapult units	false
+effects_description_wh2_dlc11_effect_force_stat_leadership_goblin_squig_rank7	Leadership: %+n for all Goblin, Pump Wagon, Night Goblin, Mangler Squig and Squig Herd units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_physical_resistance_grn_all_goblin_squig_rank7	Physical resistance: %n% for all Goblin, Pump Wagon, Night Goblin, Mangler Squig and Squig Herd units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_weapon_strength_grn_all_goblin_rank7	Weapon strength: %+n% for all Goblin, Pump Wagon, Night Goblin, Mangler Squig and Squig Herd units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_melee_defence_grn_trolls_giant_arachnarok_rank7	Melee defence: %+n for Trolls, Giant, Rogue Idol, Arachnarok Spider, Feral Hydra, Colossal Squig and Feral Wyvern units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_missile_resistance_grn_trolls_giant_arachnarok_rank7	Missile resistance: %n% for Trolls, Giant, Rogue Idol, Arachnarok Spider, Feral Hydra, Colossal Squig and Feral Wyvern units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_weapon_strength_grn_trolls_giant_arachnarok_rank7	Weapon strength: %+n% for Trolls, Giant, Rogue Idol, Arachnarok Spider, Feral Hydra, Colossal Squig and Feral Wyvern units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_ammunition_grn_rock_lobber_doom_diver_rank7	Ammunition: %+n% for Goblin Rock Lobber, Goblin Bolt Throwah and Doom Diver Catapult units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_missile_damage_grn_rock_lobber_doom_diver_rank7	Missile strength: %+n% for Goblin Rock Lobber, Goblin Bolt Throwah and Doom Diver Catapult units {{tr:rank7}}	false
+effects_description_wh2_dlc11_effect_force_stat_reload_time_reduction_grn_rock_lobber_doom_diver_rank7	Reload time reduction: %+n% for Goblin Rock Lobber, Goblin Bolt Throwah and Doom Diver Catapult units {{tr:rank7}}	false
