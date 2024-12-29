@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_dig_in_orcs					
+			wh2_dlc15_grn_mon_rogue_idol_ror_0	cbfm_dig_in_orcs	false
+			wh3_dlc26_grn_art_bolt_throwa_ror	cbfm_dig_in_orcs	false
+			wh3_dlc26_grn_inf_rugluds_armoured_orcs	cbfm_dig_in_orcs	false
+			wh_dlc06_grn_art_hammer_of_gork_0	cbfm_dig_in_orcs	false
+			wh_dlc06_grn_cav_deff_creepers_0	cbfm_dig_in_orcs	false
+			wh_dlc06_grn_cav_mogrubbs_marauders_0	cbfm_dig_in_orcs	false
+			wh_dlc06_grn_inf_da_rusty_arrers_0	cbfm_dig_in_orcs	false
