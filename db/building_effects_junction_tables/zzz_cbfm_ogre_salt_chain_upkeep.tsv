@@ -1,0 +1,3 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_ogre_salt_chain_upkeep						
+wh3_main_ogr_resource_salt_3	cbfm_wh3_main_effect_ogr_camp_disable_meat_upkeep_hidden		building_to_force_own_in_province_hidden	1.0000	1.0000	0.0000

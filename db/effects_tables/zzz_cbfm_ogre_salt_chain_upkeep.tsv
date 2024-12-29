@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_ogre_salt_chain_upkeep					
+cbfm_wh3_main_effect_ogr_camp_disable_meat_upkeep_hidden	meat_starvation_turns.png	0	meat_starvation_turns.png	campaign	true

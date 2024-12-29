@@ -1,0 +1,4 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_miao_ying_zhao_ming_evasion_points									
+wh3_main_skill_node_cth_miao_ying_magic_2		wh_main_skill_all_magic_all_06_evasion		3	6		0	4	true
+wh3_main_skill_node_cth_zhao_ming_magic_2		wh_main_skill_all_magic_all_06_evasion		3	6		0	4	true

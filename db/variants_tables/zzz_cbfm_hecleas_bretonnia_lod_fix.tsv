@@ -1,0 +1,13 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/zzz_cbfm_hecleas_bretonnia_lod_fix							
+wh_brt_peasants_mob		brt_peasants_mob	hu1\brt\brt_peasants_bowmen\low_poly\brt_peasants_bowmen_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc07_brt_foot_squires		brt_foot_squire	hu1/brt/brt_questing_knights/imposter/brt_questing_knights_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc07_brt_knights_errant		brt_knights_errant	hu1\brt\brt_men_at_arms\low_poly\brt_spearmen_at_arms_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc07_brt_men_at_arms		brt_men_at_arms	hu1\brt\brt_men_at_arms\low_poly\brt_men_at_arms_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc07_brt_men_at_arms_shield		brt_men_at_arms_shield	hu1\brt\brt_men_at_arms\low_poly\brt_men_at_arms_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc07_brt_questing_knight_warhorse	VariantMeshes\wh_variantmodels\hr1\brt\brt_horse\tech	brt_questing_knight_warhorse	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0500	
+wh_dlc07_brt_spearmen_at_arms		brt_spearmen_at_arms	hu1\brt\brt_men_at_arms\low_poly\brt_spearmen_at_arms_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_pro04_brt_battle_pilgrims_ror		brt_battle_pilgrims_ror	hu1/brt/brt_battle_pilgrims/imposter/brt_battle_pilgrims_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_pro04_brt_foot_squires_ror		brt_foot_squire_ror	hu1\brt\brt_grail_knights\low_poly\brt_grail_knights_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_pro04_brt_knights_errant_ror		brt_knights_errant_ror	hu1\brt\brt_men_at_arms\low_poly\brt_spearmen_at_arms_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_brt_royal_pegasus		brt_royal_pegasus	hu1\brt\brt_grail_knights\low_poly\brt_grail_knights_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
