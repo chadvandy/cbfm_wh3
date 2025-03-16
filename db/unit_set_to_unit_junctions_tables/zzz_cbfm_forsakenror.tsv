@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_forsakenror					
+			wh_pro04_chs_inf_forsaken_ror_0	nur_infantry_non_daemonic	false
+			wh_pro04_chs_inf_forsaken_ror_0	nur_infantry	false
