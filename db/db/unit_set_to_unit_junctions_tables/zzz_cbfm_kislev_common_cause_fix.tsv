@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_kislev_common_cause_fix					
+			wh3_dlc24_ksl_mon_the_things_in_the_woods_ror	all_units_rank_0_to_3	true
+			wh3_twa06_ksl_inf_tzar_guard_ror_0	all_units_rank_0_to_3	true
+			wh3_twa07_ksl_cav_war_bear_riders_ror_0	all_units_rank_0_to_3	true
+			wh3_twa08_ksl_mon_elemental_bear_0_ror	all_units_rank_0_to_3	true
+			wh3_dlc24_ksl_inf_streltsi_ror	all_units_rank_0_to_3	true
+			wh3_dlc24_ksl_inf_akshina_ambushers_ror	all_units_rank_0_to_3	true
+			wh3_twa10_ksl_inf_armoured_kossars_ror	all_units_rank_0_to_3	true
