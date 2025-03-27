@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_warbear_recruit_rank					
-			wh3_twa07_ksl_cav_war_bear_riders_ror_0	ksl_infantry_mounted	false
-			wh3_main_ksl_cav_war_bear_riders_1	ksl_infantry_mounted	false
