@@ -1,0 +1,3 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_kislev_common_cause_fix				
+all_units_rank_0_to_3	true	0	3	
