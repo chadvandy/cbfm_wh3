@@ -1,0 +1,5 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_khargan_nodes									
+wh3_dlc25_skill_node_nur_exalted_hero_chieftain_personal_0		wh3_dlc25_skill_nur_chief_exalted_bloodlust		4	1		0	0	true
+wh3_dlc25_skill_node_nur_exalted_hero_chieftain_personal_1		wh3_dlc25_skill_nur_chief_exalted_warband		4	0		0	0	true
+wh3_dlc25_skill_node_nur_exalted_hero_chieftain_personal_2		wh3_dlc25_skill_nur_chief_exalted_frenzied_assault		4	2		0	0	true
