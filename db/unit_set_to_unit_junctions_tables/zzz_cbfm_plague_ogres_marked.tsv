@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_plague_ogres_marked					
+			wh3_dlc25_nur_inf_plague_ogres	wh3_dlc20_chs_nurgle_marked_units	false
+			wh3_dlc25_nur_inf_plague_ogres_great_weapons	wh3_dlc20_chs_nurgle_marked_units	false
