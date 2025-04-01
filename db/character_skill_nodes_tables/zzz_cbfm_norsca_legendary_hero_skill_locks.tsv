@@ -1,0 +1,13 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_norsca_legendary_hero_skill_locks									
+cbfm_wh3_main_ie_nor_kihar_shared_01		wh3_dlc20_skill_shared_chs_cha_chaos_sorcerer_battlemage		2	0		0	0	true
+cbfm_wh3_main_ie_nor_kihar_shared_02		wh3_dlc20_skill_shared_chs_cha_chaos_sorcerer_quick		2	1		0	0	true
+cbfm_wh3_main_ie_nor_kihar_shared_03		wh3_dlc20_skill_shared_chs_cha_chaos_sorcerer_resilient		2	2		0	0	true
+cbfm_wh3_main_ie_nor_kihar_shared_04		wh3_dlc20_skills_shared_slaanesh_soul_feeder		2	3		0	0	true
+cbfm_wh3_main_ie_nor_kihar_shared_05		wh3_dlc20_skills_shared_slaanesh_energy		2	4		0	0	true
+cbfm_wh3_main_ie_nor_kihar_shared_06		wh3_dlc20_skills_shared_slaanesh_direct_destruction		2	5		0	0	true
+cbfm_wh3_main_ie_nor_killgore_shared_01		wh3_dlc20_skill_shared_chs_cha_exalted_hero_duelist		2	0		0	0	true
+cbfm_wh3_main_ie_nor_killgore_shared_02		wh3_dlc20_skill_shared_chs_cha_exalted_hero_tactician		2	1		0	0	true
+cbfm_wh3_main_ie_nor_killgore_shared_03		wh3_dlc20_skill_shared_chs_cha_exalted_hero_strategist		2	2		0	0	true
+cbfm_wh3_main_ie_nor_killgore_shared_04		wh3_dlc20_skills_shared_khorne_scorch		2	3		0	0	true
+cbfm_wh3_main_ie_nor_killgore_shared_05		wh3_dlc20_skills_shared_khorne_resistances		2	4		0	0	true
