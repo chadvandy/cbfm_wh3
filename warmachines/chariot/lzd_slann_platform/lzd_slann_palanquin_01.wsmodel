@@ -1,0 +1,11 @@
+<model version="1">
+	<geometry>warmachines\chariot\lzd_slann_platform\lzd_slann_palanquin_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">warmachines\chariot\lzd_slann_platform\materials\lzd_slann_palanquin_vines_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">warmachines\materials\lzd_slann_platform_throne_01_weighted2_alpha_off.xml.material</material>
+
+
+
+
+	</materials>
+</model>
