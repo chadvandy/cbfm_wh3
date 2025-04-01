@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_goblintide_artillery					
+			wh3_dlc26_grn_art_bolt_throwa	wh2_dlc15_grn_regular_goblins	false
+			wh3_dlc26_grn_art_bolt_throwa_ror	wh2_dlc15_grn_regular_goblins	false
+			wh_main_grn_art_doom_diver_catapult	wh2_dlc15_grn_regular_goblins	false
