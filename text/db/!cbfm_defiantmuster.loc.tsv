@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_defiantmuster.loc		
+technology_script_lock_reasons_lock_reason_wh3_main_tech_kho_6_3	[[col:red]]Win %d battles.[[/col]]\\n[[col:yellow]]Current amount: %d[[/col]]	false
