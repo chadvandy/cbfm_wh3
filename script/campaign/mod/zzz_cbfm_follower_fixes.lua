@@ -21,6 +21,21 @@ local followers = {
 				return character:faction():has_technology("wh2_main_tech_lzd_4_6") and character:has_region() and character:turns_in_own_regions() >= 1 and (cm:region_has_chain_or_superchain(character:region(), "wh_main_sch_main_settlement") or cm:region_has_chain_or_superchain(character:region(), "wh_main_sch_settlement_major_coast"));
 			end,
 		["chance"] = 10
+	},
+	
+	----------------
+	-- DARK ELVES --
+	----------------
+	
+	{
+		["follower"] = "wh2_main_anc_follower_def_slave",
+		["event"] = "CharacterSackedSettlement",
+		["condition"] =
+			function(context)
+				local target_faction = context:garrison_residence():faction()
+				return target_faction:culture() == "wh2_main_hef_high_elves"
+			end,
+		["chance"] = 50
 	}
 };
 
