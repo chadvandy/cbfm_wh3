@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_krell_abilities.loc		
+unit_abilities_onscreen_name_cbfm_wh3_dlc24_character_abilities_colossal_strike_krell	Colossal Strike	false
+unit_abilities_onscreen_name_cbfm_wh_main_character_abilities_foe_seeker_krell	Foe-Seeker	false
+unit_abilities_tooltip_text_cbfm_wh3_dlc24_character_abilities_colossal_strike_krell	The bigger they are, the harder they fall.	false
+unit_abilities_tooltip_text_cbfm_wh_main_character_abilities_foe_seeker_krell	There are those who wish nothing more than to be at the heart of battle, seeking foes to vanquish.	false
