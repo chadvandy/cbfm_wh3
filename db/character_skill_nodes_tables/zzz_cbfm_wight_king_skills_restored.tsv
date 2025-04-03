@@ -1,8 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_wight_king_skills_restored									
-wh2_main_skill_node_vmp_wight_king_self_06		wh_main_skill_vmp_dignitary_self_immortal_will		1	5		0	4	true
-wh2_main_skill_node_vmp_wight_king_self_11		wh_main_skill_vmp_dignitary_self_dark_benediction		1	10		0	4	true
-wh_dlc05_skill_node_vmp_dignitary_shadow_self_06		wh_main_skill_all_all_self_foe-seeker		1	5		0	4	true
-wh_dlc05_skill_node_vmp_dignitary_shadow_self_11		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
-wh_main_skill_node_vmp_dignitary_self_06		wh_main_skill_all_all_self_foe-seeker		1	5		0	4	true
-wh_main_skill_node_vmp_dignitary_self_11		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
