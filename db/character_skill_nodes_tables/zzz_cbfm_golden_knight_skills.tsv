@@ -1,0 +1,5 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_golden_knight_skills									
+wh3_dlc24_skill_node_ksl_golden_knight_generic_1_1		wh_main_skill_all_dignitary_self_conviction		3	1		0	0	true
+wh3_dlc24_skill_node_ksl_golden_knight_generic_1_4		wh_main_skill_all_dignitary_self_soothsaying		3	4		0	0	true
+wh3_dlc24_skill_node_ksl_golden_knight_generic_3_1		wh_main_skill_all_dignitary_self_tenacity		3	6		0	0	true
