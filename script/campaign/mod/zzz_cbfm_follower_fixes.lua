@@ -56,7 +56,7 @@ local followers = {
 				return target_faction:culture() == "wh2_main_hef_high_elves"
 			end,
 		["chance"] = 50
-	}
+	},
 
 	------------
 	-- SKAVEN --
