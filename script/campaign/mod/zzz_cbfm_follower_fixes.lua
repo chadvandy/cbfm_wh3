@@ -22,6 +22,26 @@ local followers = {
 			end,
 		["chance"] = 10
 	},
+	{
+		["follower"] = "wh2_main_anc_follower_lzd_acolyte_priest",
+		["event"] = "CharacterRankUp",
+		["condition"] =
+			function(context)
+				local character = context:character();
+				return character:has_region() and character:turns_in_own_regions() >= 2 and cm:region_has_chain_or_superchain(character:region(), "wh2_main_sch_support2_worship");
+			end,
+		["chance"] = 2
+	},
+	{
+		["follower"] = "wh2_main_anc_follower_lzd_veteran_warrior",
+		["event"] = "CharacterRankUp",
+		["condition"] =
+			function(context)
+				local character = context:character();
+				return character:has_region() and character:turns_in_own_regions() > 1 and cm:region_has_chain_or_superchain(character:region(), "wh2_main_sch_defence_minor");
+			end,
+		["chance"] = 2
+	},
 	
 	----------------
 	-- DARK ELVES --
@@ -36,6 +56,43 @@ local followers = {
 				return target_faction:culture() == "wh2_main_hef_high_elves"
 			end,
 		["chance"] = 50
+	}
+
+	------------
+	-- SKAVEN --
+	------------
+	
+	{
+		["follower"] = "wh2_main_anc_follower_skv_chemist",
+		["event"] = "CharacterCompletedBattle",
+		["condition"] =
+			function(context)
+				return context:character():won_battle();
+			end,
+		["chance"] = 2
+	},
+	{
+		["follower"] = "wh2_main_anc_follower_skv_messenger",
+		["event"] = "CharacterCompletedBattle",
+		["condition"] =
+			function(context)
+				return context:character():won_battle();
+			end,
+		["chance"] = 2
+	},
+	
+	--------------------
+	-- HUMANS/GENERIC --
+	--------------------
+	
+	{
+		["follower"] = "wh_main_anc_follower_all_men_tollkeeper",
+		["event"] = "CharacterRankUp",
+		["condition"] =
+			function(context)
+				return context:character():rank() < 11;
+			end,
+		["chance"] = 2
 	}
 };
 
