@@ -1,5 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_overlap_big_boss_pro_cultist									
-wh2_main_skill_node_grn_goblin_big_boss_unique_03		wh2_dlc15_skill_grn_spy_unique_goblin_big_boss_ambusher		0	3		0	0	true
-wh2_main_skill_node_grn_goblin_big_boss_unique_06		wh_main_skill_all_spy_self_stalker		0	2		0	0	true
-wh3_main_pro_skill_node_kho_cultist_unique_0		wh3_main_skill_kho_cultist_unique_gate_of_khorne		0	1		0	0	true
