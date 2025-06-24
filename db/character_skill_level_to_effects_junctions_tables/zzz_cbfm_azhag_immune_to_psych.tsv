@@ -1,3 +1,0 @@
-character_skill_key	effect_key	level	effect_scope	value
-#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/zzz_cbfm_azhag_immune_to_psych				
-wh_main_skill_innate_grn_azhag_the_slaughterer	wh_main_effect_attribute_enable_immune_to_psychology	1	character_to_force_own	1.0000
