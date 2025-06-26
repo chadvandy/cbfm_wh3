@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_campaign_range_tooltip_clarity.loc		
+effects_description_wh2_main_effect_force_enemy_campaign_movement_range	Campaign movement range: %+n% for enemy armies	false
