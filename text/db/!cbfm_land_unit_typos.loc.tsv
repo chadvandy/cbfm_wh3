@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_land_unit_typos.loc		
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_0	Vampire Fleet Admiral (Polearm – Vampires)	false
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_1	Vampire Fleet Admiral (Polearm – Vampires)	false
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_death_0	Vampire Fleet Admiral (Polearm – Death)	false
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_death_1	Vampire Fleet Admiral (Polearm – Death)	false
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_deeps_0	Vampire Fleet Admiral (Polearm – Deep)	false
+land_units_onscreen_name_wh2_dlc11_cst_cha_vampire_fleet_admiral_deeps_1	Vampire Fleet Admiral (Polearm – Deep)	false
+land_units_onscreen_name_wh3_dlc26_grn_art_bolt_throwa	Goblin Bolt Throwas	false
+land_units_onscreen_name_wh3_dlc26_grn_art_bolt_throwa_ror	Snagla's Deff Throwa (Goblin Bolt Throwas)	false
+land_units_onscreen_name_wh3_main_chd_art_hobgob_bolt_thrower	Hobgoblin Bolt Throwers	false
