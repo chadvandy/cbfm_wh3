@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+	<SLOT name="body">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1b/tmb/tmb_khalida/tmb_khalida_01.wsmodel">
+			<META_DATA>audio_entity_type:wh2_dlc_tmb_khalida_LORD</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT attach_point="be_prop_0" name="weapon_1"/>
+	<SLOT attach_point="be_prop_1" name="weapon_2"/>
+	<SLOT attach_point="be_prop_2" name="shield"/>
+	<SLOT attach_point="be_prop_3" name="weapon_3"/>
+	<SLOT attach_point="be_prop_4" name="weapon_4"/>
+	<SLOT attach_point="be_prop_5" name="weapon_5">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1b/tmb/tmb_props/tmb_khalida_staff_1h_rigid_01.wsmodel">
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_obsidian_mournguls					
+			wh2_dlc11_cst_mon_mournguls_0	cbfm_just_mournguls	false
+			wh2_dlc11_cst_mon_mournguls_ror_0	cbfm_just_mournguls	false

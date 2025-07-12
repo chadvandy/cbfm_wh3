@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_blood_of_hashut_cooldown					
+cbfm_wh3_dlc23_agent_action_success_chance_daemonsmith_sorcerer_hashuts_blood	siege_attack.png	10	campaign_siege_attack.png	campaign	true
