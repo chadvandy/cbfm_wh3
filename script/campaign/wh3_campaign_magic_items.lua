@@ -179,7 +179,7 @@ function attempt_to_award_random_magical_item(context)
 
 		-- CBFM EDIT: Adding a condition here so this bonus really only applies to the AI
 		if not faction_is_human then
-            chance = chance + campaign_difficulty_mod
+			chance = chance + campaign_difficulty_mod
 		end
 		-- end CBFM edits
 		
