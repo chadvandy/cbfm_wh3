@@ -1,0 +1,3 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_woc_ritual_hut_wom_scope						
+wh3_dlc20_woc_chaos_altar_replenishment_1	wh3_main_effect_winds_of_magic_pool_cap		building_to_force_own_in_province_own	20.0000	10.0000	0.0000
