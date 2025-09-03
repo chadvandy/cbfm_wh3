@@ -11,7 +11,7 @@ local braindead_factions =
 local function init()
 	if cm:is_new_game() then
 		for faction_key, capital_key in pairs(braindead_factions) do
-			local is_human = cm:is_human_faction(faction_key)
+			local is_human = cm:is_faction_human(faction_key)
 			if not is_human then
 				local x, y = cm:find_valid_spawn_location_for_character_from_settlement(faction_key,capital_key,false,true)
 				local unit_string = "wh2_main_lzd_inf_skink_cohort_1"
