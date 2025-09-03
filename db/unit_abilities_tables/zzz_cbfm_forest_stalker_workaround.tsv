@@ -1,0 +1,4 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/zzz_cbfm_forest_stalker_workaround											
+cbfm_unit_passive_mimic_forest_stalker	false	wh2_dlc15_unit_passive_mimic_forest_walker		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+cbfm_unit_passive_mimic_forest_strider	false	wh2_dlc15_unit_passive_mimic_forest_walker		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
