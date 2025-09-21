@@ -1,4 +1,0 @@
-bonus_value_id	effect	unit_set
-#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_amethyst_units		
-upkeep_mod	wh3_dlc25_emp_effect_upkeep_gunnery	emp_amethyst
-upkeep_mod	wh3_dlc25_effect_force_army_campaign_upkeep_base_artillery_guns	emp_amethyst
