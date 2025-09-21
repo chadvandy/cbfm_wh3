@@ -1,6 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_amethyst_units					
-			wh2_dlc13_emp_cav_outriders_ror_0	emp_gunnery	false
-			wh2_dlc13_emp_cav_pistoliers_ror_0	emp_gunnery	false
-			wh2_dlc13_emp_inf_handgunners_ror_0	emp_gunnery	false
-			wh2_dlc13_emp_veh_steam_tank_ror_0	emp_gunnery	false
