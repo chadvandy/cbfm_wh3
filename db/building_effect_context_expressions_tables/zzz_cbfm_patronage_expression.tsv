@@ -1,0 +1,6 @@
+key	expression	display_only_active_effects
+#building_effect_context_expressions_tables;1;db/building_effect_context_expressions_tables/zzz_cbfm_patronage_expression		
+HasPatron2Tech	Owner.IsTechnologyResearched("wh3_main_tech_tmb_patronage_2")	false
+HasPatron4Tech	Owner.IsTechnologyResearched("wh3_main_tech_tmb_patronage_4")	false
+HasPatron5Tech	Owner.IsTechnologyResearched("wh3_main_tech_tmb_patronage_5")	false
+HasPatron6Tech	Owner.IsTechnologyResearched("wh3_main_tech_tmb_patronage_6")	false
