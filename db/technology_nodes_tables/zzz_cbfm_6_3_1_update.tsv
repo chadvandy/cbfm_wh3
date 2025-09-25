@@ -1,0 +1,14 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/zzz_cbfm_6_3_1_update														
+wh2_dlc09_tech_tmb_faction_target_1			9	wh2_dlc09_tech_tmb_faction_target_1	tmb_mil	0	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh2_dlc09_tech_tmb_faction_target_2			9	wh2_dlc09_tech_tmb_faction_target_2	tmb_mil	2	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh2_dlc09_tech_tmb_faction_target_3			9	wh2_dlc09_tech_tmb_faction_target_3	tmb_mil	4	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh2_dlc09_tech_tmb_faction_target_4			9	wh2_dlc09_tech_tmb_faction_target_4	tmb_mil	6	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh2_dlc09_tech_tmb_faction_target_5			9	wh2_dlc09_tech_tmb_faction_target_5	tmb_mil	8	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh2_dlc09_tech_tmb_faction_target_6			9	wh2_dlc09_tech_tmb_faction_target_6	tmb_mil	10	200	0	0		wh3_main_tmb_dynasty	0	0	0
+wh3_main_tech_tmb_patronage_1			9	wh3_main_tech_tmb_patronage_1	tmb_mil	1	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+wh3_main_tech_tmb_patronage_2			9	wh3_main_tech_tmb_patronage_2	tmb_mil	3	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+wh3_main_tech_tmb_patronage_3			9	wh3_main_tech_tmb_patronage_3	tmb_mil	5	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+wh3_main_tech_tmb_patronage_4			9	wh3_main_tech_tmb_patronage_4	tmb_mil	7	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+wh3_main_tech_tmb_patronage_5			9	wh3_main_tech_tmb_patronage_5	tmb_mil	9	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+wh3_main_tech_tmb_patronage_6			9	wh3_main_tech_tmb_patronage_6	tmb_mil	11	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0

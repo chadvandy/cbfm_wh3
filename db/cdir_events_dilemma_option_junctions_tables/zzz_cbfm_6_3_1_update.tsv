@@ -1,0 +1,4 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/zzz_cbfm_6_3_1_update				
+1023054173	wh3_main_minor_cult_purple_hand_cult_spread	GEN_TARGET_MODEL		default
+462412798	wh3_main_minor_cult_purple_hand_cult_spread	VAR_CHANCE	100	default

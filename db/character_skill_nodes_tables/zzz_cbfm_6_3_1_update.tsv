@@ -1,0 +1,8 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_6_3_1_update									
+wh3_dlc24_skill_node_cth_celestial_general_yin_innate_13		wh3_main_skill_innate_cth_perceptive		6	12		0	0	false
+wh3_main_skill_node_cth_dragon_blooded_shugengan_yin_innate_14		wh3_main_skill_innate_cth_perceptive		6	13		0	0	false
+wh3_main_skill_node_cth_lord_magistrate_yin_innate_13		wh3_main_skill_innate_cth_perceptive		6	12		0	0	false
+wh_main_skill_node_grn_grimgor_unique_08		wh3_dlc26_skill_grn_grimgor_unique_scrap	wh_main_grn_greenskins	0	1		1	0	true
+wh_main_skill_node_nor_chaos_sorcerer_metal_innate_01		wh_main_skill_innate_chs_diabolic_spendour		6	0		0	0	false
+wh_main_skill_node_nor_sorcerer_lord_metal_innate_01		wh_main_skill_innate_chs_diabolic_spendour		6	0		0	0	false

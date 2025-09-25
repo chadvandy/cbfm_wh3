@@ -1,0 +1,7 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/zzz_cbfm_6_3_1_update					
+wh3_main_canopic_jars_occupation	0	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME
+wh3_main_tmb_dynasty_patronage	0	TECHNOLOGIES	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+wh3_tmb_technology	-2500	TECHNOLOGIES	TECHNOLOGIES	ARMY_UPKEEP	BACKGROUND_INCOME
+wh2_dlc09_ritual_tmb_tahoth	-2500	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+wh3_main_tmb_diktat_3_reward	2500	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME

@@ -1,0 +1,4 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/zzz_cbfm_6_3_1_update					
+wh3_main_lzd_sacred_spawning_buildings	buildings	wh3_main_lzd_sacred_spawning	0	2147483647	
+wh3_main_canopic_jars_occupation	settlements_captured	tmb_canopic_jars	0	2147483647	
