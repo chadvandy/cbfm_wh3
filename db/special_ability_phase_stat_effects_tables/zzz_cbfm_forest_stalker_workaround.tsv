@@ -1,0 +1,6 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/zzz_cbfm_forest_stalker_workaround			
+cbfm_unit_passive_mimic_forest_stalker	stat_accuracy	1.5000	mult
+cbfm_unit_passive_mimic_forest_stalker	stat_melee_defence	1.1500	mult
+cbfm_unit_passive_mimic_forest_strider	stat_melee_attack	1.1000	mult
+cbfm_unit_passive_mimic_forest_strider	stat_melee_defence	1.2000	mult
