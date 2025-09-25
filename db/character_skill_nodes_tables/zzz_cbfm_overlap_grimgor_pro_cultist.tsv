@@ -1,4 +1,3 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_overlap_grimgor_pro_cultist									
 wh3_main_pro_skill_node_kho_cultist_unique_0		wh3_main_skill_kho_cultist_unique_gate_of_khorne		0	1		0	0	true
-wh_main_skill_node_grn_grimgor_unique_08		wh3_dlc26_skill_grn_grimgor_unique_scrap	wh_main_grn_greenskins	0	1		1	0	true
