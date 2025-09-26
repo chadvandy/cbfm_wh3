@@ -1,0 +1,33 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_6_3_1_update.loc		
+building_effect_context_expressions_display_text_IsFactionNotRitual	 	false
+campaign_payload_ui_details_description_dummy_purple_hand_cult_spreads_promise	The Cult assures you they will not settle in your lands again	false
+cdir_events_dilemma_choice_details_localised_choice_label_wh3_main_minor_cult_purple_hand_cult_spreadFIRST	Accept their Gift	false
+cdir_events_dilemma_choice_details_localised_choice_label_wh3_main_minor_cult_purple_hand_cult_spreadSECOND	Demand Reassurances	false
+cdir_events_dilemma_choice_details_localised_choice_title_wh3_main_minor_cult_purple_hand_cult_spreadFIRST	This continues to be a great deal for both parties.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wh3_main_minor_cult_purple_hand_cult_spreadSECOND	Despite past reassurances, they have settled in your territory yet again... perhaps this time they will listen?	false
+dilemmas_localised_description_wh3_main_minor_cult_purple_hand_cult_spread	{{tr:incidents_localised_description_wh3_main_minor_cult_purple_hand_cult_spread}}	false
+dilemmas_localised_title_wh3_main_minor_cult_purple_hand_cult_spread	The Purple Hand Spreads	false
+effects_description_wh2_main_effect_force_stat_missile_ap_skv_plagueclaw_warplightning_doomwheel	Armour-piercing missile damage: %+n for Plague Claw Catapult, Warp Lightning Cannon and Doomwheel units	false
+effects_description_wh3_main_effect_faction_blessed_capacity_count	Blessed Spawning pool capacity: %+n	false
+effects_description_wh3_main_effect_faction_blessed_capacity_count_tiktaqto	Blessed Spawning pool capacity for Blessed Ripperdactyl and Terradon Riders: %+n	false
+effects_description_wh3_main_effect_pooled_resource_sacred_spawning_add_buildings	Spawning Sequence: %+n per turn	false
+effects_description_wh3_main_effect_pooled_resource_sacred_spawning_add_missions	Spawning Sequence: %+n per turn	false
+effects_description_wh3_main_ritual_def_slave_action_1_reward_dummy	Generates [[img:icon_treasury]][[/img]] 2500 for the treasury when activated	false
+end_game_settings_settings_name_endgame_minor_cult_chaos_portal	Unusual Location: [[i]]Unstable Chaos Portal[[/i]]	false
+end_game_settings_settings_name_endgame_minor_cult_purple_hand	Unusual Location: [[i]]Purple Hand[[/i]]	false
+end_game_settings_settings_tooltip_endgame_minor_cult_chaos_portal	When checked, the Unstable Chaos Portal will be one of the potential Unusual Locations that can appear during your campaign.\\n\\nChaos Portals can be harnessed for their power but are generally bothersome and can cause damage to the surrounding area. [[i]]Unstable[[/i]] Chaos Portals are similar in both ways, but with even more destructive power.	false
+end_game_settings_settings_tooltip_endgame_minor_cult_crimson_plague	When checked, the Covenant of the Crimson Plague will be one of the potential Unusual Locations that can appear during your campaign.\\n\\nBe warned that there is a chance, albeit an extremely small chance, that this Cult can cause a potentially horrific, and game ending, scenario through means of Plague.	false
+end_game_settings_settings_tooltip_endgame_minor_cult_purple_hand	When checked, the Purple Hand will be one of the potential Unusual Locations that can appear during your campaign.\\n\\nThe Purple Hand is a Tzeentchian Cult who promise powerful benefits but in return can corrupt your lands and drastically change the state of the campaign should their plans ultimately succeed.\\nBy all means trust a Tzeench Cult, go ahead, surely it will all be fine.	false
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_lzd_awakening	A Slann Mage-Priest will become available for recruitment. \\n \\n[[col:green]]+250 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_itzl_2_saurus_warriors	[[col:green]]\\nInvoke Itzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+40 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_itzl_3_horned_ones	[[col:green]]\\nInvoke Itzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+70 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_itzl_4_kroxigors	[[col:green]]\\nInvoke Itzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+50 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_itzl_5_carnosaur	[[col:green]]\\nInvoke Itzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+80 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_quetzl_1_skink_skirms	[[col:green]]\\nInvoke Quetzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+20 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_quetzl_2_saurus_spears	[[col:green]]\\nInvoke Quetzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+40 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_quetzl_4_cold_one_spears	[[col:green]]\\nInvoke Quetzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+30 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_quetzl_5_stegadon	[[col:green]]\\nInvoke Quetzl to add this unit to your Blessed Spawnings. \\n[[col:green]]+70 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_xholankha_2_terradon	[[col:green]]\\nInvoke Xholankha to add this unit to your Blessed Spawnings. \\n[[col:green]]+30 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_xholankha_4_temple_guard	[[col:green]]\\nInvoke Xholankha to add this unit to your Blessed Spawnings. \\n[[col:green]]+60 Spawning Sequence	false
+rituals_description_wh2_dlc13_ritual_temple_xholankha_5_stegadon_solar	[[col:green]]\\nInvoke Xholankha to add this unit to your Blessed Spawnings. \\n[[col:green]]+60 Spawning Sequence	false

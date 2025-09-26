@@ -1,0 +1,5 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/zzz_cbfm_6_3_1_update							
+wh2_dlc09_skill_tmb_necrotect_master_heirotitan	wh2_dlc09_skill_tmb_necrotect_unique_4	0	1	1	0.0000	0.0000	REQUIRED
+wh2_dlc09_skill_tmb_necrotect_master_necrosphinx	wh2_dlc09_skill_tmb_necrotect_unique_4	0	1	1	0.0000	0.0000	REQUIRED
+wh2_dlc09_skill_tmb_necrotect_master_warsphinx	wh2_dlc09_skill_tmb_necrotect_unique_4	0	1	1	0.0000	0.0000	REQUIRED

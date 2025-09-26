@@ -1,0 +1,5 @@
+shared_state_key	default_bool	max_value	min_value	ui_template_type	default_min_value	default_max_value	order	slider_step_size
+#end_game_settings_tables;2;db/end_game_settings_tables/zzz_cbfm_6_3_1_update								
+endgame_minor_cult_chaos_portal	true	0.0000	0.0000	CHECKBOX	0.0000	0.0000	1004	1
+endgame_minor_cult_purple_hand	true	0.0000	0.0000	CHECKBOX	0.0000	0.0000	1005	1
+endgame_minor_cult_cabal	true	0.0000	0.0000	CHECKBOX	0.0000	0.0000	1006	1
