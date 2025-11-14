@@ -1,0 +1,4 @@
+unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/zzz_cbfm_haunted_forest_welf_gnoblars	
+wh3_main_ogr_inf_gnoblars_0	wh_dlc05_group_wood_elves
+wh3_main_ogr_inf_gnoblars_1	wh_dlc05_group_wood_elves
