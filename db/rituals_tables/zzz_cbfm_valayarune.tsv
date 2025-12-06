@@ -1,3 +1,3 @@
-key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload	percentage_cost_increase_per_use	sort_order
-#rituals_tables;2;db/rituals_tables/zzz_cbfm_valayarune																							
-wh2_dlc17_dwf_ritual_wh_main_anc_rune_master_rune_of_valaya	0	wh2_dlc17_dwf_ritual_wh_main_anc_rune_master_rune_of_valaya	9001	CRAFTING_RITUAL	0	0			0		wh2_dlc17_dwf_rune_master				0	0				default		0.0000	0
+key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload	percentage_cost_increase_per_use	sort_order	influence_cost
+#rituals_tables;3;db/rituals_tables/zzz_cbfm_valayarune																								
+wh2_dlc17_dwf_ritual_wh_main_anc_rune_master_rune_of_valaya	0	wh2_dlc17_dwf_ritual_wh_main_anc_rune_master_rune_of_valaya	9001	CRAFTING_RITUAL	0	0			0		wh2_dlc17_dwf_rune_master				0	0				default		0.0000	0	0
