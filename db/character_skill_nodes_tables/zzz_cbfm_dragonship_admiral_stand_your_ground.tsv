@@ -1,0 +1,7 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_dragonship_admiral_stand_your_ground									
+wh3_dlc27_skill_node_hef_dragonship_admiral_1_army_5		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+wh3_dlc27_skill_node_hef_dragonship_admiral_2_army_5		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+wh3_dlc27_skill_node_hef_dragonship_admiral_3_army_5		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+wh3_dlc27_skill_node_hef_dragonship_admiral_4_army_5		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+wh3_dlc27_skill_node_hef_dragonship_admiral_5_army_5		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
