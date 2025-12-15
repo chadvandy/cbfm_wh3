@@ -1,0 +1,3 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_tzeentch_cultist_fix									
+wh3_main_skill_node_tze_cultist_campaign_actions_dummy_minor		wh3_main_skill_all_dummy_agent_actions_tze_cultist		8	0		1	0	false
