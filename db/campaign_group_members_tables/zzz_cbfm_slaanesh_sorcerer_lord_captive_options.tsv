@@ -1,0 +1,4 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/zzz_cbfm_slaanesh_sorcerer_lord_captive_options		
+cbfm_wh3_dlc27_chs_sorcerer_lord_slaanesh_msla	wh3_main_captive_option_enslave_slaanesh	11.0000
+cbfm_wh3_dlc27_chs_sorcerer_lord_shadows_msla	wh3_main_captive_option_enslave_slaanesh	12.0000
