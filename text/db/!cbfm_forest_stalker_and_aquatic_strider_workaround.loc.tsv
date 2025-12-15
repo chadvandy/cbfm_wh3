@@ -1,6 +1,8 @@
 key	text	tooltip
-#Loc;1;text/db/!cbfm_forest_stalker_workaround.loc		
+#Loc;1;text/db/!cbfm_forest_stalker_and_aquatic_strider_workaround.loc		
 unit_abilities_onscreen_name_cbfm_unit_passive_mimic_forest_stalker	Forest Stalker	false
 unit_abilities_tooltip_text_cbfm_unit_passive_mimic_forest_stalker	This unit gains bonuses to melee defence and accuracy while fighting within the forest.	false
 unit_abilities_onscreen_name_cbfm_unit_passive_mimic_forest_strider	Forest Strider	false
 unit_abilities_tooltip_text_cbfm_unit_passive_mimic_forest_strider	Specialists in forest warfare, this unit gains melee attack and defence advantages when fighting in forests.	false
+unit_abilities_onscreen_name_cbfm_unit_passive_aquatic_strider	Aquatic	false
+unit_abilities_tooltip_text_cbfm_unit_passive_aquatic_strider	Whereas some units struggle to fight and move in shallow water, aquatic units excel.	false
