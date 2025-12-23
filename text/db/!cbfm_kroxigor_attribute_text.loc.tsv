@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_kroxigor_attribute_text.loc		
+unit_attributes_bullet_text_kroxigor	Kroxigor||A unit with the [[img:lzd_kroxigor]][[/img]]Kroxigor attribute will gain the following bonuses if a unit with the [[img:lzd_skink]][[/img]]Skink Attribute is nearby:\\n[[img:bullet_point]][[/img]] [[img:icon_weapon_damage]][[/img]]Increased Weapon Strength	false

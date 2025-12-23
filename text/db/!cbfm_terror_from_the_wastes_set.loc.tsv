@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_terror_from_the_wastes_set.loc		
+effects_description_wh3_dlc27_effect_attribute_enable_causes_fear_sla_marauders_marauder_cavalry	Attribute: Causes Fear for Slaanesh-marked Marauder units	false
+effects_description_wh3_dlc27_effect_vigour_loss_reduction_sla_marauders_marauder_cavalry	Vigour loss reduction: %+n% for Slaanesh-marked Marauder units	false

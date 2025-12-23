@@ -1,0 +1,3 @@
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost	recruitment_button_active_icon_path	recruitment_button_background_icon_path	audio_force_contextual_vo
+#agent_subtypes_tables;3;db/agent_subtypes_tables/zzz_cbfm_fimir_noble_name_fix																								
+wh3_dlc27_nor_fimir_noble	true	false		wh3_dlc27_nor_cha_fimir_noble	wh3_dlc27_vo_actor_Norsca_Fimir_Noble	true	-1	true	true	false	true				true	true	can_be_saved_loaded		false	true	1000			false

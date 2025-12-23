@@ -1,0 +1,3 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_tzeentch_cultist_fix		
+wh3_main_skill_node_set_tze_cultist	wh3_main_skill_node_tze_cultist_campaign_actions_dummy_minor	false
