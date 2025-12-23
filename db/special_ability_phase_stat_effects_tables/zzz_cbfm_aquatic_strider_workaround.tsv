@@ -1,0 +1,4 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/zzz_cbfm_aquatic_strider_workaround			
+cbfm_unit_passive_aquatic_strider	stat_melee_attack	1.2000	mult
+cbfm_unit_passive_aquatic_strider	stat_melee_defence	1.2000	mult
