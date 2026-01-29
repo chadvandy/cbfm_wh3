@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_mistwalker_spears					
-			wh2_dlc15_hef_inf_mistwalkers_sentinels_0	wh2_dlc15_hef_all_spear_inf	false
-			wh2_dlc15_hef_inf_mistwalkers_spireguard_0	wh2_dlc15_hef_all_spear_inf	false
