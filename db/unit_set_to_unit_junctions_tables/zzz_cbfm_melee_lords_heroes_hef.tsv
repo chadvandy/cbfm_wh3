@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_melee_lords_heroes_hef					
+			wh2_main_hef_cha_noble_2	wh3_dlc27_hef_melee_lords_heroes	false
+			wh2_main_hef_cha_prince_2	wh3_dlc27_hef_melee_lords_heroes	false
+			wh2_main_hef_cha_princess_1	wh3_dlc27_hef_melee_lords_heroes	false
+			wh2_dlc10_hef_cha_handmaiden_2	wh3_dlc27_hef_melee_lords_heroes	false
