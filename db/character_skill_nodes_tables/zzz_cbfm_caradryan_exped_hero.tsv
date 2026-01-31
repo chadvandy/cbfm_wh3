@@ -1,0 +1,3 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_caradryan_exped_hero									
+wh3_dlc27_skill_node_hef_caradryan_combat_3_4		wh_dlc05_skill_wef_general_personal_buff_battle_speed		3	9		0	0	true
