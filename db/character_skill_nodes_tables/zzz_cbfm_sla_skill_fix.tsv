@@ -1,0 +1,9 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_sla_skill_fix									
+wh3_dlc20_skill_node_chs_sorcerer_shadows_msla_authority		wh3_dlc20_skill_authority_sla_hero		0	4	wh_main_sc_chs_chaos	1	0	true
+wh3_dlc20_skill_node_chs_chaos_sorcerer_shadow_msla_unique_02		wh_main_skill_chs_all_unique_eye_of_the_gods		0	5		0	0	true
+wh3_dlc20_skill_node_chs_chaos_sorcerer_shadow_msla_unique_03		wh_main_skill_chs_all_unique_aura_of_chaos		0	6		0	0	true
+wh3_dlc20_skill_node_chs_sorcerer_slaanesh_msla_authority		wh3_dlc20_skill_authority_sla_hero		0	4	wh_main_sc_chs_chaos	1	0	true
+wh3_dlc20_skill_node_chs_chaos_sorcerer_slaanesh_msla_unique_02		wh_main_skill_chs_all_unique_eye_of_the_gods		0	5		0	0	true
+wh3_dlc20_skill_node_chs_chaos_sorcerer_slaanesh_msla_unique_03		wh_main_skill_chs_all_unique_aura_of_chaos		0	6		0	0	true
+wh3_dlc20_skill_node_chs_lord_msla_authority		wh3_dlc20_skill_authority_sla_lord		0	4	wh_main_sc_chs_chaos	1	0	true
