@@ -1,0 +1,13 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_grim_discipline					
+			wh3_dlc27_hef_cha_caradryan	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_cha_caradryan_chariot	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_cha_caradryan_steed	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_cha_mist_mage	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_cha_mist_mage_eagle	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_cha_mist_mage_skycutter	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_inf_ships_company	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_inf_ships_company_ror	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_inf_swordmasters_of_hoeth_ror	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_veh_skycutter_bolt_thrower	wh2_dlc15_hef_martial_passives	false
+			wh3_dlc27_hef_veh_skycutter_bows	wh2_dlc15_hef_martial_passives	false
