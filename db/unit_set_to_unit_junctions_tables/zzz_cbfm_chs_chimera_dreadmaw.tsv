@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_chs_chimera_dreadmaw					
+			wh3_dlc27_nor_mon_dread_maw	chs_daemon_monsters_beasts_rank7	false
+			wh3_dlc27_nor_mon_dread_maw_underground	chs_daemon_monsters_beasts_rank7	false
+			wh3_dlc27_nor_mon_chimera	cbfm_chimera_vet	false
