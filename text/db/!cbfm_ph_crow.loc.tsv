@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_ph_crow.loc		
+effects_description_wh3_dlc27_effect_force_replenish_post_battle	Post-battle casualties replenished: %+n% after winning a battle	false
+effects_description_wh3_dlc27_effect_force_replenish_post_battle_altar_dummy	Altars to the Crow increase the post-battle casualties replenished by %+n% after winning a battle (in provinces adjacent to the Altar)	false
