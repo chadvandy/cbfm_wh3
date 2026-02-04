@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_missblock_ror_icetroll					
+360_missile_block_regen_skinwolf_ror	block_character.png	0	block_character.png	battle	true

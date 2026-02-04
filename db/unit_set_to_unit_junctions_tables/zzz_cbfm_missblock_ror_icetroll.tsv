@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_missblock_ror_icetroll					
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	wh3_dlc27_nor_regenerating_r7	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	wh3_dlc27_nor_regenerating	false
+			wh_pro04_nor_mon_skinwolves_ror_0	wh3_dlc27_nor_regenerating_r7	true
+			wh_pro04_nor_mon_skinwolves_ror_0	cbfm_360_miss_block_regen_skinwolf	false
