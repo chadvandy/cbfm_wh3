@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_stalk_frostdragon_ror					
+cbfm_stalk_frost_dragon_ror	attribute_stalk.png	0	attribute_stalk.png	battle	true
