@@ -1,6 +1,5 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_overlapping_skills									
-wh3_main_pro_skill_node_kho_cultist_unique_0		wh3_main_skill_kho_cultist_unique_gate_of_khorne		0	1		0	0	true
 wh3_dlc27_skill_node_nor_lord_battle_monster_hunter		wh3_dlc27_skill_nor_lord_battle_monster_hunter		0	10		0	0	true
 wh3_dlc25_skill_node_nur_fimir_balefiend_chieftain_personal_0		wh3_dlc25_skill_nur_chief_fimir_swamps		1	4		0	0	true
 wh3_dlc25_skill_node_nur_fimir_balefiend_chieftain_personal_1		wh3_dlc25_skill_nur_chief_fimir_cutting_power		1	5		0	0	true
