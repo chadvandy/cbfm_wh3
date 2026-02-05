@@ -1,0 +1,3 @@
+decision_item	decision_policy	query	query_variable_set	query_invert_result	query_weight
+#cai_decision_policy_junctions_tables;0;db/cai_decision_policy_junctions_tables/zzz_cbfm_und_to_mono					
+wh3_dlc20_character_initiative_ascend_lord_to_daemon_prince_khorne_from_und_set_valkia	wh3_character_initiatives_chs_valkia	always_true		false	1.0000
