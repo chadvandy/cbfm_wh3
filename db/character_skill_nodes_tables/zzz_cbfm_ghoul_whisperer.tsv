@@ -1,4 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_ghoul_whisperer									
-zzz_cbfm_ghoul_whisp_bloodline_ghoul		wh_main_skill_innate_vmp_ghoul_whisperer		6	19		0	0	false
-zzz_cbfm_ghoul_whisp_regular_ghoul		wh_main_skill_innate_vmp_ghoul_whisperer		6	19		0	0	false
