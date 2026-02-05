@@ -1,3 +1,0 @@
-key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_ulrika_enfeebling									
-wh3_dlc23_skill_node_ksl_ulrika_shadow_magic_1_2		wh_dlc05_skill_magic_shadow_enfeebling_foe		3	2		0	0	true
