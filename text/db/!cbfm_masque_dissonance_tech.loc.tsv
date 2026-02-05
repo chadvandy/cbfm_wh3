@@ -1,3 +1,3 @@
 key	text	tooltip
 #Loc;1;text/db/!cbfm_masque_dissonance_tech.loc		
-effects_description_wh3_dlc27_effect_sla_masque_dissonance_duration	Dissonance duration: -%+n	false
+effects_description_wh3_dlc27_effect_sla_masque_dissonance_duration	Dissonance duration: -%n	false
