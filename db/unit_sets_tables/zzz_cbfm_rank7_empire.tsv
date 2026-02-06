@@ -1,5 +1,0 @@
-key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
-#unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_rank7_empire				
-zzz_cbfm_rank7_emp_missile_and_missile_cav_ror	false	-1	-1	
-zzz_cbfm_rank7_emp_infantry_ror	false	-1	-1	
-zzz_cbfm_rank7_emp_cavalry_ror	false	-1	-1	
