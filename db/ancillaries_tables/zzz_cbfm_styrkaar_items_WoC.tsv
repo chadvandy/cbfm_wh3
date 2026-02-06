@@ -1,0 +1,5 @@
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed	faction_set
+#ancillaries_tables;0;db/ancillaries_tables/zzz_cbfm_styrkaar_items_WoC																												
+wh3_dlc27_anc_armour_perverse_plate	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+wh3_dlc27_anc_enchanted_item_banner_of_depravity	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+wh3_dlc27_anc_weapon_caress_of_agony	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all

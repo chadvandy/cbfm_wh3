@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_scroll_of_stone_clarified.loc		
+effects_description_wh3_dlc23_effect_settlement_walls_damage_when_sieged_scripted	Immediately causes wall breaches when besieging (when character is leading an Army)	false
