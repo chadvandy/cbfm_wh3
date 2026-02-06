@@ -1,4 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_wyrdspawn					
-			wh_pro04_chs_mon_chaos_spawn_ror_0	wh3_main_tze_all	false
-			wh_pro04_chs_mon_chaos_spawn_ror_0	wh3_main_tze_mon_spawn_of_tzeentch_0	false
