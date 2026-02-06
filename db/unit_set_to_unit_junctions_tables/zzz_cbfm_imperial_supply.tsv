@@ -1,8 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_imperial_supply					
-			wh2_dlc13_emp_inf_huntsmen_0_imperial_supply	emp_missile_infantry	false
 			wh2_dlc13_emp_cav_reiksguard_imperial_supply	emp_melee_cavalry	false
-			wh2_dlc13_emp_inf_huntsmen_0_imperial_supply	emp_missile_infantry_vet	false
 			wh2_dlc13_emp_cav_demigryph_knights_0_imperial_supply	emp_melee_cavalry	false
 			wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	emp_melee_cavalry	false
 			wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply	emp_knights_demigryph_7	false
