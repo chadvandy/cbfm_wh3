@@ -1,0 +1,4 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_gorbad_dig_in_+_strider_ror_fix__				
+cbfm_grn_ranged_rank7_ror	false	-1	-1	
+cbfm_cavalry_units_rank7_ror	false	-1	-1	

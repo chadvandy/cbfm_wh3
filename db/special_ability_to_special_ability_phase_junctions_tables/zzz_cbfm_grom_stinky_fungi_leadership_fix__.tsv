@@ -1,0 +1,3 @@
+order	special_ability	target_self	target_friends	target_enemies	phase
+#special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/zzz_cbfm_grom_stinky_fungi_leadership_fix__					
+1	cbfm_dlc15_unit_passive_stinky_fungi	false	false	true	cbfm_dlc15_unit_passive_stinky_fungi
