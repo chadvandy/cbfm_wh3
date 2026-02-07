@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_chosen_kho_ror					
+			wh3_dlc26_chs_inf_chosen_mkho_ror	chs_chosen_rank7	true
+			wh3_dlc26_chs_inf_chosen_mkho_ror	chs_chosen_rank7_ror	false
