@@ -1,11 +1,14 @@
 {
   "settings_text": {
-    "diagnostics_files_to_ignore": "\ndb/character_skill_nodes_tables/zzz_cbfm_branchwraith;campaign_key\n\ndb/character_skill_nodes_tables/zzz_cbfm_strategist;campaign_key\n",
-    "import_files_to_ignore": ".vscode/\n.git/\nREADME.md\nzzz_community_bugfix_mod.sublime-project\n.gitignore\n.github/"
+    "diagnostics_files_to_ignore": "",
+    "import_files_to_ignore": ""
   },
-  "settings_string": {},
+  "settings_string": {
+    "compression_format": "None"
+  },
   "settings_bool": {
-    "disable_autosaves": false
+    "disable_autosaves": false,
+    "do_not_generate_existing_locs": false
   },
   "settings_number": {}
 }
