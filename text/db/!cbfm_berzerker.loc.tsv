@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_berzerker.loc		
+effects_description_wh3_dlc27_effect_tech_armour_marauder_elite_nor	Armour: %+n for Marauder Champions and Marauder Berserkers units	false
+effects_description_wh3_dlc27_effect_tech_melee_defence_marauder_elite_nor	Melee defence: %+n for Marauder Champions and Marauder Berserkers units	false
+effects_description_wh3_dlc27_effect_tech_base_damage_non_ap_nor_inf	Base weapon damage: %+n for Marauders, Marauder Spearmen, Marauder Bearmen, Marauder Champions and Marauder Berserkers units	false
