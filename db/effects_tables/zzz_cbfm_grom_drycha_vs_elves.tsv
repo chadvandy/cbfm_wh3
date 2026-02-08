@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_grom_drycha_vs_elves					
+cbfm_elven_morale_debuff	morale.png	61	morale.png	battle	false
