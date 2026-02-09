@@ -31,3 +31,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc15_hef_cha_imrik_2	elven_unit_morale_debuff	false
 			wh2_dlc16_wef_cha_drycha_0	elven_unit_morale_debuff	false
 			wh2_dlc16_wef_cha_ariel_0	elven_unit_morale_debuff	false
+			wh2_main_hef_inf_gate_guard	elven_unit_morale_debuff	false
