@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_ph_removal.loc		
+effects_description_wh3_dlc27_faction_political_diplomacy_mod_aislinn;wh3_dlc27_hef_aislinn_confederation_owner	Diplomatic relations with United Maritime Patrol: %+n from gifted settlements	false
+campaign_localised_strings_string_wh3_dlc27_arcane_power_bar_label_tooltip	Siphoned Arcane Power: [[img:icon_arcane_power]][[/img]]%d\\n\\n	false
+campaign_localised_strings_string_wh3_dlc27_arcane_power_bar_next_tier_label_tooltip	Required Arcane Power to unlock this phase: [[img:icon_arcane_power]][[/img]]%d	false
+effect_bundles_localised_title_wh3_dlc27_effect_bonus_diplomatic_bonus_aislinn;wh3_dlc27_hef_aislinn_confederation_owner	Domination Boon: United Maritime Patrol	false
+effect_bundles_localised_description_wh3_dlc27_effect_bonus_diplomatic_bonus_aislinn;wh3_dlc27_hef_aislinn_confederation_owner	Domination Boon: United Maritime Patrol	false
+effect_bundles_localised_title_wh3_dlc27_block_last_razed_occupy_bundle	Last Razed Block	false
+effect_bundles_localised_description_wh3_dlc27_block_last_razed_occupy_bundle	This settlement cannot be occupied by your faction.	false
+help_page_index_records_text_campaign_mist_landing	[[sl:campaign_mist_landing]]Mist Landing[[/sl]]	false
+ui_text_replacements_localised_text_wh3_dlc27_nor_troll_kinfolk_resource_footer_information_tooltip	Each unit Troll type (Norscan Trolls, Norscan Ice Trolls, River Trolls, Stone Trolls, Bile Trolls, Chaos Trolls) in all armies contributes Trollkind points. The troll units in Throgg’s army are multiplying by double the Trollkind points.	false
+ui_text_replacements_localised_text_wh3_dlc27_nor_troll_kinfolk_resource_gameplay_information_tooltip	Troll Trollkind points can be spent to build special structures in Minor and Major settlements, and to perform the Troll Call.	false
+unit_abilities_tooltip_text_wh2_main_unit_abilities_hidden_blade	Not Visible.	false
