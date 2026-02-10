@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_spellcaster_nor_unique					
+			wh_dlc08_nor_cha_arzik_0	wh3_dlc27_nor_spellcasters_visible_tooltip	false
+			wh_dlc08_nor_cha_kihar_0	wh3_dlc27_nor_spellcasters_visible_tooltip	false
+			wh_dlc08_nor_cha_arzik_0	wh3_dlc27_nor_spellcasters	false
+			wh_dlc08_nor_cha_kihar_0	wh3_dlc27_nor_spellcasters	false
+			wh3_main_ie_nor_cha_exalted_great_unclean_one_burplesmirk_spewpit	wh3_dlc27_nor_spellcasters_visible_tooltip	false
+			wh3_main_ie_nor_cha_exalted_great_unclean_one_burplesmirk_spewpit	wh3_dlc27_nor_spellcasters	false
