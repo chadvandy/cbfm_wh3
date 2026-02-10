@@ -11,23 +11,6 @@ character_unlocking.character_data.styrkaar.override_allowed_factions =
 	"wh3_dlc20_chs_azazel" -- CBFM: Adding Azazel to the list of valid factions for Styrkaar
 }
 
--- CBFM: Fixing this function to use an iterator in the main for loop, preventing a script error -- h/t LordOmlette on Discord for finding this one
-function character_unlocking:cancel_missions_for_other_players(completing_faction, character, character_mission_success_listener)
-	local character_info = self.character_data[character]
-
-	-- there may be more than one character data setup configured to
-	-- spawn the same hero - so go around and cancel all missions for it
-	local agent_subtype = character_info.subtype
-	-- CBFM: the fixed line is below, adding "pairs(...)"
-	for _, current_character_info in pairs(self.character_data) do
-		local current_subtype = current_character_info.subtype
-		if current_subtype == agent_subtype then
-			self:cancel_mission_for_character_info(current_character_info, completing_faction, character_mission_success_listener)
-			current_character_info.has_spawned = true
-		end
-	end
-end
-
 -- CBFM: Fixing Caradryan spawning twice
 character_unlocking.character_data.caradryan_aislinn.ai_unlock_turn = 999 -- we don't want the AI to ever spawn the Aislinn version of Caradryan; we will add Aislinn to the main list for the AI instead
 
