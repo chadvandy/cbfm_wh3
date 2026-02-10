@@ -1,0 +1,3 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/zzz_cbfm_gorbad_stinkee_rugluds_armoured_orcs__				
+cbfm_dlc26_grn_orc_crossbow_stinkee_arrers	false	cbfm_dlc_26_grn_crossbow_bolt_stinkee_arrers	crossbow	false
