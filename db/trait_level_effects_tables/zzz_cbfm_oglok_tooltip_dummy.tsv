@@ -1,0 +1,4 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_oglok_tooltip_dummy			
+wh2_main_trait_innate_dummy_oglok	wh3_main_effect_force_enable_fear_vs_dwarfs	general_to_force_own	0.0000
+wh2_main_trait_innate_dummy_oglok	wh3_main_effect_character_stat_unit_mass_percentage_mod	character_to_character_own	15.0000
