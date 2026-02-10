@@ -1,0 +1,3 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_bullcent_ror					
+			wh3_dlc23_chd_cav_bull_centaurs_dual_axe_ror	wh3_dlc23_chd_monsters_kdaai_skullcracker_bull_centaurs_rank7_ror	false
