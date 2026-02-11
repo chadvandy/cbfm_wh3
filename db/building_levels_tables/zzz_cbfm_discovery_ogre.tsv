@@ -1,0 +1,5 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value	resource_transaction_on_complete	split_chain_sort_order
+#building_levels_tables;2;db/building_levels_tables/zzz_cbfm_discovery_ogre																									
+wh3_main_foreign_slot_discovery_ogr_1	wh3_main_foreign_slot_discovery_ogr	0	2	2000	0		false	false			true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	1		true	0	0		0		-1
+wh3_main_foreign_slot_discovery_ogr_2	wh3_main_foreign_slot_discovery_ogr	1	4	3000	0		false	false			true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	2		true	0	0		0		-1
+wh3_main_foreign_slot_discovery_ogr_3	wh3_main_foreign_slot_discovery_ogr	2	5	4000	0		false	false			true	wh2_main_foreign_slot_discovery	false	0.0000	0	true	3		true	0	0		0		-1
