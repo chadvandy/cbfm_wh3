@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_treeking					
+			wh2_dlc16_wef_cha_malicious_branchwraith_beasts_0	wef_dlc05_elf_treeking_units	true
+			wh_dlc05_wef_cha_ancient_treeman_0	wef_dlc05_elf_treeking_units	true
+			wh_dlc05_wef_cha_branchwraith_0	wef_dlc05_elf_treeking_units	true
+			wh_dlc05_wef_cha_durthu_0	wef_dlc05_elf_treeking_units	true
