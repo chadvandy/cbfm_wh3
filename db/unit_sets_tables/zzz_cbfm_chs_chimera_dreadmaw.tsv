@@ -1,3 +1,4 @@
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
 #unit_sets_tables;2;db/unit_sets_tables/zzz_cbfm_chs_chimera_dreadmaw				
 cbfm_chimera_vet	true	7	9	
+cbfm_chimera_ror	false	-1	-1	
