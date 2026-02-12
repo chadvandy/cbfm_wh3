@@ -1,0 +1,11 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/unknown					
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_1	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_2	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_3	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_4	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_5	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_6	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_7	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_8	false
+			wh3_dlc25_nur_inf_pestigors	wh3_dlc20_chs_great_weapon_units_rank_9	false
