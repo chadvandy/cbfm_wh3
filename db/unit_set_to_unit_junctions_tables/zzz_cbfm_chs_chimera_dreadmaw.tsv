@@ -3,3 +3,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc27_nor_mon_dread_maw	chs_daemon_monsters_beasts_rank7	false
 			wh3_dlc27_nor_mon_dread_maw_underground	chs_daemon_monsters_beasts_rank7	false
 			wh3_dlc27_nor_mon_chimera	cbfm_chimera_vet	false
+			wh3_dlc27_woc_mon_chimera_ror	cbfm_chimera_ror	false
