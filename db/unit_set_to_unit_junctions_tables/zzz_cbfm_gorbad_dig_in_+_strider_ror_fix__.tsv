@@ -11,3 +11,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc06_grn_cav_deff_creepers_0	cbfm_cavalry_units_rank7_ror	false
 			wh_dlc06_grn_cav_durkits_squigs_0	cbfm_cavalry_units_rank7_ror	false
 			wh_dlc06_grn_cav_mogrubbs_marauders_0	cbfm_cavalry_units_rank7_ror	false
+			wh_dlc06_grn_cav_mogrubbs_marauders_0	cbfm_grn_ranged_rank7_ror	false
