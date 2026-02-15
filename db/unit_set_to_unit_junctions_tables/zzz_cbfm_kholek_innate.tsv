@@ -1,0 +1,13 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_kholek_innate					
+			wh3_dlc24_tze_mon_cockatrice	cbfm_kholek_mon_mash	false
+			wh3_dlc26_kho_mon_bloodbeast_of_khorne	cbfm_kholek_mon_mash	false
+			wh3_dlc26_kho_mon_slaughterbrute	cbfm_kholek_mon_mash	false
+			wh3_dlc24_tze_mon_mutalith_vortex_beast	cbfm_kholek_mon_mash	false
+			wh3_dlc24_tze_mon_mutalith_vortex_beast_ror	cbfm_kholek_mon_mash	false
+			wh3_dlc27_nor_mon_chimera	cbfm_kholek_mon_mash	false
+			wh3_dlc27_woc_mon_chimera_ror	cbfm_kholek_mon_mash	false
+			wh3_dlc27_sla_mon_champions_of_slaanesh	cbfm_kholek_mon_mash	false
+			wh3_dlc27_sla_mon_champions_of_slaanesh_ror	cbfm_kholek_mon_mash	false
+			wh3_dlc27_nor_mon_dread_maw	cbfm_kholek_mon_mash	false
+			wh3_dlc27_nor_mon_dread_maw_underground	cbfm_kholek_mon_mash	false
