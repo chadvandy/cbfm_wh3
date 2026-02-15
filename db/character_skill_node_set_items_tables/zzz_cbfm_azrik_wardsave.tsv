@@ -1,0 +1,3 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_azrik_wardsave		
+wh_dlc08_skill_node_set_nor_arzik	wh_dlc08_skill_node_nor_arzik_hidden_quest_battle_specific	true
