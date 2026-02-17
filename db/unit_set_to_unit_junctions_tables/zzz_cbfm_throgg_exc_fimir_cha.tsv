@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_throgg_exc_fimir_cha					
+			wh3_dlc27_nor_cha_fimir_noble	dlc08_nor_fimirs	true
+			wh_dlc08_nor_cha_fimir_balefiend_fire_0	dlc08_nor_fimirs	true
+			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	dlc08_nor_fimirs	true
