@@ -1,0 +1,3 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_kevon_wep_master									
+wh2_dlc17_skill_node_kevon_innate_innate_14		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false
