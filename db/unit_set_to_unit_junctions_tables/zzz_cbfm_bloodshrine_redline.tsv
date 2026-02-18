@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_bloodshrine_redline					
+			wh3_main_kho_veh_blood_shrine_0	chs_daemon_monsters_beasts	false
+			wh3_main_kho_veh_blood_shrine_0	chs_daemon_chariots_rank7	false
