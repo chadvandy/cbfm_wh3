@@ -1,0 +1,6 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_vmp_hero_innate									
+wh_dlc05_skill_node_vmp_vampire_shadow_innate_17		wh2_main_skill_innate_all_weapon_master_melee_only		6	16		0	0	false
+wh_dlc05_skill_node_vmp_vampire_shadow_innate_16		wh2_main_skill_innate_all_strong		6	15		0	0	false
+wh_main_skill_node_vmp_vampire_innate_18		wh2_main_skill_innate_all_intelligent		6	18		0	0	false
+wh_main_skill_node_vmp_vampire_innate_19		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
