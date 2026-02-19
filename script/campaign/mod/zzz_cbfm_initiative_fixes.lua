@@ -128,6 +128,7 @@ function cbfm_update_initiatives()
 							"wh3_main_cth_cha_storm_dragon_1",
 							"wh3_dlc24_cth_cha_yuan_bo_dragon",
 							"wh3_dlc24_cth_cha_yuan_bo_human",
+							"wh3_dlc27_hef_cha_sea_lord_aislinn_dragon",
 							-- CBFM: adding missing mounts here, h/t Obsidian#4875 on CA forums
 							"wh3_dlc25_emp_cha_elspeth_von_draken_carmine_dragon",
 							"wh3_dlc25_nur_cha_exalted_hero_chieftain_chaos_dragon",
