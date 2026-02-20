@@ -1,0 +1,3 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_raknik_innate_dummy			
+wh2_main_trait_innate_dummy_raknik	wh2_dlc16_effect_vanguard_deploy_forest_battles	general_to_force_own	1.0000
