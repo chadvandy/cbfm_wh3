@@ -1,0 +1,9 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_engineer_sorceress_knowledgeable									
+wh2_main_skill_node_skv_warlock_engineer_innate_17		wh2_main_skill_innate_all_knowledgeable		6	16		0	0	false
+wh2_dlc10_skill_node_def_supreme_sorceress_beasts_innate_18		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
+wh2_dlc10_skill_node_def_supreme_sorceress_shadow_innate_18		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
+wh2_dlc10_skill_node_def_supreme_sorceress_death_innate_18		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
+wh2_dlc10_skill_node_def_supreme_sorceress_fire_innate_18		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
+wh2_dlc10_skill_node_def_supreme_sorceress_dark_innate_18		wh2_main_skill_innate_all_knowledgeable		6	17		0	0	false
+wh2_dlc12_skill_node_skv_warlock_master_innate_17		wh2_main_skill_innate_all_knowledgeable		6	16		0	0	false
