@@ -1,0 +1,3 @@
+ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/zzz_cbfm_spells_recharge_effect			
+wh2_dlc15_anc_arcane_item_black_dragon_special	wh2_main_effect_ability_cooldown_spells	character_to_character_own	-25.0000
