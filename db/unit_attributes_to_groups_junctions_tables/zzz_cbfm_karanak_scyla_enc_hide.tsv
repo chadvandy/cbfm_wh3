@@ -1,0 +1,5 @@
+attribute	attribute_group
+#unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/zzz_cbfm_karanak_scyla_enc_hide	
+encourages	wh3_pro12_kho_cha_karanak
+encourages	wh3_dlc26_kho_cha_scyla_anfingrimm
+hide_forest	wh3_dlc26_kho_cha_scyla_anfingrimm
