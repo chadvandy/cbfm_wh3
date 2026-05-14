@@ -1,0 +1,6 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/zzz_cbfm_lzd_tech_cost														
+wh2_main_tech_lzd_2_2			7	wh2_main_tech_lzd_2_2	lzd_mil	5	100	2000	0	lzd_agents		0	-100	0
+wh2_main_tech_lzd_3_2			7	wh2_main_tech_lzd_3_2	lzd_mil	3	100	2000	0	lzd_agents		0	-100	0
+wh2_main_tech_lzd_agent_3			7	wh2_main_tech_lzd_agent_3	lzd_mil	4	100	2000	0	lzd_agents		0	-100	0
+wh2_main_tech_lzd_3_5			7	wh2_main_tech_lzd_3_5	lzd_mil	2	100	2000	0	lzd_agents		0	-100	0
