@@ -1,3 +1,13 @@
+local wulfhart_faction = "wh2_dlc13_emp_the_huntmarshals_expedition"
+local acclaim_resource_key = "emp_progress"
+local acclaim_resource_factors = {
+	["increase"] =			{"settlements_captured",	3},
+	["decrease"] =			{"lost_territory",			-2},
+	["increase_ports"] =	{"ports_built_or_upgraded",	1},
+	["increase_hunters"] =	{"hunters_unlocked",		4}
+}
+local acclaim_lock = false
+
 function update_acclaim_bar(factor)
 	local faction = cm:get_faction(wulfhart_faction)
 	
@@ -46,3 +56,17 @@ function update_acclaim_bar(factor)
 		acclaim_lock = true
 	end
 end
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("acclaim_lock", acclaim_lock, context)
+	end
+)
+
+cm:add_loading_game_callback(
+	function(context)
+		if not cm:is_new_game() then
+			acclaim_lock = cm:load_named_value("acclaim_lock", acclaim_lock, context)
+		end
+	end
+)
