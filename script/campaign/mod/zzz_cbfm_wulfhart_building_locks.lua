@@ -1,5 +1,6 @@
 local wulfhart_faction = "wh2_dlc13_emp_the_huntmarshals_expedition"
 local acclaim_resource_key = "emp_progress"
+local acclaim_thresholds = {20, 40, 60, 80, 100}
 local acclaim_resource_factors = {
 	["increase"] =			{"settlements_captured",	3},
 	["decrease"] =			{"lost_territory",			-2},
