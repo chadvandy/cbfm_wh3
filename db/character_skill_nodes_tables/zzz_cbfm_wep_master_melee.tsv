@@ -1,5 +1,6 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_cbfm_wep_master_melee									
+wh3_main_skill_node_ksl_boyar_innate_39		wh2_main_skill_innate_all_weapon_master_melee_only		6	38		0	0	false
 wh2_dlc10_skill_node_def_supreme_sorceress_beasts_innate_15		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false
 wh2_dlc10_skill_node_def_supreme_sorceress_dark_innate_15		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false
 wh2_dlc10_skill_node_def_supreme_sorceress_death_innate_15		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false
@@ -36,10 +37,8 @@ wh3_dlc27_skill_node_nor_great_shaman_sorcerer_death_innate_11		wh2_main_skill_i
 wh3_dlc27_skill_node_nor_great_shaman_sorcerer_fire_innate_11		wh2_main_skill_innate_all_weapon_master_melee_only		6	13		0	0	false
 wh3_dlc27_skill_node_nor_great_shaman_sorcerer_metal_innate_11		wh2_main_skill_innate_all_weapon_master_melee_only		6	13		0	0	false
 wh3_dlc27_skill_node_sla_druchii_anointed_innate_12		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
-wh3_main_pro_skill_node_ksl_boyar_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
 wh3_main_pro_skill_node_ksl_patriarch_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
 wh3_main_pro_skill_node_tze_cultist_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
-wh3_main_skill_node_ksl_boyar_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
 wh3_main_skill_node_ksl_patriarch_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
 wh3_main_skill_node_nur_cultist_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
 wh3_main_skill_node_nur_exalted_great_unclean_one_death_innate_13		wh2_main_skill_innate_all_weapon_master_melee_only		6	12		0	0	false
@@ -68,3 +67,4 @@ wh_main_skill_node_dwf_lord_innate_13		wh2_main_skill_innate_all_weapon_master_m
 wh_main_skill_node_emp_general_innate_15		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false
 wh_main_skill_node_grn_orc_warboss_innate_16		wh2_main_skill_innate_all_weapon_master_melee_only		6	15		0	0	false
 wh_main_skill_node_teb_general_innate_14		wh2_main_skill_innate_all_weapon_master_melee_only		6	13		0	0	false
+wh2_main_skill_node_grn_goblin_big_boss_innate_15		wh2_main_skill_innate_all_weapon_master_melee_only		6	14		0	0	false

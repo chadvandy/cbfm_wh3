@@ -1,0 +1,4 @@
+set	item	mod_disabled
+#character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/zzz_cbfm_wep_master_melee		
+wh3_main_skill_node_set_ksl_boyar	wh3_main_skill_node_ksl_boyar_innate_13	true
+wh3_main_skill_node_set_ksl_boyar	wh3_main_skill_node_ksl_boyar_innate_39	false
