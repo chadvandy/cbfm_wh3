@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_spiteheart_abilities					
+cbfm_cooldown_colossal_strike	magic_cooldown.png	293	magic_cooldown.png	both	true
+cbfm_cooldown_beastslaver	magic_cooldown.png	293	magic_cooldown.png	both	true

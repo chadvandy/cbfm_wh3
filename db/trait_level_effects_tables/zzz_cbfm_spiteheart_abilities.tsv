@@ -1,0 +1,4 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/zzz_cbfm_spiteheart_abilities			
+wh2_main_trait_def_name_of_power_co_05_spiteheart	cbfm_cooldown_colossal_strike	character_to_character_own	-50.0000
+wh2_main_trait_def_name_of_power_co_05_spiteheart	cbfm_cooldown_beastslaver	character_to_character_own	-50.0000
