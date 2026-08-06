@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_spiteheart_abilities.loc		
+effects_description_cbfm_cooldown_colossal_strike	Cooldown: %+n% to "Colossal Strike"	false
+effects_description_cbfm_cooldown_beastslaver	Cooldown: %+n% to "Beastslaver"	false
