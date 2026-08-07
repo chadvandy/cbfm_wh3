@@ -1,0 +1,3 @@
+missile_weapon	projectile
+#missile_weapons_to_projectiles_tables;0;db/missile_weapons_to_projectiles_tables/zzz_cbfm_grape_shot_projectile_display_fix	
+wh_main_emp_cannon	wh3_dlc25_great_cannon_grape_shot

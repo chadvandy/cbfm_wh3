@@ -1,0 +1,3 @@
+key	display_model	impact	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood	mirroring_start	mirroring_trail	scale
+#projectile_displays_tables;12;db/projectile_displays_tables/zzz_cbfm_grape_shot_projectile_display_fix																		
+cbfm_emp_steamtank_cannon_ball_grape_shot	projectiles\wh_emp_cannon_ball.rigid_model_v2	wh_main_weapon_cannonball_impact	wh_main_weapon_muzzle_flash_medium	wh_main_weapon_trail_smoke_medium				0.0000	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact				wh3_main_yin_missile_mirror_impact_medium	wh3_main_spell_yin_missile_mirror_trail_medium	0.2500
