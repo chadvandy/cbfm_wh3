@@ -1,0 +1,21 @@
+# Github action that ensures the main branch can only be updated by pull requests that begin with the prefix "batch/"
+
+
+name: Main Branch Protection
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch
+        run: |
+          if ! [[ ${GITHUB_HEAD_REF} =~ ^hotfix/ ]] && ! [[ ${GITHUB_HEAD_REF} =~ ^batch/ ]]; 
+          then
+            echo "Error: Pull request must come from 'hotfix/' or 'batch/' branch"
+            exit 1
+          fi
