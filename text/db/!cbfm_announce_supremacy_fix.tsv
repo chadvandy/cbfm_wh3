@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/!cbfm_announce_supremacy_fix		
+#Loc;1;text/db/!cbfm_announce_supremacy_fix.loc		
 effects_description_wh3_main_effect_corruption_reduction_adjacent_except_slaanesh	Corruption in adjacent provinces: %+n (excluding [[img:icon_corruption_sla]][[/img]]Slaanesh corruption)	false
 effects_description_wh3_main_effect_corruption_reduction_except_slaanesh	Corruption: %+n (excluding [[img:icon_corruption_sla]][[/img]]Slaanesh corruption)	false
