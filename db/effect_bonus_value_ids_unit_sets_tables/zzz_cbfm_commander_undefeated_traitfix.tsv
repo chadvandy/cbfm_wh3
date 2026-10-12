@@ -1,0 +1,3 @@
+bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/zzz_cbfm_commander_undefeated_traitfix		
+unit_damage_resistance_all_mod	wh3_main_effect_force_stat_ward_save_all_units_rank7	wh2_main_ror_units_all
