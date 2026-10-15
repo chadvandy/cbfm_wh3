@@ -1,0 +1,4 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/zzz_cbfm_ghrond_basic_mage_exclusion				
+wh2_main_def_sorcery		wh2_main_special_ghrond_secondary		true
+wh2_main_hef_mages		wh2_main_special_ghrond_secondary		true
