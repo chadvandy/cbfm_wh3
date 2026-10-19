@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_khemrian.loc		
+building_culture_variants_name_wh3_main_tmb_allied_outpost_1wh2_dlc09_tmb_tomb_kings	Khemrian Outpost	false
+building_culture_variants_name_wh3_main_tmb_allied_outpost_2wh2_dlc09_tmb_tomb_kings	Khemrian District	false
+building_culture_variants_name_wh3_main_tmb_allied_outpost_3wh2_dlc09_tmb_tomb_kings	Khemrian Colony	false
+building_short_description_texts_short_description_wh3_main_tmb_allied_outpost_2	Unearthed tombs mark out this area of the settlement as a Khemrian district where the Undead inhabitants now roam.	false
