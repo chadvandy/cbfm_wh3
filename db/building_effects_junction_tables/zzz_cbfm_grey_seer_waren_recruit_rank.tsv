@@ -1,0 +1,4 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_grey_seer_waren_recruit_rank						
+wh3_dlc29_special_thanquol_scruten_hq_2	wh3_dlc29_effect_thanquol_levels_grey_seers		faction_to_province_own	3.0000	0.0000	0.0000
+wh3_dlc29_special_thanquol_scruten_hq_3	wh3_dlc29_effect_thanquol_levels_grey_seers		faction_to_province_own	5.0000	0.0000	0.0000
