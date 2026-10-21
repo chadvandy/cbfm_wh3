@@ -10,3 +10,4 @@ if episode_vermintide then
 	["wh2_dlc09_skv_tretch_craventail"] = {status = "unkown", forename = "421856293", surname = "1843290975", army = "skaven_monsters", spawn_region = "wh3_main_combi_region_crookback_mountain"},
 	["wh2_dlc14_skv_deathmaster_snikch"] = {status = "unkown", forename = "840626619", surname = "560963109", army = "skaven_sneak", spawn_region = "wh3_main_combi_region_crookback_mountain"}
 	}
+end
