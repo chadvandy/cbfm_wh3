@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/!cbfm_fire_weakness_tooltip.loc		
+effects_description_wh2_dlc16_effect_weakness_to_fire	Resistance to [[img:ui/skins/default/modifier_icon_flaming.png]][[/img]]Fire Damage: %+n%	false

@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_emp_knights_set					
+			wh3_dlc29_emp_cav_knights_of_the_white_wolf	emp_knights	false
+			wh3_dlc29_emp_cav_knights_of_the_white_wolf_ror	emp_knights	false
+			wh3_dlc29_emp_cav_knights_panther	emp_knights	false

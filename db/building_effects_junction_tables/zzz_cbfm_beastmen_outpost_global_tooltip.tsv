@@ -1,0 +1,3 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/zzz_cbfm_beastmen_outpost_global_tooltip						
+wh3_main_bst_allied_outpost_2	wh3_main_effect_allied_recruitment_enabled_global_DUMMY		foreign_building_to_foreign_building_own	1.0000	1.0000	0.0000

@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/zzz_cbfm_tomb_prince_herald_traits					
+			wh2_dlc09_tmb_cha_tomb_prince_1	wh2_dlc09_tmb_tomb_prince_steed	false
+			wh3_dlc29_tmb_cha_tomb_herald_skeletal_steed	wh2_dlc09_tmb_tomb_prince_steed	false
+			wh2_dlc09_tmb_cha_tomb_prince_2	wh2_dlc09_tmb_tomb_prince_chariot	false
+			wh3_dlc29_tmb_cha_tomb_herald_skeleton_chariot	wh2_dlc09_tmb_tomb_prince_chariot	false
