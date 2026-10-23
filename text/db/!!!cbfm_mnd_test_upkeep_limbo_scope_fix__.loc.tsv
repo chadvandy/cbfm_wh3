@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!!!cbfm_mnd_test_upkeep_limbo_scope_fix__.loc		
+effects_description_mnd_limbo_vampire_counter	Handmaidens in limbo: %+n	false
+effects_description_wh_main_effect_force_all_campaign_upkeep	Upkeep: %+n%	false
+effect_bundles_localised_description_mnd_handmaiden_limbo_tracker_effects	Hidden bundle to enforce the upkeep reduction granted by Noble Seduction when handmaidens are in limbo.	false
+effect_bundles_localised_title_mnd_handmaiden_limbo_tracker_effects	Lahmian Handmaiden Limbo Tracker	false

@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/zzz_cbfm_mnd_upkeep_limbo_scope_fix					
+mnd_limbo_vampire_counter	agent.png	71	agent.png	campaign	true
