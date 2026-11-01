@@ -1,0 +1,3 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/zzz_cbfm_orglotts_skill_lord_fix							
+cbfm_dlc29_skill_node_chs_orghotts_unique_2_4_lord	wh3_dlc29_skill_node_chs_orghotts_unique_1	0	1	1	0.0000	0.0000	REQUIRED
